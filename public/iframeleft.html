@@ -1,0 +1,80 @@
+<div class="left-tab-title" >
+    <a href="/inframe/index.html" >竞价销售管理</a>
+    <a href="/inframe/tindex.html?ltype=t" class="left-tab-this">竞价采购管理</a>
+</div>
+<div class="menu layui-anim layui-anim-up">
+    <div class="title left_top">商品管理</div>
+    <ul>
+        <li ><a href="/auctionmanager/pushauction.html?v=20200407" title="pushauction">发布竞拍商品</a></li>
+        <li><a href="/auctionmanager/pushauctiongoods.html?v=20200407" title="pushauctiongoods">竞拍商品列表</a></li>
+    </ul>
+    <div class="title left_top">竞拍管理</div>
+    <ul>
+        <li><a href="/auctionmanager/managerauction.html?v=20200407" title="managerauction">待审核竞拍</a></li>
+        <li><a href="/auctionmanager/managerauctionmargin.html?v=20200407" title="managerauctionmargin">待交保证金竞拍</a></li>
+        <li><a href="/auctionmanager/managerpushauction.html?v=20200407" title="managerpushauction">我发布的竞拍</a></li>
+        <li><a href="/auctionmanager/managersignauction.html?v=20200407" title="managersignauction">我参与的竞拍</a></li>
+    </ul>
+
+
+    <div class="title left_top" >交易管理</div>
+    <ul>
+        <li><a href="/orderform/sellerorderformlist.html?v=20200407" title="sellerorderformlist">销售订单</a></li>
+        <li><a href="/orderform/buyerorderformlist.html?v=20200407" title="buyerorderformlist">采购订单</a></li>
+    </ul>
+    <div class="title left_top" >账号管理</div>
+    <ul>
+       <!-- <li><a href="/auth/authinit.html?v=1" title="authinit">实名认证</a></li>-->
+        <li><a href="/linkphone/linkphone.html?v=1" title="authinit">手机号修改</a></li>
+    </ul>
+
+
+
+    <div class="title left_top">资质库</div>
+    <ul>
+        <li><a href="/orderform/zzklist.html?v=1" title="zzklist">资质列表</a></li>
+    </ul>
+    <div class="title left_top" >资金账户</div>
+    <ul>
+        <li><a id="tipcard" title="webank" href="/bank/webank.html?v=20200407">资金管理</a></li>
+        <li><a title="marginmanager" href="/margin/seller/marginmanager.html?v=20200407">保证金记录</a></li>
+        <li><a title="monthfee" href="/bank/monthfee.html?v=20200407">服务费中心</a></li>
+    </ul>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        getUrlParam();
+    });
+
+
+    function getUrlParam() {
+        var pathname=window.location.pathname;
+        if(pathname==""){
+            return false;
+        }
+        var count=pathname.split('/').length;
+        var lastname=pathname.split('/')[count-1].split(".")[0];
+
+        if(lastname=="sellerordershow"){
+            $("a[title='sellerorderformlist']").css("color","#009688");
+        }
+        if(lastname=="buyerordershow"){
+            $("a[title='buyerorderformlist']").css("color","#009688");
+        }
+        $.each($("a"),function(index,info){
+            var title=$(info).attr("title");
+            if(title==lastname){
+                $(this).css("color","#009688");
+            };
+        });
+    }
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?dd38aecce7482851f6ae4936277b6df3";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>

@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+ <head>
+  <base href="${baseurl}">
+  <meta charset="utf-8">
+  <title>青岛西海岸建材交易中心-手续费列表</title>
+  <link rel="shortcut icon" href="/resources/img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/resources/css/common.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/addjinjia.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/profile.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/pagination.css">
+  <link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css">
+  <script src="/resources/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/js/jscookie.js" type="text/javascript" charset="utf-8"></script>
+  <script charset="utf-8" type="text/javascript" src="/resources/js/jquery.pagination.js"></script>
+  <script charset="utf-8" type="text/javascript" src="/resources/js/layer/layer.js"></script>
+  <script charset="utf-8" type="text/javascript" src="/resources/js/layui/lay/modules/laydate.js"></script>
+  <script src="/resources/js/jquery.jqprint-0.3.js" type="text/javascript" charset="utf-8"></script>
+  <script>document.write("<script type='text/javascript'  src='/resources/js/layui/layui.all.js?v=" + Date.now() + "'><\/script>");</script>
+  <script>document.write("<script type='text/javascript'  src='/resources/js/polyfill.min.js?v=" + Date.now() + "'><\/script>");</script>
+  <script>document.write("<script type='text/javascript' src='/resources/js/common.js?v=" + Date.now() + "'><\/script>");</script>
+  <link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css">
+  <script src="/resources/js/layui/layui.all.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/javascript/bank/feesList.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/javascript/pay/topayservicecharge.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+			jQuery.browser={};
+			(function(){
+				jQuery.browser.msie=false; 
+				jQuery.browser.version=0;
+				if(navigator.userAgent.match(/MSIE ([0-9]+)./)){ 
+					jQuery.browser.msie=true;
+					jQuery.browser.version=RegExp.$1;
+				}
+			})();
+		</script>
+ </head>
+ <body>
+  <div id="header_all"></div>
+  <div class="memberCenter">
+   <div class="memberCenterNav">
+   </div>
+   <div class="memberCenterContent">
+    <div class="head">
+     <a style="margin-left: 80%;color:red;" href="/bank/monthfee.html">去交易服务费中心&gt;</a>
+    </div>
+    <div class="head">
+     单笔服务费列表&nbsp;&nbsp;&nbsp;&nbsp;
+     <i class="auctionnotice layui-icon layui-icon-speaker"></i>&nbsp;&nbsp;&nbsp;
+     <span style="font-size: 14px;color: #ff5722;">温馨提示：服务费支付单号相同（即背景颜色相同）则为同一笔订单。 </span>
+    </div>
+    <div>
+     <div class="yzs-m-order-top-searchitem">
+      <form id="order_search_form" action="../../orderform/orderformlist.do">
+       <div>
+        订单搜索：
+        <input type="text" name="orderNo_productName" id="orderNo_productName" placeholder="可按订单编号/服务费支付单号搜索">
+       </div>
+       <div>
+        支付手续费时间：
+        <input type="text" id="beginTime" name="beginTime" style="width:100px;"> -
+        <input type="text" id="endTime" name="endTime" style="width:100px;">
+       </div>
+       <div>
+        <div class="layui-btn  layui-btn-radius layui-btn-normal" onclick="searchOrder(0)">
+         搜索
+        </div>
+       </div>
+      </form>
+     </div>
+     <style type="text/css">
+					.headtl{
+							float:left;width:17%;height:30px;line-height:30px;
+						}
+					.headts{
+							float:left;width:10%;height:30px;line-height:30px;
+						}
+					</style>
+     <div class="head">
+      本次结果:
+      <span style="font-size: 14px;color: #ff5722;" class="total">0</span>条
+     </div>
+     <div class="head months">
+      本次结果:
+     </div>
+     <div class="head">
+      <span class="monthsfeed" style="color:red;font-size:15px">金额:0元</span>
+     </div>
+     <!-- <div class="layui-btn  layui-btn-radius layui-btn-normal" onclick="printfeedList(0)">打印</div> -->
+     <div class="layui-btn  layui-btn-radius layui-btn-normal" onclick="exportfeedList()">
+      导出
+     </div>
+     <div class="mc_body_d">
+      <table id="" class="mc_tabl_d ex_table" cellpadding="0" cellspacing="0" width="100%">
+       <tbody>
+        <tr>
+         <th class="headtl">服务费支付单号 </th>
+         <th class="headtl">订单号</th>
+         <th class="headtl">对账单号</th>
+         <th class="headts">货款金额 </th>
+         <th class="headts">支付状态</th>
+         <th class="headts">服务费金额</th>
+         <th class="headtl">支付时间</th>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <div class="mc_body_d">
+      <table id="dataTable" class="mc_tabl_d ex_table orders" cellpadding="0" cellspacing="0" width="100%">
+      </table>
+      <div class="page_d" id="demo3">
+      </div>
+      <!-- print -->
+      <div class="print" style="display: none;">
+       <div class="head">
+        本次结果:
+        <span style="font-size: 14px;color: #ff5722;" class="total1">0</span>条
+       </div>
+       <div class="head">
+        列项条件:
+        <span style="font-size: 14px;color: #ff5722;" class="total2"></span>
+       </div>
+       <div class="mc_body_d">
+        <table id="" class="mc_tabl_d ex_table" cellpadding="0" cellspacing="0" width="100%">
+         <tbody>
+          <tr>
+           <th class="headtl">手续费支付单号 </th>
+           <th class="headtl">订单号</th>
+           <th class="headtl">对账单号</th>
+           <th class="headts">货款金额 </th>
+           <th class="headts">支付状态</th>
+           <th class="headts">手续费金额</th>
+           <th class="headtl">支付时间</th>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+       <div class="mc_body_d">
+        <table id="dataTable" class="mc_tabl_d ex_table orders1" cellpadding="0" cellspacing="0" width="100%">
+        </table>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <form action="/pai/auction/fee/exportFeeList.do" method="post" class="exportExcel">
+    <input type="hidden" name="serachNo" value="" class="serachNo">
+    <input type="hidden" name="startTime" value="" class="startTime">
+    <input type="hidden" name="endTime" value="" class="endTime">
+    <input type="hidden" name="month" value="" class="month">
+   </form>
+   <script>
+	laydate.render({
+		elem: '#beginTime'//指定元素
+	});
+	laydate.render({
+		elem: '#endTime'//指定元素
+	});
+	</script>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>青岛西海岸建材交易中心-发布招标</title>
+    <link rel="shortcut icon" href="/resources/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/resources/css/addjinjia.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/css/profile.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/css/tenderTemplate.css" />
+
+    <script type="text/javascript" src="/resources/js/ajaxupload/ajaxupload.js"></script>
+    <script src="/resources/js/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script>document.write("<script type='text/javascript'  src='/resources/js/layui/layui.all.js?v=" + Date.now() + "'><\/script>");</script>
+    <script>document.write("<script type='text/javascript'  src='/resources/js/polyfill.min.js?v=" + Date.now() + "'><\/script>");</script>
+    <script src="/resources/js/common.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/js/jscookie.js" type="text/javascript" charset="utf-8"></script>
+
+    <script src="/resources/javascript/tender/template/feigang.js?v=201993" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/javascript/tender/template/feisuliao.js?v=201993" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/javascript/tender/template/feiyou.js?v=201993" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/javascript/tender/template/trash.js?v=201993" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="/resources/javascript/tender/seller/pushtender.js"></script>
+    <script type="text/javascript" src="/resources/javascript/tender/common/pushaddressadd.js"></script>
+    <script type="text/javascript" src="/resources/javascript/tender/common/pushgoodsadd.js"></script>
+    <script type="text/javascript" src="/resources/javascript/tender/common/pushgoodsdes.js"></script>
+    <script type="text/javascript" src="/resources/javascript/tender/common/pushbaseinput.js"></script>
+    <!-- kindeditor -->
+    <link rel="stylesheet" href="/resources/js/kindeditor-4.1.10/themes/default/default.css" />
+    <script charset="utf-8" src="/resources/js/kindeditor-4.1.10/kindeditor.js"></script>
+    <script charset="utf-8" src="/resources/js/kindeditor-4.1.10/lang/zh_CN.js"></script>
+
+    <!-- 时间插件 -->
+    <link rel="stylesheet" type="text/css" href="/resources/js/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/js/jquery-ui-timepicker-addon.css" />
+    <!-- My97时间插件 -->
+    <script charset="utf-8" src="/resources/js/my97/WdatePicker.js" ></script>
+    <script src="/resources/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="/resources/js/jquery-ui-timepicker-addon.js"></script>
+    <script type="text/javascript" src="/resources/js/jquery-ui-slide.min.js"></script>
+    <script charset="utf-8" type="text/javascript" src="/resources/js/jsAddress.js"></script>
+    <script src="/resources/javascript/djs.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/js/md5.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?dd38aecce7482851f6ae4936277b6df3";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+</head>
+<body>
+<div id="header_all"></div>
+<div class="memberCenter">
+    <!-- 管理列表 -->
+    <div class="memberCenterNav">
+
+    </div>
+
+    <div class="memberCenterContent m-auth-form joinBid" style="display:block;">
+        <form action="" method="post" id="tenderInfo" >
+            <div class="head">发布招标</div>
+            <ul>
+                <li>
+                    <label><span>*</span><em>招标类型：</em></label>
+                    <div class="m-input">
+                        <input  type="hidden" value="0" name="tenderInfo.type" checked="checked">采购招标<br/>
+                    </div>
+                </li>
+                <li>
+                    <label><span>*</span><em>招标项目：</em></label>
+                    <input type="hidden" value="" name="tenderInfo.tid">
+                    <div class="m-input">
+                        <input  type="text" value="" name="tenderInfo.tname" id="tname">
+                    </div>
+                    <div class="tips">招标项目 不能为空</div>
+                </li>
+                <li>
+                    <label><span>*</span><em>招标产品：</em></label>
+                    <div class="m-input">
+                        <table border="" cellspacing="" cellpadding="" class="form-table" id="zhaobiaochanpin" width="100%">
+                            <tr><th>产品名称</th><th>数量</th><th>单位</th><th>描述</th><th>图片</th><th>资产采购单位</th><th>操作</th></tr>
+                            <input type="hidden" value="" id="gLength" />
+                            <tr>
+                                <td><input  type="text" value="" id="goodsgoodsname0" class="w80" name="goods[0].goodsname" ></td>
+                                <td><input  type="text" value="" class="w150" name="goods[0].amount" onkeyup="this.value=(this.value.match(/\d+(\.\d{0,2})?/)||[''])[0]"></td>
+                                <td><input  type="text" value="" class="w150" name="goods[0].unit" ></td>
+                                <td><input  type="text" value="" class="w80" name="goods[0].description" placeholder="如:数量1000-1500个，材质全新HDPE、容积120L墨绿色，一次成型无焊接，实心轮轴，承重100公斤以上，要求符合CJ/T280-2008行业标准" ></td>
+                                <td>
+                                    <input  type="hidden" value="" class="w150" name="goods[0].url" id="img0" placeholder="上传500*500px图片"  readonly="readonly" ></input>
+                                    <input type="button" id="pic0" value='上传' class="layui-btn layui-btn-xs layui-btn-danger  layui-btn-radius w150">&nbsp;
+                                    <input type="button" onclick="diagnose(this)" value="查看"  class="layui-btn layui-btn-xs  layui-btn-radius w150">
+                                    <div class='scan hide'>
+                                        <img src='' width='500' height="500" id="pre0"/></div>
+                                </td>
+                                <td>
+                                    <span class="projectcom0"  style="cursor: pointer;" id="0" >未选择</span>
+                                    <input type="hidden" value="" placeholder=""   class="w150" name="goods[0].company"  ></input>
+                                    <input type="hidden" value="" class="w150" name="goods[0].areaname"  ></input>
+                                    <input type="hidden" value="" class="w150" name="goods[0].count"  ></input>
+                                </td>
+                                <td></td>
+                            </tr>
+                        </table>
+                        <div class="ex_add"><a href="javascript:;" id="add_zhaobiaochanpin">+ 添加产品</a></div>
+                    </div>
+                </li>
+                <li>
+                    <label><span>*</span><em>保证金金额:</em></label>
+                    <div class="m-input">
+                        <input  type="text" value="" placeholder="单位(元)" onkeyup="this.value=(this.value.match(/\d+(\.\d{0,2})?/)||[''])[0]" name="tenderInfo.margin" >
+                    </div>
+
+                </li>
+                <li>
+                    <label><span>*</span><em>参与要求：</em></label>
+                    <div class="m-input">
+                        <input type="hidden" name="tenderInfo.participate" id="participate" value=""/>
+                        <input type="checkbox" name="join" id="join1" value="6" checked="6"/>
+                        企业可参与           　
+                        <input type="checkbox" name="join" id="join3" value="5" />
+                        个人可参与
+                    </div>
+                    <div class="tips">参与要求 不能为空</div>
+                </li>
+                <li>
+                    <label><span>*</span><em>资质要求：</em></label>
+                    <div class="m-input" style="width:700px">
+                        <div id="zizhiyaoqiu">
+                            <div id="radio-zizhi">
+                                <input type="hidden" id="isqualication"  value=""/>
+                                <input  type="radio"  value="1" id="yes" name="tenderInfo.isqualication">有资质要求
+                                <input  type="radio" value="0"  id="no" name="tenderInfo.isqualication">无资质要求<br/>
+                            </div>
+                            <div id="zizhiCategory">
+                                <select id="fcategory" onclick="getSecondCategory()" class="selectclass">
+
+                                </select>
+
+                                <select id="scategory" onclick="addCertName()" class="selectclass">
+
+                                </select>
+
+                            </div>
+                            <div id="active-zizhi">
+
+                            </div>
+                            <div class="m10 zizhiinput">
+                                <input type="hidden" name="tenderInfo.qualification" id="qualification"></input>
+                                <input type="text" value="" placeholder="" class="w150" id="zizhi_txt">
+                                <input type="button" id="add-active-zizhi" value="添加资质要求" class="layui-btn layui-btn-radius"/>
+                                <input type="button" id="clear-active-zizhi" value="清空" class="layui-btn layui-btn-radius  layui-btn-danger"/>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- <li>
+                  <label><span>*</span><em>付款方式：</em></label>
+                  <div class="m-input tenderInfopaymethod" >
+                          <input  type="radio" value="1" name="tenderInfo.paymethod">全款支付
+                        <input  type="radio" value="0" name="tenderInfo.paymethod" checked="checked">分期付款<br/>
+                  </div>
+                </li> -->
+                <!-- <li>
+                 <label><span>&nbsp;</span><em>详细说明：</em></label>
+                 <input type="hidden" name="tenderInfo.content" id="content"/>
+               </li> -->
+                <!-- <li>
+                  <div class="" style="width: 75%;margin-left: 10%;">
+                    <textarea id="tendercontent"  class="mc_text_are" name="content" style="display: none;"></textarea>
+
+                  </div>
+                  </li> -->
+
+                <li>
+                    <label><span></span><em>下载附件是否收费：</em></label>
+                    <div class="tenderischarge m-input">
+                        <input  type="radio" value="0" name="tenderInfo.ischarge" checked="checked">否
+                        <input  type="radio" value="1" name="tenderInfo.ischarge" >是
+                        <input type="text" id="fee"  style="display: none;" name="tenderInfo.fee" placeholder="请输入金额" onkeyup="this.value=(this.value.match(/\d+(\.\d{0,2})?/)||[''])[0]" style="text-align: center;width:100px;"/>
+                    </div>
+                    <div class="m-input" id="annex">
+                        <div id="annexFile">
+
+                        </div>
+
+                        <div id="annexFileNoPay">
+
+                        </div>
+                        <div class="ex_add" style="padding-left:180px"><a href="javascript:;" id="add_annex">+ 添加附件</a></div>
+                        <div class="tips only-tips">上传后如有修改，只保存当前附件，原始数据不保留。</div>
+                    </div>
+                </li>
+                <li>
+                    <label><span>*</span><em>时间节点：</em></label>
+                    <div class="m-input">
+                        <p>　开标时间：
+                            <input  type="tel" value="" placeholder="请输入开始时间 " name="tenderInfo.opentendertime" id="tenderopentime" onClick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" class="layui-input" style="width:150px;margin-top: 6%;" ></p>
+                    </div>
+                    <div class="m-input" style="margin-left: 2%;">
+                        <p>　看货验质时间：
+                            <input type="tel" name="tenderInfo.lookstarttime"
+                                   id="tenderInfo.lookstarttime" placeholder="请输入开始时间 "
+                                   onClick="WdatePicker({dateFmt:'yyyy-MM-dd HH'})"
+                                   autocomplete="off"
+                                   class="layui-input" style="margin-top: 6%;">
+                            <input type="tel" name="tenderInfo.lookendtime"
+                                   id="tenderInfo.lookendtime" placeholder="请输入结束时间 "
+                                   onClick="WdatePicker({dateFmt:'yyyy-MM-dd HH'})"
+                                   autocomplete="off"
+                                   class="layui-input" style="margin-top: 6%;"></p>
+                    </div>
+                    <div class="m-input" style="margin-left: 2%;">
+                        <p>　合同期限：
+                            <input type="tel" name="tenderInfo.pactstarttime"
+                                   id="tenderInfo.pactstarttime" placeholder="请输入开始时间 "
+                                   onClick="WdatePicker({dateFmt:'yyyy-MM-dd'})"
+                                   autocomplete="off"
+                                   class="layui-input" style="margin-top: 6%;">
+                            <input type="tel" name="tenderInfo.pactendtime"
+                                   id="tenderInfo.pactendtime" placeholder="请输入结束时间 "
+                                   onClick="WdatePicker({dateFmt:'yyyy-MM-dd'})"
+                                   autocomplete="off"
+                                   class="layui-input" style="margin-top: 6%;"></p>
+                    </div>
+                    <div class="tips"></div>
+                </li>
+
+                <li style="display: none;">
+                    <label><span>&nbsp;</span><em>是否评标：</em></label>
+                    <span>
+                	<input type="radio" value="1" name="tenderInfo.bidd" id="bidd1" >是&nbsp;&nbsp;&nbsp;
+	             	<input type="radio" value="0" name="tenderInfo.bidd" id="bidd2" checked="checked" >否<br/>
+              </span>
+                    <div class="m-input" id="bidd" style="padding-left:180px;">
+                        <div id="jianbiaoren">
+
+                        </div>
+                        <div class="ex_add"><a href="javascript:;" id="add_jianbiaoren">+ 添加评标人</a></div>
+                        <div class="tips only-tips" id="biddadvice">请慎重输入，开标后，评标人将邮件收到各公司的报价信息，并选择中标人。</div>
+                    </div>
+                </li>
+                <li>
+                    <label><span>*</span><em>资产采购发标单位:</em></label>
+                    <div class="m-input">
+                        <input  type="text" name="tenderInfo.assetunit" value="" id="assetunit" >
+                    </div>
+
+                </li>
+                <li>
+                    <label><span>*</span><em>资产采购发标地址：</em></label>
+                    <div class="m-input">
+                        <div class="selesy">
+                            <select id="cmbProvince" class="provice"></select>
+                        </div>
+                        <div class="selesy">
+                            <select id="cmbCity" class="city"></select>
+                        </div>
+                        <div class="selesy">
+                            <select id="cmbArea" class="country"></select>
+                        </div>
+                        <input type="text" id="input-addr" class="input-addr" value="" placeholder="输入详情地址……"/>
+                    </div>
+
+                </li>
+                <li>
+                    <label><span>*</span><em>联系人:</em></label>
+                    <div class="m-input">
+                        <input  type="text" name="tenderInfo.contacter" value="" id="contacter" >
+                    </div>
+                </li>
+                <li>
+                    <label><span>*</span><em>联系电话:</em></label>
+                    <div class="m-input">
+                        <input  type="text" name="tenderInfo.contacttel" value="" id="contacttel" >
+                    </div>
+                </li>
+
+                <li>
+                    <label><span>*</span><em>标底揭示人邮箱：</em></label>
+                    <div class="m-input">
+                        <div id="jianbiaorenemail">
+                            <div><input  type="text" value="" placeholder="姓名" class="w80" name="tenderInfo.basepricename">
+                                <input  type="text" value="" placeholder="输入评标人邮箱" name="tenderInfo.basepricemail" style="width:200px;">
+                                <input  type="text" value="" placeholder="输入标底揭示人电话" name="tenderInfo.tel" style="width:150px;"></div>
+                        </div>
+                    </div>
+                    <div class="tips only-tips">请慎重输入，开标后，标底揭示人将收到邮件，并在邮件提示页面中提交标底价。</div>
+                </li>
+                <li>
+                    <label><span></span><em>企业黑名单：</em></label>
+                    <div class="m-input" id="active-hmd">
+                        <div id="heimingdan">
+
+                        </div>
+                        <div class="m10 ex_add">
+                            <input type="text" value="" placeholder="" class="w150" id="hmd_txt">
+                            <input type="button" id="add-active-hmd" value="添加黑名单" class="layui-btn layui-btn-sm layui-btn-radius layui-btn-danger"/>
+                        </div>
+                    </div>
+                    <!-- <input type="button"  onclick="preview();" value="预览公告" class="layui-btn layui-btn-radius"> -->
+                </li>
+
+                <li class="btn" style="teRxt-align:center;">
+                    <input type="hidden" name="tenderInfo.audit" id="audit"></input>
+                    <input type="hidden" name="tenderInfo.save" id="save"></input>
+                    <input  type="button" value="保存" class="buon_relfo layui-btn layui-btn-lg layui-btn layui-btn-radius layui-btn-danger">
+                    <input  type="button" value="发布" class="buon_relfo layui-btn-disabled layui-btn layui-btn-lg layui-btn layui-btn-radius layui-btn-warm" disabled="disabled" id="release">
+                </li>
+                <li style=" text-align:center; padding:0;">
+                    <input type="checkbox" id="greet">
+                    <a style="color:blue" href="javascript:void(0)" target="_blank">已阅读并且同意青岛西海岸建材交易中心用户协议</a>
+                    </input>
+                </li>
+            </ul>
+            <!--筛选类别 -->
+            <input type="hidden" value="" class="tenderInfocataname" name="tenderInfo.cataname"/>
+            <input type="hidden" value="" class="tenderInfoareaname" name="tenderInfo.areaname"/>
+        </form>
+    </div>
+</div>
+</div>
+</body>
+
+</html>

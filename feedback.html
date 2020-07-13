@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <title>青岛西海岸建材交易中心</title>
+  <link rel="shortcut icon" href="/resources/img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/resources/css/common.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css">
+  <script src="/resources/js/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/js/jquery.pagination.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/js/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+  <script>document.write("<script type='text/javascript'  src='/resources/js/layui/layui.all.js?v=" + Date.now() + "'><\/script>");</script>
+  <script>document.write("<script type='text/javascript'  src='/resources/js/polyfill.min.js?v=" + Date.now() + "'><\/script>");</script>
+  <script>document.write("<script type='text/javascript' src='/resources/js/common.js?v=" + Date.now() + "'><\/script>");</script>
+  <link rel="stylesheet" type="text/css" href="/resources/css/feedback.css">
+  <script src="/resources/js/feedback.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/js/jscookie.js"></script>
+  <!-- kindeditor -->
+  <link rel="stylesheet" href="/resources/js/kindeditor-4.1.10/themes/default/default.css">
+  <script charset="utf-8" src="/resources/js/kindeditor-4.1.10/kindeditor.js"></script>
+  <script charset="utf-8" src="/resources/js/kindeditor-4.1.10/lang/zh_CN.js"></script>
+  <script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?dd38aecce7482851f6ae4936277b6df3";
+	  var s = document.getElementsByTagName("script")[0];
+	  s.parentNode.insertBefore(hm, s);
+	})();
+</script>
+ </head>
+ <body style="background-color: #fff;">
+  <!--header----->
+  <div id="header_all"></div>
+  <!---->
+  <div class="yjfk_sty">
+   <h2><label>您的位置：</label><a href="/">首页</a>&nbsp;&gt;&nbsp;<span>意见反馈</span></h2>
+   <form action="" id="feedback" method="post">
+    <div class="textafuio">
+     <ul class="ul_txtrui">
+      <li class="liohjui"><label>标题：</label>
+       <div>
+        <input type="text" value="" placeholder="请输入4-30个字符" id="fbTitle" name="title">
+       </div></li>
+      <li style="margin-bottom: 10px;"><label style="float:left;font-size:14px;color:#555">内容：</label><textarea rows="6" cols="104" maxlength="300" id="fbConent" name="content"></textarea></li>
+      <li class="liohjui"><label>联系：</label>
+       <div>
+        <input type="text" value="" placeholder="请输入您的手机号" id="fbTel" name="mobile">
+       </div></li>
+      <li class="input_bnt"><input type="button" value="提&nbsp;交" onclick="addFeedback()"></li>
+     </ul>
+    </div>
+   </form>
+  </div>
+  <!--footer-------->
+  <div id="footer_all"></div>
+  <script type="text/javascript">
+	//初始化富文本编辑器
+	var editor;
+
+	var tipFlag = true;
+
+	var placeholderText = "感谢您给我们提出宝贵建议，我们将对所有建议都认真对待。\n 您的感受和建议一旦提交，即表示您同意我们可无偿参考您的感受和建议来优化我们的产品和服务。若您有商业合作意向，请联系相关业务部门。";
+
+	KindEditor.ready(function(K){
+
+	    editor = K.create("textarea[name='content']",{
+
+	    	width:"69%",
+
+	        resizeType : 1,
+
+	        allowPreviewEmoticons: false,
+
+	        uploadJson:'/ezaisheng/fileUpload/upload.do', //上传图片的java代码，只不过放在jsp中
+
+	        allowImageUpload:true,//允许上传图片
+
+	        allowFileManager:true, //允许对上传图片进行管理
+
+	        afterUpload: function(){this.sync();}, //图片上传后，将上传内容同步到textarea中
+
+	        afterBlur: function(){this.sync();},   ////失去焦点时，将上传内容同步到textarea中
+
+	        afterCreate:function(){
+                //阻止点击链接默认跳转操作
+                var self = this;
+                var doc = this.edit.doc;
+                K(doc).click(function(e) {
+                    if (K(e.target).name === 'a') {
+                         e.preventDefault();
+                    }
+                });
+
+	        //添加一个提示编辑区
+            var frame = this.edit;
+            K('<textarea class="ph ke-edit-textarea" placeholder = "" style="width: 100%; padding:5px 5px 5px 7px; background-color:transparent; position: absolute;z-index: 10;top: 0;border: 0;overflow: auto;resize: none; font-size:14px;"></textarea>').appendTo(frame.iframe[0].contentDocument.firstChild);
+            frame.iframe[0].contentDocument.firstChild.lastChild.style.height = "100%";
+            frame.iframe[0].contentDocument.firstChild.lastChild.placeholder = placeholderText;
+
+            var _ua = navigator.userAgent.toLowerCase();
+            var _IE = _ua.indexOf('msie') > -1 && _ua.indexOf('opera') == -1;
+            if(_IE)
+            {
+                //IE的事件穿透没做
+            }else{
+                //事件穿透
+                frame.iframe[0].contentDocument.firstChild.lastChild.style.pointerEvents = 'none';
+            }
+
+            //监听输入事件
+            K(frame.doc)[0].oninput = function(e){
+                if(tipFlag && editor && editor.text() != '')
+                {
+                    frame.iframe[0].contentDocument.firstChild.lastChild.style.display = "none";
+                    tipFlag = false;
+                }
+                else{
+                    if(editor && editor.text() == '' && !tipFlag)
+                    {
+                        frame.iframe[0].contentDocument.firstChild.lastChild.style.display = "block";
+                        tipFlag = true;
+                    }
+                }
+            };
+        },
+        afterChange:function(){
+            if(editor)
+            {
+                var frame = this.edit;
+                if(editor.text() != '' && tipFlag)
+                {
+                    frame.iframe[0].contentDocument.firstChild.lastChild.style.display = "none";
+                    tipFlag = false;
+                }else if(editor.text() == ''&& !tipFlag)
+                {
+                    frame.iframe[0].contentDocument.firstChild.lastChild.style.display = "block";
+                    tipFlag = true;
+                }
+
+                frame.doc.body.focus();
+            }
+
+        },
+	        items : [
+
+	            'fontname','fontsize', '|','forecolor', 'hilitecolor','bold', 'italic','underline',
+
+	            'removeformat','|', 'justifyleft','justifycenter', 'justifyright','insertorderedlist',
+
+	            'insertunorderedlist','|', 'emoticons','link','media','|','image']
+
+	    });
+	});
+
+	//设置提示信息，这个要在html加载完成以后调用
+    function setPlaceholderText(text){
+        var data = utf8to16(base64decode(text)).replace(/\s/gi," ");
+        placeholderText = data;
+        if(editor && editor.edit && editor.edit.iframe[0] && editor.edit.iframe[0].contentDocument && editor.edit.iframe[0].contentDocument.firstChild && editor.edit.iframe[0].contentDocument.firstChild.lastChild){
+            editor.edit.iframe[0].contentDocument.firstChild.lastChild.placeholder='';
+            editor.edit.iframe[0].contentDocument.firstChild.lastChild.placeholder = data;
+        }
+        editor.focus();
+    }
+
+
+	var flag = 1;
+	$("#header_all").load('/public/public_header.html');
+	$("#footer_all").load('public/public_footer.html');
+
+
+</script>
+ </body>
+</html>

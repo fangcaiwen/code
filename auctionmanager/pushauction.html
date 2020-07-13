@@ -1,0 +1,335 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>青岛西海岸建材交易中心-发布竞拍商品</title>
+    <link rel="shortcut icon" href="/resources/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/resources/css/addjinjia.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/profile.css">
+    <link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/auctionTemplate.css">
+    <script type="text/javascript" src="/resources/js/ajaxupload/ajaxupload.js"></script>
+    <script src="/resources/js/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script>document.write("<script type='text/javascript'  src='/resources/js/layui/layui.all.js?v=" + Date.now() + "'><\/script>");</script>
+    <script>document.write("<script type='text/javascript'  src='/resources/js/polyfill.min.js?v=" + Date.now() + "'><\/script>");</script>
+    <script>document.write("<script type='text/javascript' src='/resources/js/common.js?v=" + Date.now() + "'><\/script>");</script>
+    <script src="/resources/js/jscookie.js" type="text/javascript" charset="utf-8"></script>
+    <!-- kindeditor -->
+    <link rel="stylesheet" href="/resources/js/kindeditor-4.1.10/themes/default/default.css">
+    <script charset="utf-8" src="/resources/js/kindeditor-4.1.10/kindeditor.js"></script>
+    <script charset="utf-8" src="/resources/js/kindeditor-4.1.10/lang/zh_CN.js"></script>
+    <!-- 时间插件 -->
+    <link rel="stylesheet" type="text/css" href="/resources/js/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="/resources/js/jquery-ui-timepicker-addon.css">
+    <!-- My97时间插件 -->
+    <script charset="utf-8" src="/resources/js/my97/WdatePicker.js"></script>
+    <script src="/resources/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="/resources/js/jquery-ui-timepicker-addon.js"></script>
+    <script type="text/javascript" src="/resources/js/jquery-ui-slide.min.js"></script>
+    <script charset="utf-8" type="text/javascript" src="/resources/js/jsAddress.js"></script>
+    <script src="/resources/javascript/auction/feigang.js?v=201993" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/javascript/auction/feisuliao.js?v=201993" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/javascript/auction/feiyou.js?v=201993" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/javascript/auction/pushauction.js?v=20199300103" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/javascript/djs.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/js/md5.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?dd38aecce7482851f6ae4936277b6df3";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <style type="text/css">
+        .boxown {
+            float: left;
+            margin-left: 5px;
+            font-size: 12px;
+            width: 22%;
+            height: 200px;
+        }
+
+        .goodsdesc {
+            text-align: center;
+        }
+
+        .yzs-m-renzheng-imgup-tit {
+            margin-left: 44%;
+            font-size: 14px;
+            display: none;
+        }
+
+        .layui-upload-img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="header_all"></div>
+<div class="memberCenter">
+    <!-- 管理列表 -->
+    <div class="memberCenterNav">
+    </div>
+    <div class="memberCenterContent m-auth-form joinBid" style="display:block;">
+        <form action="" method="post" id="auction">
+            <div class="head">
+                发布竞拍商品
+            </div>
+            <ul>
+                <li><label><span>*</span><em>竞拍项目：</em></label>
+                    <div class="m-input">
+                        <input type="text" lay-verify="title" name="auction.title" value="" id="title">
+                    </div>
+                </li>
+                <li><label><span>*</span><em>竞拍产品：</em></label>
+                    <div class="m-input">
+                        <table border="" cellspacing="" cellpadding="" class="form-table" id="jingjiachanpin" width="100%">
+                            <tbody>
+                            <tr>
+                                <th>产品名称</th>
+                                <th>数量</th>
+                                <th>单位</th>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="productList[0].title" value="" class="w80" id="ptitle"></td>
+                                <td><input type="text" name="productList[0].amount" value="" class="w80" id="pamount" onkeyup="this.value=(this.value.match(/\d+(\.\d{0,2})?/)||[''])[0]"></td>
+                                <td><input class="w80 goodsdesc" type="text" name="productList[0].unit" value="吨" id="punit" readonly></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </li>
+                <li><label><span>*</span><em>产品描述：</em></label>
+                    <div class="m-input">
+                        <table border="" cellspacing="" cellpadding="" class="form-table" id="jingjiachanpin" width="100%">
+                            <tbody>
+                            <tr>
+                                <td><input style="height: 60px;width: 600px;" type="text" name="productList[0].des" value="" placeholder="如:酸值≤20，水杂≤2%" id="pdes"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </li>
+                <!-- 图片 start-->
+                <li><label><span>*</span><em>商品图片：</em></label>
+                    <div class="m-input" style="width:700px">
+                        <input type="hidden" class="pic0" name="productList[0].thumb">
+                        <input type="hidden" class="pic1" name="productList[0].thumb1">
+                        <input type="hidden" class="pic2" name="productList[0].thumb2">
+                        <div class="yzs-m-renzheng-imgup-box boxown">
+                            <div class="layui-upload-drag" id="pic0">
+                                <i class="layui-icon"></i>
+                                <img class="layui-upload-img" style="width: 90px;" name="thumb">
+                                <p>点击上传</p>
+                            </div>
+                            <div class="yzs-m-renzheng-imgup-tit">
+                                查看
+                            </div>
+                        </div>
+                        <div class="yzs-m-renzheng-imgup-box boxown">
+                            <div class="layui-upload-drag" id="pic1">
+                                <i class="layui-icon"></i>
+                                <img class="layui-upload-img" style="width: 90px;" name="thumb1">
+                                <p>点击上传</p>
+                            </div>
+                            <div class="yzs-m-renzheng-imgup-tit">
+                                查看
+                            </div>
+                        </div>
+                        <div class="yzs-m-renzheng-imgup-box boxown">
+                            <div class="layui-upload-drag" id="pic2">
+                                <i class="layui-icon"></i>
+                                <img class="layui-upload-img" style="width: 90px;" name="thumb2">
+                                <p>点击上传</p>
+                            </div>
+                            <div class="yzs-m-renzheng-imgup-tit">
+                                查看
+                            </div>
+                        </div>
+                        <script type="application/javascript">
+                            $('.yzs-m-renzheng-imgup-box').click(function(){
+                                var dom = $(this);
+                                var input = document.createElement('input');
+                                input.type = 'file';
+                                input.onchange = function(){
+                                    console.log(input.files);
+                                    dom.find('img').attr('src', window.webkitURL.createObjectURL(input.files[0]))
+                                }
+                                document.body.appendChild(input);
+                                input.click();
+                            })
+                        </script>
+                        <!-- <td><input  type="text" value="" class="w80" name="productList[0].thumb" id="img0" readonly="readonly"><input type="button" class="layui-btn layui-btn-sm" id="pic0" value='上传' onclick='upload(0)'></input></td> -->
+                    </div>
+                </li>
+                <!-- 图片 end -->
+                <input type="hidden" name="auction.joinrequire">
+                <li><label><span>*</span><em>资质要求：</em></label>
+                    <div class="m-input" style="width:700px">
+                        <div id="zizhiyaoqiu">
+                            <div id="radio-zizhi">
+                                <input type="radio" value="1" id="yes" name="auction.isright" checked>有资质要求
+                                <input type="radio" value="0" id="no" name="auction.isright">无资质要求
+                                <br>
+                            </div>
+                           <!-- <div id="zizhiCategory">
+                                <select id="fcategory" class="selectclass" onclick="getSecondCategory()"> </select>
+                                <select class="selectclass" id="scategory" onclick="addCertName()"> </select>
+                            </div>-->
+                            <input type="hidden" name="auction.rightrequire" id="rightrequire">
+                            <div id="active-zizhi"></div>
+                            <input type="hidden" value="" name="auction.catename" class="auctioncataname">
+                            <input type="hidden" value="" name="auction.areaname" class="auctionareaname">
+                        </div>
+                    </div>
+                </li>
+                <li><label><span>*</span><em>库存地址：</em></label>
+                    <div class="m-input">
+                        <div class="selesy">
+                            <select id="cmbProvince" class="provice"></select>
+                        </div>
+                        <div class="selesy">
+                            <select id="cmbCity" class="city"></select>
+                        </div>
+                        <div class="selesy">
+                            <select id="cmbArea" class="country"></select>
+                        </div>
+                        <input type="text" id="input-addr" class="input-addr" value="" placeholder="输入详情地址……">
+                    </div>
+                </li>
+                <li><label><span>*</span><em>联系人:</em></label>
+                    <div class="m-input">
+                        <input type="text" name="auction.contacter" value="" id="contacter">
+                    </div>
+                </li>
+                <li><label><span>*</span><em>联系电话:</em></label>
+                    <div class="m-input">
+                        <input type="text" name="auction.contacttel" value="" id="contacttel">
+                    </div>
+                </li>
+                <li><label><span>*</span><em>资产处置单位:</em></label>
+                    <div class="m-input">
+                        <input type="text" name="auction.assetunit" value="" id="assetunit">
+                    </div>
+                </li>
+                <li><label><span>*</span><em>保证金/元：</em></label>
+                    <div class="m-input">
+                        <input type="radio" value="0" name="auction.ismargin">无
+                        <input type="radio" value="1" name="auction.ismargin" checked>有
+                        <input type="text" name="auction.bond" id="bond" placeholder="请输入保证金" onkeyup="this.value=(this.value.match(/\d+(\.\d{0,2})?/)||[''])[0]" style="width: 90px">
+                    </div>
+                </li>
+                <li><label><span>*</span><em>保留权：</em></label>
+                    <div class="m-input">
+                        <input type="radio" value="0" name="auction.iskeep">无
+                        <input type="radio" value="1" name="auction.iskeep" checked>有
+                        <div id="baoliujia">
+                            <input type="text" id="bljname" name="auction.bljname" value="" placeholder="姓名" class="w80">
+                            <input type="text" id="bljmail" name="auction.bljmail" value="" placeholder="请输入邮箱" style="width:150px;">
+                            <input type="text" id="bljphone" name="auction.bljphone" value="" placeholder="请输入电话" style="width:150px;">
+                        </div>
+                    </div>
+                </li>
+                <li style="display: none;"><label><span>*</span><em>报盘方式:</em></label>
+                    <div class="m-input">
+                        <select name="auction.offermethod" style="width: 150px">
+                            <option value="0">单价报盘</option>
+                            <option value="1">总价报盘</option>
+                        </select>
+                    </div>
+                </li>
+                <li style="display: none;"><label><span>*</span><em>付款方式：</em></label>
+                    <div class="m-input">
+                        <input type="radio" value="1" name="auction.paymethod" checked>全款支付
+                        <input type="radio" value="0" name="auction.paymethod" disabled="false">分期付款
+                        <br>
+                    </div>
+                </li>
+                <li style="display: none;"><label><span>*</span><em>竞拍公告：</em></label> <input type="hidden" name="auction.notice" id="contentnotice">
+                    <div class="m-input">
+                        <textarea class="mc_text_are" name="contentnotice"></textarea>
+                    </div>
+                </li>
+                <li style="display: none;"><label><span>*</span><em>竞拍须知：</em></label> <input type="hidden" name="auction.xuzhi" id="contentxuzhi">
+                    <div class="m-input">
+                        <textarea class="mc_text_are" name="contentxuzhi" value="无"></textarea>
+                    </div>
+                </li>
+                <li style="display: none;"><label><span>*</span><em>详细说明：</em></label> <input type="hidden" name="auction.introduce" id="content">
+                    <div class="m-input">
+                        <textarea class="mc_text_are" name="content" value="无"></textarea>
+                    </div>
+                </li>
+                <li style="display: none;"><label><span>*</span><em>时间节点：</em></label>
+                    <div class="m-input">
+                        <p class="m10">竞拍开始时间：<input type="text" value="" placeholder="" name="auction.starttime" onClick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" class="Wdate" style="width:150px"></p>
+                        <p class="m10">竞拍截止时间：<input type="text" value="" placeholder="" name="auction.endtime" onClick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" class="Wdate" style="width:150px"></p>
+                    </div>
+                    <div class="tips"></div>
+                </li>
+                <div class="yzs-form" style="display: none;">
+                    <div class="head">
+                        发布竞拍还需完善已下信息
+                    </div>
+                    <table cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td><label><span>*</span><em>起拍价:</em></label></td>
+                            <td><input type="tel" value="0" name="productList[0].sprice" id="psprice" onkeyup="this.value=(this.value.match(/\d+(\.\d{0,2})?/)||[''])[0]" placeholder="请输入起拍价(元)" lay-verify="required|phone" autocomplete="off" class="layui-input"></td>
+                            <td><label><span>*</span><em>加价幅度:</em></label></td>
+                            <td><input type="tel" value="0" name="productList[0].jprice" id="pjprice" onkeyup="this.value=(this.value.match(/\d+(\.\d{0,2})?/)||[''])[0]" placeholder="请输入加价幅度(元)" lay-verify="required|phone" autocomplete="off" class="layui-input"></td>
+                        </tr>
+                        <tr>
+                            <td><label><span>*</span><em>延时周期:</em></label></td>
+                            <td>
+                                <div class="m-input">
+                                    <select name="auction.delay" style="width: 150px">
+                                        <option value="1">2分钟/次</option>
+                                        <option value="2">5分钟/次</option>
+                                        <option value="0">无</option>
+                                    </select>
+                                </div>
+                            </td>
+                            <td><label><span>*</span><em>竞价开始时间:</em></label></td>
+                            <td><input type="tel" name="auction.starttime" id="auction.starttime" placeholder="请输入开始时间" onClick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" lay-verify="required|phone" autocomplete="off" class="layui-input"> <input type="tel" name="auction.endtime" id="auction.endtime" placeholder="请输入结束时间 " onClick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" lay-verify="required|phone" autocomplete="off" class="layui-input"></td>
+                        </tr>
+                        <tr>
+                            <td><label><span>*</span><em>合同期限:</em></label></td>
+                            <td><input type="tel" name="auction.pactstarttime" id="auction.pactstarttime" placeholder="请输入开始时间 " onClick="WdatePicker({dateFmt:'yyyy-MM-dd'})" lay-verify="required|phone" autocomplete="off" class="layui-input"> <input type="tel" name="auction.pactendtime" id="auction.pactendtime" placeholder="请输入结束时间 " onClick="WdatePicker({dateFmt:'yyyy-MM-dd'})" lay-verify="required|phone" autocomplete="off" class="layui-input"></td>
+                            <td><label><span>*</span><em>看货验质时间:</em></label></td>
+                            <td><input type="tel" name="auction.lookstarttime" id="auction.lookstarttime" placeholder="请输入开始时间 " onClick="WdatePicker({dateFmt:'yyyy-MM-dd HH'})" lay-verify="required|phone" autocomplete="off" class="layui-input"> <input type="tel" name="auction.lookendtime" id="auction.lookendtime" placeholder="请输入结束时间 " onClick="WdatePicker({dateFmt:'yyyy-MM-dd HH'})" lay-verify="required|phone" autocomplete="off" class="layui-input"></td>
+                        </tr>
+                        <tr>
+                            <td><label><span>*</span><em>计价公式:</em></label></td>
+                            <td><input type="text" value="暂无计价公式" name="auction.formula" id="formula" placeholder="请输入计价公式" lay-verify="required|phone" autocomplete="off" class="layui-input formula"></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <li class="btn" style="text-align:center;"><input type="button" value="发布商品" class="buon_relfo layui-btn layui-btn-lg layui-btn-radius "  id="release"></li>
+                <script type="application/javascript">
+                    $(function(){
+                        $('#release').click(function(){
+                            alert('发布成功');
+                            location.href = '/auctionmanager/pushauctiongoods.html?v=20200407';
+                        });
+                    })
+                </script>
+                <li style="text-align:center; padding:0;"><input type="checkbox" id="greet"> <a style="color:blue" href="javascript:void(0);" target="_blank">已阅读并且同意青岛西海岸建材交易中心用户协议</a></li>
+            </ul>
+        </form>
+    </div>
+</div>
+<div id="footer_all"></div>
+</body>
+</html>

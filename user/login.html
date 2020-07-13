@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>青岛西海岸建材交易中心-登录</title>
+    <link rel="shortcut icon" href="/resources/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/resources/css/common.css?v=2">
+    <link rel="stylesheet" type="text/css" href="/resources/css/style.css?v=2">
+    <link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css?v=2">
+    <script src="/resources/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/js/jscookie.js" type="text/javascript" charset="utf-8"></script>
+    <script>document.write("<script type='text/javascript'  src='/resources/js/layui/layui.all.js?v=" + Date.now() + "'><\/script>");</script>
+    <script>document.write("<script type='text/javascript'  src='/resources/js/polyfill.min.js?v=" + Date.now() + "'><\/script>");</script>
+    <script>document.write("<script type='text/javascript' src='/resources/js/common.js?v=" + Date.now() + "'><\/script>");</script>
+    <script src="/resources/javascript/user/login.js?v=2" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/javascript/djs.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/js/md5.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        $(function () {
+            $(".yzs-login-tab li").click(function () {
+                $(".yzs-login-tab li").removeClass("yzs-login-tab-sel");
+                $(this).addClass("yzs-login-tab-sel");
+                $(".yzs-login-con").css("display", "none");
+                var id = $(this).attr("data-id");
+                if (id == "A") {
+                    $("#lia img").attr("src", "/resources/img/home/icon_25.png");
+                    $("#lib img").attr("src", "/resources/img/home/icon_26.png");
+                }
+                if (id == "B") {
+                    $("#lia img").attr("src", "/resources/img/home/icon_24.png");
+                    $("#lib img").attr("src", "/resources/img/home/icon_27.png");
+                }
+                $("#con_" + id).css("display", "block");
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="subHead">
+    <div class="logo">
+        <a href="/"><img src="/newRes/logo2.png" width="300"></a>
+        <span>欢迎登录</span>
+    </div>
+    <div class="hotline">
+        <img src="/newRes/400number.png" width="200">
+    </div>
+</div>
+<div class="yzs-login-pannel">
+    <div class="yzs-login-box">
+        <div class="yzs-login-tit">
+            <div class="yzs-login-tab">
+                <ul>
+                    <li id="lib" data-id="B" class="yzs-login-tab-sel"><img src="/resources/img/home/icon_27.png">短信快捷登录</li>
+                    <li id="lia" data-id="A"><img src="/resources/img/home/icon_24.png">密码登录</li>
+                </ul>
+            </div>
+        </div>
+        <div class="yzs-login-con" id="con_B">
+            <form class="layui-form " action="#">
+                <table>
+                    <tbody>
+                    <tr>
+                        <td width="80px">手机号：</td>
+                        <td colspan="2"><input type="tel" name="phone" placeholder="请输入手机号码" lay-verify="required|phone" autocomplete="off" class="layui-input"></td>
+                    </tr>
+                    <tr>
+                        <td>校验码：</td>
+                        <td><input type="text" name="code" lay-verify="required|code" autocomplete="off" placeholder="请输入校验码" class="layui-input"></td>
+                        <td><input class="tyuio1" id="sendFtCodeBut" value="获取手机验证码"></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="yzs-login-btn" id="loginbtn" lay-filter="formDemo">
+                    登录
+                </div>
+                <div class="yzs-login-tools">
+                    <span class="forgetpsw">忘记密码？</span>
+                    <span class="toregist">新用户注册</span>
+                </div>
+            </form>
+        </div>
+        <div class="yzs-login-con" id="con_A" style="display:none;">
+            <form class="layui-form " action="#">
+                <table>
+                    <tbody>
+                    <tr>
+                        <td width="80px">手机号：</td>
+                        <td colspan="2"><input type="tel" name="phone" placeholder="请输入手机号码" lay-verify="required|phone" autocomplete="off" class="layui-input"></td>
+                    </tr>
+                    <tr>
+                        <td>登录密码：</td>
+                        <td colspan="2"><input type="password" name="passwd" lay-verify="passwd" placeholder="请输入6位以上数字、字母、字符的组合"></td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="yzs-login-btn"  id="loginbtn2" lay-filter="formDemo">
+                    登录
+                </div>
+                <div class="yzs-login-tools">
+                    <span class="forgetpsw">忘记密码？</span>
+                    <span class="toregist">新用户注册</span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function(){
+            $('#loginbtn, #loginbtn2').click(function(){
+                setCookie('login', '1', null, '/');
+                console.log('login', getCookie('login'));
+                location.href = '/';
+            })
+        })
+    </script>
+
+</div>
+<div id="footer_all"></div>
+</body>
+</html>

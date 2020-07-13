@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>青岛西海岸建材交易中心-详情</title>
+  <link rel="shortcut icon" href="/resources/img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/resources/css/common.css">
+  <script>document.write("<link rel='stylesheet' type='text/css' href='/resources/css/style.css?v=" + Date.now() + "'/>");</script>
+  <link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/pagination.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/addjinjia.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/common.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/profile.css">
+  <link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/actorbingo.css">
+  <script src="/resources/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/js/layui/layui.all.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/js/jquery.jqzoom.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/js/jqzoom.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/js/jquery.pagination.js" type="text/javascript" charset="utf-8"></script>
+  <script>document.write("<script type='text/javascript'  src='/resources/js/polyfill.min.js?v=" + Date.now() + "'><\/script>");</script>
+  <script>document.write("<script type='text/javascript' src='/resources/js/common.js?v=" + Date.now() + "'><\/script>");</script>
+  <script>document.write("<script type='text/javascript' src='/resources/javascript/auction/sign.js?v=" + Date.now() + "'><\/script>");</script>
+  <script>document.write("<script type='text/javascript' src='/resources/javascript/pay/topay.js?v=" + Date.now() + "'><\/script>");</script>
+  <link rel="stylesheet" type="text/css" href="/resources/css/profile.css">
+  <script src="/resources/javascript/auction/signrequire.js?v=20191030" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300">
+  <script src="/resources/javascript/auction/actorpush.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" type="text/css" href="/resources/css/auctionTemplate.css">
+  <script src="/resources/javascript/auction/feigang.js?v=201993" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/javascript/auction/feisuliao.js?v=201993" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/javascript/auction/feiyou.js?v=201993" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+			$(function() {
+				$('.tabConDiv').find('.tabCon:first').show();
+				$('.tabTitle').find('li').each(function(i) {
+					$(this).mouseover(function() {
+						$('.tabTitle').find('li').removeClass('liNow');
+						$(this).addClass('liNow');
+						$('.tabConDiv').find('.tabCon').hide();
+						$('.tabConDiv').find('.tabCon').eq(i).show();
+					})
+				})
+
+			});
+		</script>
+  <script>
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "https://hm.baidu.com/hm.js?dd38aecce7482851f6ae4936277b6df3";
+			  var s = document.getElementsByTagName("script")[0];
+			  s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+ </head>
+ <body>
+  <div id="header_all"></div>
+  <div style="background: #f1f1f1;">
+   <div class="breadcrumb">
+     您的位置:
+    <a href="#">首页</a> &gt;
+    <a href="/zzjp.html">正在热拍</a> &gt;
+    <span class="tname">冰箱压缩机竞拍</span>
+   </div>
+   <div class="xygb" style="display:none;width: 1200px;margin: 0 auto;height: 30px;font-size: 16px;color: #FF5722;">
+   </div>
+   <div class="container clearfix">
+    <div class="product-intro">
+     <div class="pic">
+      <!-- 大图begin -->
+      <div id="preview" class="spec-preview">
+       <span class="jqzoom"><img class="simg" jqimg="/resources/img/wuimg_bk.png" src="/resources/img/wuimg_bk.png"></span>
+      </div>
+      <!-- 大图end -->
+      <!-- 缩略图begin -->
+      <div class="spec-scroll">
+       <a class="prev">&lt;</a>
+       <a class="next">&gt;</a>
+       <div class="items">
+        <ul class="thumbspic">
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="info">
+      <div class="title clearfix">
+       <div class="name"></div>
+       <div class="address"></div>
+      </div>
+      <div class="time">
+       <span class="la">正在竞拍</span>
+       <span class="con">距竞拍结束还剩：<span class="djs"><em>00 </em>时 <em>00</em> 分 <em>00</em> 秒</span></span>
+       <span class="num"><em>次</em>出价</span>
+       <span class="signum"><em>人</em>报名</span>
+       <span class="bidid" id="bidid" style="display:none;"><em>拍号:</em>001</span>
+      </div>
+      <div class="around">
+       <div class="curPrice">
+        <span class="curPricem">当前价：<em><i>￥</i> </em> 元/吨</span>
+        <span>数量：（吨）</span>
+       </div>
+       <div class="basePrice">
+        <span>保证金：</span>
+       </div>
+       <div class="hdnr_oip">
+        <ul class="kssjgl">
+         <!-- 单价报盘 -->
+         <li class="li_onrexg">
+          <div>
+           <input class="jiagebfj" type="text" value="0" id="jiage" onkeyup="this.value=(this.value.match(/\d+(\.\d{0,2})?/)||[''])[0]">
+           <span class="jiajianxc"><a class="add_bnxc" href="javascript:;" onclick="addPrice()">+</a><a class="jian_bnxc" href="javascript:;" onclick="subPrice()">-</a></span>
+          </div> </li>
+        </ul>
+       </div>
+       <div class="action">
+        <span class="bigRedBtn">提交资质</span>
+       </div>
+      </div>
+      <div class="extra">
+      </div>
+      <div class="smallMess" style="cursor: pointer;display:none; position:absolute;right:10px;top:180px;">
+       <img src="/resources/img/actorbingo/mess_06.png" width="100%">
+      </div>
+     </div>
+     <div class="log">
+      <div class="tit">
+       出价记录
+      </div>
+      <div class="list">
+      </div>
+     </div>
+    </div>
+    <img src="/resources/img/home/pljp_1.png">
+    <div class="product-desc">
+     <div class="tabTitle clearfix">
+      <ul>
+       <li class="liNow">拍品描述</li>
+       <li class="">保证金须知</li>
+       <li class="">出价记录</li>
+      </ul>
+     </div>
+     <div class="tabConDiv">
+      <div class="tabCon notice">
+        描述
+      </div>
+      <p>&nbsp;</p>
+      <div class="tabCon " style="font-size:15px ;height: 100%;">
+       <p>&nbsp;&nbsp;竞价保证金是指在竞价活动中，竞买方、竞卖方双方交给对方的由青岛西海岸建材交易中心平台（简称平台）代收的，一定形式、一定金额的竞价责任担保金。其主要保证竞买方或竞卖方在竞价成功后有撤销订单，无正当理由不订立合同等违约情况发生时，补偿守约方的资金保障。</p>
+       <p style="line-height:30px">1、竞买方参与竞价，需根据竞价公告提示缴纳保证金。</p>
+       <p style="line-height:30px">2、竞卖方发布竞价，需根据发布提示缴纳保证金。</p>
+       <p style="line-height:30px">3、竞价结束后，未竞得竞买方缴纳的保证金，平台在【3】个工作日内足额无息原路退还；已竞得买方缴纳的保证金及竞卖方缴纳的保证金，在订单交易结束后无息原路退还。</p>
+       <p style="line-height:30px">4、若出现下列情形之一的，竞买方保证金将被扣除：</p>
+       <p style="line-height:30px">&nbsp;&nbsp;&nbsp;&nbsp;4.1 竞得买方在系统提示竞价成功后，【3】自然日内未与竞卖方签订销售合同。</p>
+       <p style="line-height:30px">&nbsp;&nbsp;&nbsp;&nbsp;4.2 销售合同签订后拒不执行。</p>
+       <p style="line-height:30px">&nbsp;&nbsp;&nbsp;&nbsp;4.3 无正当理由撤销订单。</p>
+       <p style="line-height:30px">&nbsp;&nbsp;&nbsp;&nbsp;4.4 因出价错误致此次竞价无效。（每年有一次机会可免保证金扣除）</p>
+       <p style="line-height:30px">5、若出现下列情形之一的，竞卖方保证金将被扣除：</p>
+       <p style="line-height:30px">&nbsp;&nbsp;&nbsp;&nbsp;5.1 竞价公告内容为虚假信息。</p>
+       <p style="line-height:30px">&nbsp;&nbsp;&nbsp;&nbsp;5.2 销售合同签订后拒不执行。</p>
+       <p>&nbsp;</p>
+      </div>
+      <div class="tabCon chujiajilu" style="font-size:15px ;height: 100%;">
+       <ul id="records">
+       </ul>
+       <p>&nbsp;</p>
+       <p>&nbsp;</p>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="memberCenter">
+    <div class="memberCenterContent m-auth-form" style="width:95%">
+     <div class="zizhiMange">
+      <div class="head">
+        请上传资质
+       <span class="colororange">支持JPG、PNG、BMP格式的文件。单张图片小于2M。(您可以在此上传也可以去我的资质列表上传资质)<a style="color: red;" target="_blank" href="/orderform/zzklist.html?v=1">&nbsp;&nbsp;&nbsp;我的资质列表</a></span>
+      </div>
+      <input type="hidden" name="auctionid">
+      <input type="hidden" name="jprice" class="jprice">
+      <input type="hidden" name="dprice" class="dprice">
+      <div class="layui-form-item">
+       <label class="layui-form-label">公司名称</label>
+       <div class="layui-input-block">
+        <input type="text" name="company" lay-verify="title" autocomplete="off" placeholder="请输入公司名称" class="layui-input">
+       </div>
+      </div>
+      <div class="listzhizhi" id="images">
+      </div>
+      <button class="layui-btn submitrequire" style="margin-left: 85%;margin-top: 5%">提交</button>
+     </div>
+    </div>
+   </div>
+   <!-- 喜报通知 -->
+   <div class="autorbingo"></div>
+   <div id="footer_all"></div>
+   <script type="text/javascript">
+	$(document).ready(function(){
+		 $('.memberCenter').hide();
+		 /* $('.hdnr_oip').hide(); */
+		$("#header_all").load('/public/public_header.html');
+		$("#footer_all").load('/public/public_footer.html');
+	});
+	</script>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>青岛西海岸建材交易中心-资金管理</title>
+  <link rel="shortcut icon" href="/resources/img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/resources/css/pay.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/addjinjia.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/common.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/profile.css">
+  <link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css">
+  <script src="/resources/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script>document.write("<script type='text/javascript'  src='/resources/js/layui/layui.all.js?v=" + Date.now() + "'><\/script>");</script>
+  <script>document.write("<script type='text/javascript'  src='/resources/js/polyfill.min.js?v=" + Date.now() + "'><\/script>");</script>
+  <script>document.write("<script type='text/javascript' src='/resources/js/common.js?v=" + Date.now() + "'><\/script>");</script>
+  <script src="/resources/js/jscookie.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/javascript/bank/webank.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/javascript/djs.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/js/md5.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "https://hm.baidu.com/hm.js?dd38aecce7482851f6ae4936277b6df3";
+			  var s = document.getElementsByTagName("script")[0];
+			  s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+ </head>
+ <body>
+  <div id="header_all"></div>
+  <div class="memberCenter">
+   <!-- 管理列表 -->
+   <div class="memberCenterNav">
+   </div>
+   <div class="memberCenterContent">
+    <div>
+     <div class="head">
+      <a href="/bank/webank.html" style="border-bottom: 2px solid #00897c;cursor: pointer;">资金管理</a>
+      <a href="/bank/bindCard.html" style="margin-left: 3%;cursor: pointer;">绑定银行卡 </a>
+     </div>
+    </div>
+    <div class="zjgl_wrap">
+     <div class="yzs-pay-box">
+      <div class="yzs-pay-con" id="con_B" style="display: block;">
+       <form class="layui-form " action="#">
+        <table class="checkPay">
+         <tbody>
+          <tr>
+           <td width="100px">财务手机号：</td>
+           <td colspan="2"> <span class="iphone">未绑定银行卡</span> </td>
+          </tr>
+          <tr>
+           <td>校&nbsp;&nbsp;&nbsp;验&nbsp;&nbsp;&nbsp;码：</td>
+           <td> <input type="text" name="code" lay-verify="required|code" autocomplete="off" placeholder="请输入校验码" class="layui-input"> </td>
+           <td><input class="tyuio1" id="sendFtCodeBut" value="获取手机验证码"></td>
+          </tr>
+         </tbody>
+        </table>
+       </form>
+      </div>
+     </div>
+     <div class="sel">
+      <ul>
+       <li class="sel1"> <a href="javascript:void(0)" id="we" class="weizshow">我的WE钱包</a> </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript">
+	$(document).ready(function(){
+		$(".signout").click(function(){
+			loginOut(this);
+		})
+
+	})
+
+	</script>
+  <div id="footer_all"></div>
+ </body>
+</html>

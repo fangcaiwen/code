@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>青岛西海岸建材交易中心-忘记密码</title>
+    <link rel="shortcut icon" href="/resources/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/resources/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/css/style.css" />
+    <script src="/resources/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css" />
+    <script>document.write("<script type='text/javascript'  src='/resources/js/layui/layui.all.js?v=" + Date.now() + "'><\/script>");</script>
+    <script>document.write("<script type='text/javascript'  src='/resources/js/polyfill.min.js?v=" + Date.now() + "'><\/script>");</script>
+    <script>document.write("<script type='text/javascript' src='/resources/js/common.js?v=" + Date.now() + "'><\/script>");</script>
+    <script src="/resources/js/jscookie.js" type="text/javascript" charset="utf-8"></script>
+    <script>document.write("<script type='text/javascript' src='/resources/javascript/user/forgetpsw.js?v=" + Date.now() + "'><\/script>");</script>
+    <script src="/resources/javascript/djs.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/js/md5.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+<div class="subHead">
+    <div class="logo">
+        <a href="/"><img src="/newRes/logo2.png" width="300"></a>
+        <span>忘记密码</span>
+    </div>
+    <div class="hotline">
+        <img src="/newRes/400number.png" width="200">
+    </div>
+</div>
+
+<div class="yzs-login-pannel">
+    <div class="yzs-login-box">
+        <div class="yzs-login-tit" style="font-size: 18px;color: #555;padding-left: 160px;font-weight: bold;">
+            忘记密码
+        </div>
+        <div class="yzs-login-con">
+            <form class="layui-form " action="#">
+                <table>
+                    <tbody><tr><td width="80px">手机号：</td><td colspan="2">
+                        <input type="tel" name="phone"  placeholder="请输入手机号码" lay-verify="required|phone" autocomplete="off" class="layui-input">
+                    </td></tr>
+                    <tr><td>验证码：</td><td>
+                        <input type="text" name="randImgCode"  lay-verify="required|randImgCode"  autocomplete="off" placeholder="请输入验证码" class="layui-input">
+                    </td><td>
+                        <img id="randimgcode" src="/newRes/randCode.jpg">
+                    </td></tr>
+                    </tbody></table>
+                <div class="yzs-login-btn" lay-submit lay-filter="formDemo">下一步</div>
+                <div class="yzs-login-tools">
+                    <span class="forgetpsw">登陆</span>
+                    <span class="toregist">注册</span>
+                </div>
+                <div class="yzs-login-tools">
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</div>
+<div id="footer_all"></div>
+</body>
+</html>

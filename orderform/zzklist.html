@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+ <head>
+  <base href="${baseurl}">
+  <meta charset="utf-8">
+  <title>青岛西海岸建材交易中心-我的资质库</title>
+  <link rel="shortcut icon" href="/resources/img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/addjinjia.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/common.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/profile.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/pagination.css">
+  <script src="/resources/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/js/jscookie.js" type="text/javascript" charset="utf-8"></script>
+  <script charset="utf-8" type="text/javascript" src="/resources/js/jquery.pagination.js"></script>
+  <script>document.write("<script type='text/javascript'  src='/resources/js/layui/layui.all.js?v=" + Date.now() + "'><\/script>");</script>
+  <script>document.write("<script type='text/javascript'  src='/resources/js/polyfill.min.js?v=" + Date.now() + "'><\/script>");</script>
+  <script>document.write("<script type='text/javascript' src='/resources/js/common.js?v=" + Date.now() + "'><\/script>");</script>
+  <script src="/resources/javascript/orderform/zzklist.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css">
+  <script>
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "https://hm.baidu.com/hm.js?dd38aecce7482851f6ae4936277b6df3";
+			  var s = document.getElementsByTagName("script")[0];
+			  s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+  <style type="text/css">
+		.yzs-m-renzheng-imgup-box{
+			margin-left: 5px;
+			width: 20%;
+    		float: left;
+		}
+		.zzklist .head {
+			display: none;
+		    margin-top: 20%;
+		}
+		.zzklist .list {
+			display: none;
+		}
+		.lookmore{
+            margin-left: 20%;
+		    color: #FF5722;
+		    font-weight: bold;
+		    cursor: pointer;
+		    font-size: 15px;
+		    line-height: 45px;
+		}
+		</style>
+ </head>
+ <body>
+  <div id="header_all"></div>
+  <div class="memberCenter">
+   <div class="memberCenterNav">
+   </div>
+   <div class="memberCenterContent m-auth-form">
+    <div class="zizhiMange">
+     <div class="head">
+       我的资质库&nbsp;&nbsp;
+      <span class="zzkv" style="color:red;">当前待提交资质分类为:</span>
+     </div>
+     <form id="zzkform" method="post" class="zzklist">
+      <div class="head gsjbxx" style="margin-top: 3%;">
+       公司基本信息(以下资质为所有竞价项目均需查验的资质,请准备以下资质。)
+      </div>
+      <div class="list gsjbxxlist" id="basicInfo" style=""></div>
+      <br>
+      <div class="head" title="ccfyl">
+       餐厨废油
+      </div>
+      <div class="list ccfyllist" id="feiyou" style=""></div>
+      <br>
+      <div class="head" title="fysl">
+       废有色类
+      </div>
+      <div class="list fysllist" id="feiyouse" style=""></div>
+      <br>
+      <div class="head" title="fsll">
+       废塑料类
+      </div>
+      <div class="list fslllist" id="feisuliao" style=""></div>
+      <br>
+      <div class="head" title="ftl">
+       废铁类
+      </div>
+      <div class="list ftllist" id="feitie" style=""></div>
+      <br>
+      <div class="head" title="bll">
+       玻璃类
+      </div>
+      <div class="list blllist" id="feiboli" style=""></div>
+      <br>
+      <div class="head" title="fgl">
+       废钢
+      </div>
+      <div class="list fgllist" id="feigang" style=""></div>
+      <br>
+      <div class="head" title="qtl">
+       其他类
+      </div>
+      <div class="list qtllist" id="feiother" style=""></div>
+      <br>
+      <a class="lookmore">查看更多&gt;&gt;</a>
+     </form>
+    </div>
+   </div>
+  </div>
+  <div id="footer_all"></div>
+ </body>
+</html>

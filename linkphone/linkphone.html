@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>青岛西海岸建材交易中心-登录相关</title>
+  <link rel="shortcut icon" href="/resources/img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/resources/css/addjinjia.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/common.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/profile.css">
+  <script src="/resources/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/js/jsnoAddress.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css">
+  <script src="/resources/js/layui/layui.all.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/js/jscookie.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/js/authpushphoto.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/javascript/linkphone/linkphone.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/javascript/djs.js" type="text/javascript" charset="utf-8"></script>
+  <style type="text/css">
+.up-phone {
+	display:none;
+}
+</style>
+ </head>
+ <body>
+  <div id="header_all"></div>
+  <div class="memberCenter">
+   <!-- 管理列表 -->
+   <div class="memberCenterNav"></div>
+   <div class="memberCenterContent">
+    <div>
+     <div class="head">
+      <a href="/bank/webank.html" style="cursor: pointer;">登录手机号修改</a>
+     </div>
+    </div>
+    <div class="zjgl_wrap">
+     <div class="authentication">
+      <div class="yzs-m-renzheng-info-box">
+       <form class="layui-form " action="#" lay-filter="linkphone">
+        <table cellspacing="0">
+         <tbody>
+          <tr>
+           <td class="regid"><span>*</span> 登录手机号：</td>
+           <td><input type="text" name="phone" lay-verify="required|phone" autocomplete="off" placeholder="" class="layui-input authinput layui-btn-disabled"> </td>
+           <td> <button type="button" class="layui-btn layui-btn-sm layui-btn-warm layui-btn-radius link-phone-edit  ">修改</button> </td>
+          </tr>
+          <tr class="up-phone">
+           <td><span>*</span> 新&nbsp;手&nbsp;机&nbsp;号：</td>
+           <td><input type="text" name="editphone" lay-verify="required|phone" autocomplete="off" placeholder="请输入新手机号" class="layui-input authinput"> </td>
+           <td> <input type="button" class="layui-btn layui-btn-sm  layui-btn-radius  tyuio1" value="获取验证码"> </td>
+          </tr>
+          <tr class="up-phone">
+           <td><span>*</span>验&nbsp;&nbsp;&nbsp;证&nbsp;&nbsp;&nbsp;码：</td>
+           <td><input type="text" name="code" lay-verify="required|code" autocomplete="off" placeholder="请输入验证码" class="layui-input authinput"> </td>
+           <td> <button type="button" class="layui-btn layui-btn-sm  layui-btn-radius layui-btn-danger " lay-submit lay-filter="formDemo">确定修改</button> </td>
+          </tr>
+         </tbody>
+        </table>
+       </form>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript">
+	$(document).ready(function() {
+		$(".signout").click(function() {
+			loginOut(this);
+		})
+
+	})
+</script>
+  <div id="footer_all"></div>
+ </body>
+</html>

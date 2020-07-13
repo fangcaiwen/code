@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>青岛西海岸建材交易中心-交易服务费中心-交易服务费支付记录列表</title>
+  <link rel="shortcut icon" href="/resources/img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/resources/css/common.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/addjinjia.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/profile.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/pagination.css">
+  <link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css">
+  <script src="/resources/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/js/jscookie.js" type="text/javascript" charset="utf-8"></script>
+  <script charset="utf-8" type="text/javascript" src="/resources/js/jquery.pagination.js"></script>
+  <script charset="utf-8" type="text/javascript" src="/resources/js/layer/layer.js"></script>
+  <script charset="utf-8" type="text/javascript" src="/resources/js/layui/lay/modules/laydate.js"></script>
+  <script src="/resources/js/jquery.jqprint-0.3.js" type="text/javascript" charset="utf-8"></script>
+  <script>document.write("<script type='text/javascript'  src='/resources/js/layui/layui.all.js?v=" + Date.now() + "'><\/script>");</script>
+  <script>document.write("<script type='text/javascript'  src='/resources/js/polyfill.min.js?v=" + Date.now() + "'><\/script>");</script>
+  <script>document.write("<script type='text/javascript' src='/resources/js/common.js?v=" + Date.now() + "'><\/script>");</script>
+  <link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css">
+  <script src="/resources/js/layui/layui.all.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/javascript/bank/monthfeed.js" type="text/javascript" charset="utf-8"></script>
+  <script>document.write("<script type='text/javascript' src='/resources/javascript/pay/topay.js?v=" + Date.now() + "'><\/script>");</script>
+  <script>
+			jQuery.browser={};
+			(function(){
+				jQuery.browser.msie=false; 
+				jQuery.browser.version=0;
+				if(navigator.userAgent.match(/MSIE ([0-9]+)./)){ 
+					jQuery.browser.msie=true;
+					jQuery.browser.version=RegExp.$1;
+				}
+			})();
+		</script>
+  <style type="text/css">
+		.month{
+			color:red;
+			}
+
+		</style>
+ </head>
+ <body>
+  <div id="header_all"></div>
+  <div class="memberCenter">
+   <div class="memberCenterNav">
+   </div>
+   <div class="memberCenterContent">
+    <div class="head">
+     <a style="margin-left: 80%;color:red;" href="/bank/monthfee.html">去交易服务费中心&gt;</a>
+    </div>
+    <div class="head">
+     交易服务费支付记录&nbsp;&nbsp;&nbsp;&nbsp;
+     <i class="auctionnotice layui-icon layui-icon-speaker"></i>&nbsp;&nbsp;&nbsp;
+     <span style="font-size: 14px;color: #ff5722;">温馨提示：订单自竞价成功之日起30日内若无任何对账交易，系统将自动按订单成交金额*0.6%收取交易服务费。 </span>
+    </div>
+    <div>
+     <div class="mc_body_d">
+      <table id="" class="mc_tabl_d ex_table" cellpadding="0" cellspacing="0" width="100%">
+       <thead>
+        <tr>
+         <th class="">支付单号 </th>
+         <th class="" style="width: 20%;">付款单位</th>
+         <th class="">订单支付时间</th>
+         <th class="">支付金额</th>
+         <th class="">备注</th>
+         <th class="">支付状态</th>
+         <th class="">操作</th>
+        </tr>
+       </thead>
+       <tbody id="dataTable" class="mc_tabl_d ex_table orders" cellpadding="0" cellspacing="0" width="100%">
+       </tbody>
+      </table>
+      <div class="page_d" id="demo3">
+      </div>
+     </div>
+    </div>
+   </div>
+   <form action="/pai/auction/fee/exportFeeList.do" method="post" class="exportExcel">
+    <input type="hidden" name="serachNo" value="" class="serachNo">
+    <input type="hidden" name="startTime" value="" class="startTime">
+    <input type="hidden" name="endTime" value="" class="endTime">
+   </form>
+   <script>
+	laydate.render({
+		elem: '#beginTime'//指定元素
+	});
+	laydate.render({
+		elem: '#endTime'//指定元素
+	});
+	</script>
+  </div>
+ </body>
+</html>

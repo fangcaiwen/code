@@ -1,0 +1,77 @@
+<style>
+    .tleft_url{
+        color:#009688;
+    }
+</style>
+
+
+<div class="left-tab-title" >
+    <a href="/inframe/index.html" class="left-tab-this"><li class="manager_tender">竞价销售管理</li></a>
+    <a href="/inframe/tindex.html?ltype=t" ><li  class="manager_auction ">竞价采购管理</li></a>
+</div>
+<div class="menu layui-anim layui-anim-up">
+    <div class="title left_top">采购管理</div>
+    <ul>
+        <li><a class="tenderc" href="/tendermanager/pushtender.html?v=20200407" title="pushtender">发布竞价采购</a></li>
+        <li><a class="tenderc" href="/tendermanager/tendermanageraudit.html?v=20200407" title="tendermanageraudit">竞价采购待审核</a></li>
+        <li><a class="tenderc" href="/tendermanager/tendermanager.html?v=20200407" title="tendermanager">竞价采购管理</a></li>
+        <li><a href="/tender/buyer/buytender.html?v=20200407" title="buytender">我参与的竞价采购</a></li>
+    </ul>
+
+    <div class="title left_top">交易管理</div>
+    <ul>
+        <li><a href="/torderform/sellerorderformlist.html?v=20200407&ltype=t" title="sellerorderformlist">销售订单</a></li>
+        <li><a href="/torderform/buyerorderformlist.html?v=20200407&ltype=t" title="buyerorderformlist">采购订单</a></li>
+    </ul>
+    <div class="title left_top" >账号管理</div>
+    <ul>
+    <!--    <li><a href="/auth/authinit.html?v=1&ltype=t" title="authinit">实名认证</a></li>-->
+        <li><a href="/linkphone/linkphone.html?v=1&ltype=t" title="authinit">手机号修改</a></li>
+    </ul>
+    <div class="title left_top">资质库</div>
+    <ul>
+        <li><a href="/orderform/zzklist.html?v=1&ltype=t" title="zzklist">资质列表</a></li>
+    </ul>
+    <div class="title left_top" >资金账户</div>
+    <ul>
+        <li><a class="tipcard" title="webank" href="/bank/webank.html?v=1&ltype=t">资金管理</a></li>
+        <li><a title="tmarginmanager" href="/margin/seller/tmarginmanager.html?v=20200407">保证金记录</a></li>
+        <li><a title="monthfee" href="/bank/monthfee.html?v=1&ltype=t">服务费中心</a></li>
+    </ul>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        getUrlParam();
+    });
+
+    function getUrlParam() {
+        var pathname=window.location.pathname;
+        if(pathname==""){
+            return false;
+        }
+        var count=pathname.split('/').length;
+        var lastname=pathname.split('/')[count-1].split(".")[0];
+
+        if(lastname=="sellerordershow"){
+            $("a[title='sellerorderformlist']").css("color","#009688");
+        }
+        if(lastname=="buyerordershow"){
+            $("a[title='buyerorderformlist']").css("color","#009688");
+        }
+        $.each($("a"),function(index,info){
+            var title=$(info).attr("title");
+            if(title==lastname){
+                $(this).css("color","#009688");
+            };
+        });
+    }
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?dd38aecce7482851f6ae4936277b6df3";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>

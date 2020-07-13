@@ -1,0 +1,531 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/resources/img/favicon.ico">
+    <meta name="keywords" content="废塑料，再生资源交易，废金属，废旧物资，废纸">
+    <meta name="description" content="青岛西海岸建材交易中心，是中国废旧物资竞价销售平台，涵盖废金属、废纸、废塑料破碎料、废旧设备等。">
+    <meta name="author" content="www.qdxhanjc.com">
+    <meta name="copyright" content="www.qdxhanjc.com Inc. All rights reserved">
+    <title>11青岛西海岸建材交易中心</title>
+    <link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/indexcommon.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/style.css?v=20200410">
+    <link rel="stylesheet" type="text/css" href="/resources/css/swiper.min.css">
+    <script src="/resources/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/js/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/js/jscookie.js" type="text/javascript" charset="utf-8"></script>
+    <script>document.write("<script type='text/javascript'  src='/resources/js/layer/layer.js?v=" + Date.now() + "'><\/script>");</script>
+    <script>document.write("<script type='text/javascript'  src='/resources/js/layui/layui.all.js?v=" + Date.now() + "'><\/script>");</script>
+    <script>document.write("<script type='text/javascript'  src='/resources/js/polyfill.min.js?v=" + Date.now() + "'><\/script>");</script>
+    <script>document.write("<script type='text/javascript' src='/resources/js/common.js?v=" + Date.now() + "'><\/script>");</script>
+    <script type="text/javascript" src="/resources/javascript/index.js?v=202058"></script>
+    <script type="text/javascript" src="/resources/javascript/swiper.min.js"></script>
+    <script src="/resources/js/topic.js?v=2019818" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(function () {
+            //获得当前<ul>
+            var $uList = $(".enter .finsh ul.anim");
+            var timer = null;
+            //触摸清空定时器
+            $uList.hover(function () {
+                    clearInterval(timer);
+                },
+                function () { //离开启动定时器
+                    timer = setInterval(function () {
+                            scrollList($uList);
+                        },
+                        1000);
+                }).trigger("mouseleave"); //自动触发触摸事件
+            //滚动动画
+            function scrollList(obj) {
+                //获得当前<li>的高度
+                var scrollHeight = $(".enter .finsh ul.anim li:first").height();
+                //滚动出一个<li>的高度
+                $uList.stop().animate({
+                        marginTop: -scrollHeight
+                    },
+                    600,
+                    function () {
+                        //动画结束后，将当前<ul>marginTop置为初始值0状态，再将第一个<li>拼接到末尾。
+                        $uList.css({
+                            marginTop: 0
+                        }).find("li:first").appendTo($uList);
+                    });
+            }
+        });
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?dd38aecce7482851f6ae4936277b6df3";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <style>
+        .enter .left .finsh .bd .tbody {
+            height: 260px
+        }
+
+        .doing .content .item {
+            margin-right: 40px;
+        }
+
+        body {
+            background: url(../../resources/img/98dccf675cd71f1c60b7a8bddcd75bd.jpg) no-repeat center 0px;
+        }
+
+        /*底部展开收缩*/
+        .fl_open_wrap {
+            display: none;
+            position: fixed;
+            z-index: 9997;
+            left: 0;
+            bottom: 0;
+            width: 134px;
+            height: 158px;
+            overflow: hidden;
+        }
+
+        .fl_open_wrap .fl_open_wrap_cntr {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: url(../../resources/img/threeAH-05.png) no-repeat;
+            cursor: pointer;
+        }
+
+        .fl_pop_wrap {
+            display: none;
+            position: fixed;
+            z-index: 9998;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 196px;
+            overflow: hidden;
+        }
+
+        .fl_pop_wrap .fl_pop_wrap_cntr {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .fl_pop_wrap .fl_pop_wrap_cntr_bg {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 119px;
+            background: #3b867c;
+            opacity: 0.3;
+            filter: alpha(opacity=30);
+            z-index: -200;
+        }
+
+        .fl_pop_wrap .fl_pop_box {
+            position: relative;
+            width: 100%;
+            height: 130px;
+            margin: auto;
+            font-size: 12px;
+            font-weight: 1.5;
+            color: #333;
+        }
+
+        .fl_pop_wrap .fl_pop_box .fl_pop_pic {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+
+        .fl_pop_wrap .fl_pop_box .fl_pop_pic img {
+            width: 100%;
+            display: block;
+        }
+
+        .fl_pop_wrap .fl_wrap_close {
+            position: absolute;
+            top: 8px;
+            right: -23px;
+            font-size: 38px;
+            line-height: 1.2;
+            font-family: Simsun;
+            color: #9aa1a8;
+            outline: 0 none;
+            text-decoration: none
+        }
+
+        @media screen and (max-width: 1161px) {
+            .fl_open_wrap {
+                width: 45px;
+            }
+
+            .fl_open_wrap .fl_open_wrap_cntr {
+                background-position: -85px 0;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .qdbox .join img {
+                width: 70%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="header_all" class="header_all"></div>
+<div class="eface econtainer ">
+    <div class="emenu " style="display: none;">
+        <ul>
+            <li><a href="/jjks.html?t=5rG96L2m">建筑垃圾</a></li>
+            <li><a href="/jjks.html?t=5aGR5paZ">再生建材</a></li>
+            <li><a href="/jjks.html?t=6ZOc">再生资源</a></li>
+            <li><a href="/jjks.html?t=5rK5">家装超市</a></li>
+            <!--<li><a href="/jjks.html?t=546755KD">废玻璃</a></li>
+            <li><a href="/jjzb.html">垃圾桶</a></li>
+            <li><a href="/jjks.html">综合类</a></li>-->
+        </ul>
+    </div>
+    <div class="eslide" style="flex-grow: 1;">
+        <div class="banner adNews" style="padding-right: 15px;">
+            <div class="layui-carousel" id="test1">
+                <div carousel-item="" class="indexbanner">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="eenter" style="position: absolute; right: 0;bottom:0;">
+        <div style="display: none;" class="euser">
+            <!-- 					未登录 -->
+            <div class="eunlogin user_tip">
+                <a href="user/login.html">
+                    <button type="button" class="eloginbtn fastlogin">登录</button>
+                </a>
+                <a href="user/regist.html">
+                    <button type="button" class="eregbtn">注册</button>
+                </a>
+            </div>
+            <!-- 					已登录 -->
+            <div class="elogined statistics">
+                <div class="euserinfo">
+                    <div class="elabel user_info">
+                        <img src="../../resources/img/ehome_05.png">
+                        <div>
+                            <i>您好,欢迎来到青岛西海岸建材交易中心</i>
+                            <span>北京新易科技有限公司</span>
+                        </div>
+                    </div>
+                    <div class="etotal">
+                        <ul>
+                            <li><a href=""><i class="dtjzz"></i><span>待提交资质</span></a></li>
+                            <li><a href=""><i class="dcj"></i><span>待出价</span></a></li>
+                            <li><a href=""><i class="dqy"></i><span>待签约</span></a></li>
+                            <li><a href=""><i class="dzf"></i><span>待支付</span></a></li>
+                            <li><a href=""><i class="dqrdzd"></i><span>待确认对账单</span></a></li>
+                            <li><a href="javascript:loginOut();"><i><img src="/resources/img/index/exit_07.png"></i><span>安全退出</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ead">
+            <h2>成交公告</h2>
+            <div style="height: 410px;overflow: hidden;" class="eswiper-ad tbody">
+                <ul class="swiper-wrapper anim">
+                    <li class="swiper-slide"></li>
+                    <li class="swiper-slide"></li>
+                    <li class="swiper-slide"></li>
+                    <li class="swiper-slide"></li>
+                    <li class="swiper-slide"></li>
+                </ul>
+            </div>
+            <div style="height: 90px;overflow: hidden;" class="eswiper-ad-login tbody">
+                <ul class="swiper-wrapper anim">
+                    <li class="swiper-slide"></li>
+                    <li class="swiper-slide"></li>
+                    <li class="swiper-slide"></li>
+                    <li class="swiper-slide"></li>
+                    <li class="swiper-slide"></li>
+                </ul>
+            </div>
+            <a href="/jpjs.html" class="emore" target="_blank">查看更多 &gt;&gt;</a>
+        </div>
+    </div>
+</div>
+<!-- 竞价列表 -->
+<div class="doing like_doing">
+    <div class="head">
+        <span class="title">正222在竞拍</span>
+        <a class="more" href="/zzjp.html"> + 更多</a>
+    </div>
+    <div class="container">
+        <input type="hidden" class="auctionids">
+        <div class="content subDoing">
+            <div style="margin-left: 45%;margin-top: 10%;margin-bottom: 17%;" class="el-loading-spinner">
+                <svg viewbox="25 25 50 50" class="circular">
+                    <circle cx="50" cy="50" r="20" fill="none" class="path_sm"></circle>
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="liucheng container">
+    <!-- <a target="_blank" href="/five/">
+             <img src="/resources/img/index/banner/20200605.jpg">
+             </a> -->
+    <a target="_blank" href="/jjzb.html"> <img src="/newRes/banner1.jpg" width="1200"> </a>
+</div>
+<div class="doing soon">
+    <div class="head">
+        <span class="title">即将开始</span>
+        <a class="more" href="/jjks.html"> + 更多</a>
+    </div>
+    <div class="container">
+        <input type="hidden" class="auctionids">
+        <div class="content">
+            <div style="margin-left: 45%;margin-top: 10%;margin-bottom: 17%;" class="el-loading-spinner">
+                <svg viewbox="25 25 50 50" class="circular">
+                    <circle cx="50" cy="50" r="20" fill="none" class="path_sm"></circle>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div class="liucheng container">
+        <!--<a target="_blank" href="/five/"> <img src="/resources/img/index/banner/20200605.jpg"> </a>-->
+        <a target="_blank" href="/jjks.html?t=6L2m&amp;v=6L2m"> <img src="/newRes/banner2.jpg" width="1200"> </a>
+        <!-- <div class="liucheng container">
+                <a target="_blank" href="/jjzb.html">
+                <img src="/resources/img/index/banner/tenderbanner.jpg">
+                </a> -->
+        <!-- <a target="_blank" href="/jjks.html?t=6L2m&amp;v=6L2m">
+                <img src="/resources/img/index/banner/carbanner.jpg">
+                </a> -->
+    </div>
+    <!-- <div class="container1">
+                 <div class="content">
+                     <div  style="margin-left: 45%;margin-top: 10%;margin-bottom: 17%;" class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path_sm"></circle></svg></div>
+                 </div>
+             </div> -->
+</div>
+<div class="doing ended">
+    <div class="head">
+        <span class="title">竞拍结束</span>
+        <a class="more" href="/jpjs.html"> + 更多</a>
+    </div>
+    <div class="container">
+        <div class="content">
+            <div style="margin-left: 45%;margin-top: 10%;margin-bottom: 17%;" class="el-loading-spinner">
+                <svg viewbox="25 25 50 50" class="circular">
+                    <circle cx="50" cy="50" r="20" fill="none" class="path_sm"></circle>
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="eenterprise">
+    <!-- <a target="_blank" href="/jjzb.html">
+             <img src="/resources/img/index/banner/tenderbanner.jpg">
+         </a>  -->
+    <!-- 			<i>名企入驻</i> -->
+    <!-- 			<ul> -->
+    <!-- 				<li><img src="../../resources/img/eimg.jpg" alt=""></li> -->
+    <!-- 				<li><img src="../../resources/img/eimg.jpg" alt=""></li> -->
+    <!-- 				<li><img src="../../resources/img/eimg.jpg" alt=""></li> -->
+    <!-- 				<li><img src="../../resources/img/eimg.jpg" alt=""></li> -->
+    <!-- 			</ul> -->
+</div>
+<br>
+<div id="footer_all"></div>
+<div class="toolbar">
+
+    <a class="gotop_btn" href="javascript:void(0)" onclick="window.scrollTo(0,0)">返回顶部</a>
+</div>
+<!--底部展开收缩-->
+<div id="fl_wrap_default">
+    <div class="fl_open_wrap" style="display: block;">
+        <div class="fl_open_wrap_cntr" id="float_102_open" style="left: 0;"></div>
+    </div>
+    <div class="fl_pop_wrap" style="display: none;">
+        <div class="fl_pop_wrap_cntr" id="fl_pop_wrap_cntr" style="left: -100%;">
+            <div class="fl_pop_box">
+                <div class="fl_pop_pic">
+                    <a href="http://www.qdxhanjc.com/register.htm" target="_blank"><img src="../../resources/img/threeAH-06.jpg" width="100%"></a>
+                </div>
+                <a href="javascript:;" class="fl_wrap_close" title="关闭" id="float_102_close"><img src="../../resources/img/threeAH-04.png" width="60%"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#header_all").load('/public/public_header.html');
+        $("#footer_all").load('/public/public_footer.html');
+    });
+</script>
+<script type="text/javascript">
+    $(function () {
+        //获得当前<ul>
+        var $uList = $(".enter .finsh ul.anim");
+        var timer = null;
+        //触摸清空定时器
+        $uList.hover(function () {
+                clearInterval(timer);
+            },
+            function () { //离开启动定时器
+                timer = setInterval(function () {
+                        scrollList($uList);
+                    },
+                    1000);
+            }).trigger("mouseleave"); //自动触发触摸事件
+        //滚动动画
+        function scrollList(obj) {
+            //获得当前<li>的高度
+            var scrollHeight = $(".enter .finsh ul.anim li:first").height();
+            //滚动出一个<li>的高度
+            $uList.stop().animate({
+                    marginTop: -scrollHeight
+                },
+                600,
+                function () {
+                    //动画结束后，将当前<ul>marginTop置为初始值0状态，再将第一个<li>拼接到末尾。
+                    $uList.css({
+                        marginTop: 0
+                    }).find("li:first").appendTo($uList);
+                });
+        }
+    });
+</script>
+<script type="text/javascript">
+    var e = $(".fl_open_wrap_cntr"),
+        n = e.parent(),
+        o = $(".fl_pop_wrap_cntr"),
+        i = o.parent();
+    // 底部展开收缩
+    $(function () {
+        var timerad = setTimeout(function () {
+            o.animate({
+                left: "-100%"
+            }, 800, "linear", function () {
+                i.hide(), e.animate({
+                    left: "0%"
+                }, 300, "linear", function () {
+
+                }), n.show()
+            })
+        }, 5000);
+
+        $('.fl_open_wrap_cntr').on('click', function () {
+            e.animate({
+                left: "-100%"
+            }, 300, "linear", function () {
+                n.hide(), o.animate({
+                    left: "0%"
+                }, 800, "linear", function () {
+
+                }), i.show()
+            });
+            clearTimeout(timerad);
+        });
+        $('.fl_wrap_close').on('click', function () {
+            o.animate({
+                left: "-100%"
+            }, 800, "linear", function () {
+                i.hide(), e.animate({
+                    left: "0%"
+                }, 300, "linear", function () {
+
+                }), n.show()
+            })
+        })
+    })
+
+    //检查登录状态
+    function toiframe() {
+        var reqdata = {};
+        pairequest("/pai/userPro/checkLoginStatus.do", reqdata).then(function (data) {
+            var header = "";
+            if (data.success == true) {
+                window.location.href = "/inframe/index.html";
+            } else {
+                window.location.href = "/user/login.html";
+            }
+        });
+    };
+
+    var swiper = new Swiper('.swiper-container', {
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        autoplay: true,
+    });
+    var swiper = new Swiper('.eswiper-ad', {
+        speed: 2000,
+        direction: 'vertical',
+        slidesPerView: 4,
+        spaceBetween: 0,
+        slidesPerGroup: 2,
+        loop: true,
+        loopFillGroupWithBlank: false,
+        autoplay: {
+            delay: 1000,
+            disableOnInteraction: false,
+        },
+    });
+
+
+    var e = $(".fl_open_wrap_cntr"),
+        n = e.parent(),
+        o = $(".fl_pop_wrap_cntr"),
+        i = o.parent();
+    // 底部展开收缩
+    $(function () {
+        var timerad = setTimeout(function () {
+            o.animate({
+                left: "-100%"
+            }, 800, "linear", function () {
+                i.hide(), e.animate({
+                    left: "0%"
+                }, 300, "linear", function () {
+
+                }), n.show()
+            })
+        }, 5000);
+
+        $('.fl_open_wrap_cntr').on('click', function () {
+            e.animate({
+                left: "-100%"
+            }, 300, "linear", function () {
+                n.hide(), o.animate({
+                    left: "0%"
+                }, 800, "linear", function () {
+
+                }), i.show()
+            });
+            clearTimeout(timerad);
+        });
+        $('.fl_wrap_close').on('click', function () {
+            o.animate({
+                left: "-100%"
+            }, 800, "linear", function () {
+                i.hide(), e.animate({
+                    left: "0%"
+                }, 300, "linear", function () {
+
+                }), n.show()
+            })
+        })
+    })
+
+</script>
+</body>
+</html>

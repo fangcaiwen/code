@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>青岛西海岸建材交易中心-我参与的竞拍</title>
+    <link rel="shortcut icon" href="/resources/img/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="/resources/css/addjinjia.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/css/profile.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/css/pagination.css"/>
+
+    <script src="/resources/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/js/common.js" type="text/javascript" charset="utf-8"></script>
+    <script charset="utf-8" type="text/javascript" src="/resources/js/jquery.pagination.js"></script>
+    <script src="/resources/js/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/js/layui/layui.all.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/js/jscookie.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/javascript/tender/buyer/buytender.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?dd38aecce7482851f6ae4936277b6df3";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+<div id="header_all"></div>
+<div class="memberCenter">
+    <!-- 管理列表 -->
+    <div class="memberCenterNav">
+
+    </div>
+
+    <div class="memberCenterContent m-auth-form joinBid" style="display:block;">
+        <input type=hidden value="0" name="status" id="q_status">
+        <div class="head" >
+            我参与的招标  &nbsp;&nbsp;&nbsp;&nbsp; <i class="auctionnotice layui-icon layui-icon-speaker"></i>
+        </div>
+        <div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
+            <ul class="layui-tab-title" style="float:left;width:90%;">
+                <li class="layui-this" onclick='putQueryStatus(0);initpager();getMyPublishAuction(0)'>全部</li>
+                <li onclick='putQueryStatus(2);initpager();getMyPublishAuction(0)'>即将开始</li>
+                <li onclick='putQueryStatus(3);initpager();getMyPublishAuction(0)'>正在招标</li>
+                <li onclick='putQueryStatus(4);initpager();getMyPublishAuction(0)'>招标结束</li>
+            </ul>
+        </div>
+        <div class="mc_body_d">
+            <table id="dataTable" class="mc_tabl_d ex_table" cellpadding="0" cellspacing="0" width="100%">
+            </table>
+            <div class="page_d">
+                <div class="page_chren">
+                    <div class="ezspage">
+                        <div class="pages">
+                            <div id="Pagination"></div>
+                            <div class="searchPage">
+									<span class="page-sum">共<strong class="allPage">0</strong>页
+									</span> <span class="page-go">跳转<input type="text" />页
+									</span> <a href="javascript:;" class="page-btn">确定</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

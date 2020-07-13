@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+body,
+div,
+h1,
+h2,
+form,
+fieldset,
+input,
+textarea,
+footer,
+p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+}
+
+body {
+	background: url(/resources/img/actorbingo/bg.png) no-repeat center top;
+	color: #7c7873;
+	background-size: 100%;
+/* 	height: 2300px; */
+}
+
+.popbg p {
+	text-shadow: 0 1px 0 #fff;
+	font-size: 24px;
+}
+
+.popbg {
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.popbg.nobg {
+	background: none;
+}
+
+#wrap {
+	width: 547px;
+	height: 515px;
+	overflow: hidden;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -270px;
+	margin-top: -240px;
+}
+
+#wrap h1 {
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 48px;
+	text-shadow: 0 1px 0 #ede8d9;
+}
+
+#mess_wrap {
+	margin: 15px 15px 0 0;
+	width: 532px;
+	height: 500px;
+	position: relative;
+	top: 0px;
+	-webkit-transition: all 1s ease-in-out .3s;
+	-moz-transition: all 1s ease-in-out .3s;
+	-o-transition: all 1s ease-in-out .3s;
+	transition: all 1s ease-in-out .3s;
+}
+
+#mess_wrap:before {
+	content: "";
+	position: absolute;
+	top: 107px;
+	left: -2px;
+	background: url(/resources/img/actorbingo/mess_02.png) no-repeat;
+	width: 537px;
+	height: 309px;
+	transition: all 1s;
+	transform-origin: center 186px;
+}
+
+#mess_wrap:after {
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	background: url(/resources/img/actorbingo/mess_01.png) no-repeat;
+	width: 532px;
+	height: 211px;
+	z-index: 2;
+
+}
+
+#mess_wrap .gai {
+	position: absolute;
+	top: 285px;
+	left: -7px;
+	background: url(/resources/img/actorbingo/mess_03.png) no-repeat center top;
+	width: 550px;
+	height: 155px;
+	transition: transform 1s;
+	transform-origin: center 5px;
+	z-index: 999;
+	transform: rotateX(91deg);
+	opacity: 0;
+}
+
+#mess_wrap .gai.heGai {
+	opacity: 1;
+	transform: rotateX(0deg);	
+}
+#mess_wrap .gai.heGaiOpacity {
+	opacity: 1;
+}
+#mess_wrap .gai.heGaii {
+	transform: rotateX(90deg);	
+}
+#mess_wrap.hide:after,
+#mess_wrap.hide:before {
+	display: none;
+}
+
+#mess_wrap.closedGai:before {
+	transform: rotateX(-90deg);
+}
+
+div.con1 {
+	background: url(/resources/img/actorbingo/mess_05.png) no-repeat center top;
+	position: relative;
+	top: 0px;
+	height: 500px;
+	width: 511px;
+	margin: 0px auto;
+	padding: 0px;
+	-webkit-transition: all 1s ease-in-out .3s;
+	-moz-transition: all 1s ease-in-out .3s;
+	-o-transition: all 1s ease-in-out .3s;
+	transition: all 1s ease-in-out .3s;
+	box-sizing: border-box;
+	padding: 90px 50px;
+}
+
+div.con1 p {
+	font-size: 14px;
+	color: #333333;
+	line-height: 24px;
+}
+
+div.con1 .result {
+	padding: 20px 115px;
+}
+
+div.con1 .result span {
+	font-size: 16px;
+	font-weight: bold;
+	color: #333333;
+}
+
+div.con1 .result i {
+	font-size: 16px;
+	color: #ff5a00;
+	font-style: normal;
+}
+
+#mess_wrap.closed div.con1 {
+	height: 200px;
+	top: 290px;
+}
+
+.slogo {
+	display: none;
+	background: url(/resources/img/actorbingo/mess_04.png) no-repeat;
+	width: 65px;
+	height: 65px;
+	position: absolute;
+	left: 223px;
+	top: 382px;
+	z-index: 999;
+}
+
+.close {
+	background: url(/resources/img/actorbingo/close.png) no-repeat;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: -15px;
+	top: -15px;
+	z-index: 999;
+}
+
+.mess {
+	position: absolute;
+	bottom: -6px;
+	left: 0;
+	display: none;
+	width: 532px;
+	height: 217px;
+}
+
+.smallMess {
+    position: fixed;
+    right: 680px;
+    top: 350px;
+    width: 96px;
+    height: 101px;
+	/* display: none; */
+}

@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>青岛西海岸建材交易中心-待审核竞拍</title>
+  <link rel="shortcut icon" href="/resources/img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/resources/css/addjinjia.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/common.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/profile.css">
+  <link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/auctionTemplate.css">
+  <script src="/resources/js/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/js/jquery.pagination.js" type="text/javascript" charset="utf-8"></script>
+  <!-- My97时间插件 -->
+  <script charset="utf-8" src="/resources/js/my97/WdatePicker.js"></script>
+  <script src="/resources/js/jquery-ui.js"></script>
+  <script type="text/javascript" src="/resources/js/jquery-ui-timepicker-addon.js"></script>
+  <script type="text/javascript" src="/resources/js/jquery-ui-slide.min.js"></script>
+  <script>document.write("<script type='text/javascript'  src='/resources/js/layui/layui.all.js?v=" + Date.now() + "'><\/script>");</script>
+  <script>document.write("<script type='text/javascript'  src='/resources/js/polyfill.min.js?v=" + Date.now() + "'><\/script>");</script>
+  <script>document.write("<script type='text/javascript' src='/resources/js/common.js?v=" + Date.now() + "'><\/script>");</script>
+  <script src="/resources/js/jscookie.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/js/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/javascript/djs.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/js/md5.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/javascript/auction/feigang.js?v=201993" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/javascript/auction/feisuliao.js?v=201993" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/javascript/auction/feiyou.js?v=201993" type="text/javascript" charset="utf-8"></script>
+  <script src="/resources/javascript/auction/managerauctiongoods.js?v=2020514" type="text/javascript" charset="utf-8"></script>
+  <script>
+	var _hmt = _hmt || [];
+	(function() {
+		var hm = document.createElement("script");
+		hm.src = "https://hm.baidu.com/hm.js?dd38aecce7482851f6ae4936277b6df3";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+</script>
+  <style type="text/css">
+.img {
+	width: 55px;
+	height: 55px;
+	cursor: pointer;
+}
+</style>
+ </head>
+ <body>
+  <div id="header_all"></div>
+  <div class="memberCenter">
+   <!-- 管理列表 -->
+   <div class="memberCenterNav"></div>
+   <div class="memberCenterContent m-auth-form joinBid layui-form" style="display: block;">
+    <div class="head">
+      竞拍商品列表
+     <div class="layui-form-item">
+      <div class="layui-inline">
+       <a href="javascript:void(0)" class="layui-btn layui-btn-sm layui-btn-danger layui-btn-radius  push">批量发布竞拍</a>
+      </div>
+     </div>
+    </div>
+    <div class="mc_body_d yzs-list-form layui-form">
+     <table id="" class="mc_tabl_d ex_table" cellpadding="0" cellspacing="0" width="100%">
+      <tbody>
+       <tr>
+        <th width="2%" class="layui-unselect"> </th>
+        <th width="7%" class="layui-unselect"><span>商品图片</span></th>
+        <th width="7%"><span>商品名称</span></th>
+        <th width="7%"><span>保证金</span></th>
+        <th width="7%"><span>添加时间</span></th>
+        <th width="7%"><span>修改时间</span></th>
+        <th width="7%"><span>操作</span></th>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="mc_body_d" style="padding-top: 0px;height: 325px;overflow: auto;">
+     <table id="dataTable" class="" cellpadding="0" cellspacing="0" width="100%">
+     </table>
+    </div>
+    <div class="page_d" id="demo3"></div>
+    <div class="yzs-form layui-form" style="display:none ;">
+     <blockquote class="layui-elem-quote">
+      发布竞拍还需完善已下信息
+     </blockquote>
+     <div class="layui-form-item">
+      <div class="layui-inline">
+       <label class="layui-form-label">起拍价:</label>
+       <div class="layui-input-inline">
+        <input type="number" name="productList[0].sprice" id="psprice" value="0" lay-verify="required" placeholder="请输入起拍价" autocomplete="off" class="layui-input">
+       </div>
+      </div>
+      <div class="layui-inline">
+       <label class="layui-form-label">加价幅度:</label>
+       <div class="layui-input-inline">
+        <input type="number" name="productList[0].jprice" id="pjprice" value="0" lay-verify="required" placeholder="请输入加价幅度(元)" " autocomplete="off" class="layui-input">
+       </div>
+      </div>
+     </div>
+     <div class="layui-form-item">
+      <div class="layui-inline">
+       <label class="layui-form-label">开始日期:</label>
+       <div class="layui-input-inline">
+        <input type="text" name="auction.starttime" id="auctionstarttime" placeholder="" lay-verify="date" autocomplete="off" class="layui-input">
+       </div>
+      </div>
+      <div class="layui-inline">
+       <label class="layui-form-label">结束日期:</label>
+       <div class="layui-input-inline">
+        <input type="datetime" name="auction.endtime" id="auctionendtime" placeholder="" lay-verify="date" autocomplete="off" class="layui-input">
+       </div>
+      </div>
+     </div>
+     <div class="layui-form-item">
+      <div class="layui-inline">
+       <label class="layui-form-label">合同开始日期:</label>
+       <div class="layui-input-inline">
+        <input type="text" name="auction.pactstarttime" id="auctionpactstarttime" placeholder="" lay-verify="date" autocomplete="off" class="layui-input">
+       </div>
+      </div>
+      <div class="layui-inline">
+       <label class="layui-form-label">合同结束日期:</label>
+       <div class="layui-input-inline">
+        <input type="text" name="auction.pactendtime" id="auctionpactendtime" placeholder="" lay-verify="date" autocomplete="off" class="layui-input">
+       </div>
+      </div>
+     </div>
+     <div class="layui-form-item">
+      <div class="layui-inline">
+       <label class="layui-form-label">看货开始日期:</label>
+       <div class="layui-input-inline">
+        <input type="text" name="auction.lookstarttime" id="auctionlookstarttime" placeholder="" lay-verify="date" autocomplete="off" class="layui-input">
+       </div>
+      </div>
+      <div class="layui-inline">
+       <label class="layui-form-label">看货结束日期:</label>
+       <div class="layui-input-inline">
+        <input type="text" name="auction.lookendtime" id="auctionlookendtime" placeholder="" lay-verify="date" autocomplete="off" class="layui-input">
+       </div>
+      </div>
+     </div>
+     <div class="layui-form-item">
+      <div class="layui-inline">
+       <label class="layui-form-label ">设置延时时间:</label>
+       <div class="m-input">
+        <select name="auction.delay"> <option value="1">2分钟/次</option> <option value="2">5分钟/次</option> <option value="0">无</option> </select>
+       </div>
+      </div>
+      <div class="layui-inline">
+       <label class="layui-form-label "><span class="layui-badge layui-bg-orange">新</span>设置一元起拍:</label>
+       <div class="layui-inline">
+        <input type="checkbox" lay-text="ON|OFF" lay-filter="basepush" lay-skin="switch">
+       </div>
+      </div>
+     </div>
+    </div>
+    <script type="text/javascript">
+
+			</script>
+   </div>
+  </div>
+  <div id="footer_all"></div>
+ </body>
+</html>

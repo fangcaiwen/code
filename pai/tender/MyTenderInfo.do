@@ -1,0 +1,1 @@
+{"errorcode":0,"msg":"请求成功","obj":{"size":0,"ttList":[],"page":{"hasFirst":false,"hasLast":true,"hasNext":true,"hasPre":false,"pageNow":1,"pageSize":10,"startPos":0,"totalCount":0,"totalPageCount":0},"systemtime":1594395393027},"success":true}
