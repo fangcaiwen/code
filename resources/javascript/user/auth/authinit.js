@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$("#footer_all").load('/public/public_footer.html');
 	checkLogin();
-	
+	// $(".authentication").load('/auth/atcom.html');
 	var ltype=getParam();
 	 if("t"==ltype){
 		 $(".memberCenterNav").load('/public/tiframeleft.html');

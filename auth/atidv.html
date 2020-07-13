@@ -1,0 +1,206 @@
+		<link rel="stylesheet" type="text/css" href="/resources/css/common.css" />
+		<link rel="stylesheet" type="text/css" href="/resources/css/style.css" />
+		<script src="/resources/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/resources/js/jsnoAddress.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css" />
+		<script src="/resources/js/layui/layui.all.js?v=1" type="text/javascript" charset="utf-8"></script>
+		<script src="/resources/js/polyfill.min.js?v=1" type="text/javascript" charset="utf-8"></script>
+		<script src="/resources/js/common.js?v=1" type="text/javascript" charset="utf-8"></script>
+		<script src="/resources/js/jscookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/resources/js/authpushphoto.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/resources/javascript/user/auth/idvauth.js?v=4" type="text/javascript" charset="utf-8"></script>
+		<script src="/resources/javascript/user/auth/authcommon.js?v=4" type="text/javascript" charset="utf-8"></script>
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "https://hm.baidu.com/hm.js?dd38aecce7482851f6ae4936277b6df3";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+		
+		<div class="title">请认真填写以下信息！</div>
+			<div class="yzs-m-renzheng-info-box">
+				<div class="catSel">
+					<p>您还需要完成实名认证，请选择认证类型：</p>
+					<div class="item ">
+						<input type="radio" name="" id="" value=""  class="comauth"/> 企业认证
+					</div>
+					<div class="item sel">
+						<input type="radio" name="" id="" value="" checked="" class="invauth"/> 个体工商户认证
+					</div>
+					<div class="item">
+						<input type="radio" name="" id="" value=""  class="persionauth"/> 个人认证
+					</div>
+				</div>
+				<form class="layui-form " action="#"  lay-filter="adiv">
+				<table cellspacing="0">
+					<tbody>
+						<tr>
+							<td>公司名称：</td>
+							<td><div class="layui-form-item">
+   							 <input type="text" name="company" lay-verify="required" autocomplete="off" placeholder="请输入公司名称" class="layui-input">
+  							</td>
+						</tr>
+						<tr>
+							<td>营业执照注册号：</td>
+							<td>
+							 <input type="text" name="getizhuhao" lay-verify="required" autocomplete="off" placeholder="请输入统一社会信用代码" class="layui-input">
+							</td>
+						</tr>
+						<tr>
+							<td><span>*</span> 资质信息：</td>
+							<td>
+								<div class="yzs-m-renzheng-info-con">
+									<div class="yzs-m-renzheng-imgup-box">
+										<div class="layui-upload-drag" id="test1">
+  											<i class="layui-icon"></i>
+  											<p>点击上传，或将文件拖拽到此处</p>
+  											 <img class="layui-upload-img" name="getizhizhao">
+										</div>
+ 
+										<div class="yzs-m-renzheng-imgup-tit" >营业执照</div>
+										
+									</div>
+									<div class="yzs-m-renzheng-imgup-box">
+										<div class="layui-upload-drag" id="test2">
+  											<i class="layui-icon"></i>
+  											<p>点击上传，或将文件拖拽到此处</p>
+  											<img class="layui-upload-img" name="qiyedaimazheng" >
+										</div>
+										<div class="yzs-m-renzheng-imgup-tit">开票材料</div>
+									</div>
+									<div class="blank0c"></div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td><span>*</span> 营业地址：</td>
+							<td>
+						    
+						     <div class="layui-form-item m-input">
+							    <div class="layui-input-inline">
+							    <select name="operProvince" id="operProvince" lay-filter="operProvince">
+							    <option value="">请选择省份</option>
+							    </select>
+							    </div>
+							    <div class="layui-input-inline">
+							      <select name="operAreaid"  id="operAreaid"  lay-filter="operAreaid">
+							      </select>
+							    </div>
+							    <div class="layui-input-inline">
+							      <select name="operSecname"  id="operSecname"  >
+							      </select>
+							    </div>
+							    <input type="text" name="opersperegion" lay-verify="required" autocomplete="off" placeholder="输入详情地址" class="layui-input authinput">
+  							</div>
+						    
+							</td>
+						</tr>
+							<tr>
+								<td colspan="2">
+									<div class="line"></div>
+								</td>
+							</tr>
+						<tr>
+							<td><span>*</span> 经营者姓名：</td>
+							<td>
+							<input type="text" name="getijingyinguser" lay-verify="required" autocomplete="off" placeholder="请输入经营者姓名" class="layui-input">
+							 </td>
+						</tr>
+						<tr>
+							<td><span>*</span> 经营者身份证号：</td>
+							<td>
+							<input type="text" name="getijingyingshen" lay-verify="identity" autocomplete="off" placeholder="请输入经营者身份证号" class="layui-input">
+							</td>
+						</tr>
+						<tr>
+							<td><span>*</span> 经营者手机号：</td>
+							<td>
+							<input type="text" name="getilianxi" lay-verify="required|phone" autocomplete="off" placeholder="请输入经营者手机号" class="layui-input">
+							 </td>
+						</tr>
+						<tr>
+							<td valign="top"><span>*</span> 经营者身份证照片：</td>
+							<td>
+								<div class="yzs-m-renzheng-info-con">
+									<div class="yzs-m-renzheng-imgup-box">
+										<div class="layui-upload-drag" id="test3">
+  											<i class="layui-icon"></i>
+  											<p>点击上传，或将文件拖拽到此处</p>
+  											<img class="layui-upload-img"  name="gshenz" >
+										</div>
+										<div class="yzs-m-renzheng-imgup-tit">身份证正面</div>
+									</div>
+									
+									<div class="yzs-m-renzheng-imgup-box">
+										<div class="layui-upload-drag" id="test4">
+  											<i class="layui-icon"></i>
+  											<p>点击上传，或将文件拖拽到此处</p>
+  											<img class="layui-upload-img" name="gshenf"  >
+										</div>
+										<div class="yzs-m-renzheng-imgup-tit">身份证背面</div>
+									</div>
+									<div class="blank0c"></div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<div class="line"></div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>*</span> 授权文件：
+							</td>
+							<td>
+								<em style="font-size: 12px;color: #333;font-style: normal;">
+								请下载授权书模板，打印后按要求填写，被授权人身份证为复印件，正反面在一张纸上并加盖公章。
+								</em>
+							</td>
+						</tr>
+						<tr>
+							<td valign="top">
+								<div><a href="#" class="colororange">样本查看</a><br ><a href="#" class="colororange">《授权书》模板下载</a></div>
+								</td>
+							<td>
+								<div class="yzs-m-renzheng-info-con">
+									<div class="yzs-m-renzheng-imgup-box">
+										<div class="layui-upload-drag" id="test5">
+  											<i class="layui-icon"></i>
+  											<p>点击上传，或将文件拖拽到此处</p>
+  											<img class="layui-upload-img" name="authorizurl"  >
+										</div>
+										<div class="yzs-m-renzheng-imgup-tit">授权书</div>
+									</div>
+									<div class="yzs-m-renzheng-imgup-box">
+										<div class="layui-upload-drag" id="test6">
+  											<i class="layui-icon"></i>
+  											<p>点击上传，或将文件拖拽到此处</p>
+  											<img class="layui-upload-img" name="shifourenzheng">
+										</div>
+										<div class="yzs-m-renzheng-imgup-tit">被授权人身份证复印件</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+
+					</tbody>
+				</table>
+				<div class="blank0c"></div>
+				<div class="pic-error">
+					<p>注：以上资料均可拍照或扫描后上传，上传形式为图片，支持JPG、PNG、BMP，单个文件小于2M。</p>
+				</div>
+				<div class="yzs-m-contactfile-btn-box">
+						<div class="yzs-login-btn yzs-m-contactfile-btn" lay-submit lay-filter="formDemo">提交</div>
+						<a href="/">暂不认证，随便逛逛</a>
+				</div>
+			</div>
+			</form>
+			
+		</div>
+
+
+		

@@ -1,0 +1,119 @@
+		<link rel="stylesheet" type="text/css" href="/resources/css/common.css" />
+		<link rel="stylesheet" type="text/css" href="/resources/css/style.css" />
+		<script src="/resources/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/resources/js/jsnoAddress.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="/resources/js/layui/css/layui.css" />
+		<script src="/resources/js/layui/layui.all.js?v=1" type="text/javascript" charset="utf-8"></script>
+		<script src="/resources/js/polyfill.min.js?v=1" type="text/javascript" charset="utf-8"></script>
+		<script src="/resources/js/common.js?v=1" type="text/javascript" charset="utf-8"></script>
+		<script src="/resources/js/jscookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/resources/js/authpushphoto.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/resources/javascript/user/auth/persionauth.js?v=3" type="text/javascript" charset="utf-8"></script>
+		<script src="/resources/javascript/user/auth/authcommon.js?v=3" type="text/javascript" charset="utf-8"></script>
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "https://hm.baidu.com/hm.js?dd38aecce7482851f6ae4936277b6df3";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+		
+		
+		<div class="title">请认真填写以下信息！</div>
+			<div class="yzs-m-renzheng-info-box">
+			
+				<div class="catSel">
+					<p>您还需要完成实名认证，请选择认证类型：</p>
+					<div class="item ">
+						<input type="radio" name="" id="" value=""  class="comauth"/> 企业认证
+					</div>
+					<div class="item">
+						<input type="radio" name="" id="" value="" class="invauth"/> 个体工商户认证
+					</div>
+					<div class="item sel">
+						<input type="radio" name="" id="" value="" checked="" class="persionauth"/> 个人认证
+					</div>
+				</div>
+				<form class="layui-form " action="#"  lay-filter="acom">
+				<table cellspacing="0">
+					<tbody>
+						<tr>
+							<td><span>*</span> 姓名：</td>
+							<td>
+							<input type="text" name="guser" lay-verify="required" autocomplete="off" placeholder="请输入姓名" class="layui-input authinput">
+							 </td>
+						</tr>
+						<tr>
+							<td><span>*</span> 性别：</td>
+							<td>
+							 <input type="radio" name="gusersex" value="1" title="男" checked="">
+						      <input type="radio" name="gusersex" value="2" title="女">
+							 </td>
+						</tr>
+						<tr>
+							<td><span>*</span> 身份证号：</td>
+							<td>
+							<input type="text" name="ghaoma" lay-verify="identity" autocomplete="off" placeholder="请输入身份证号" class="layui-input authinput">
+							</td>
+						</tr>
+						<tr>
+							<td><span>*</span> 手机号：</td>
+							<td>
+							<input type="text" name="gdianhua" lay-verify="required|phone" autocomplete="off" placeholder="请输入手机号" class="layui-input authinput">
+							</td>
+						</tr>
+						<tr>
+							<td><span>*</span> 银行卡号：</td>
+							<td>
+							<input type="text" name="pbankno" lay-verify="required" autocomplete="off" placeholder="请输入银行卡号" class="layui-input authinput">
+							</td>
+						</tr>
+						
+						<tr>
+							<td colspan="2">
+								<div class="line"></div>
+							</td>
+						</tr>
+						<tr>
+							<td valign="top"><span>*</span> 身份证照片：</td>
+							<td>
+								<div class="yzs-m-renzheng-info-con">
+									<div class="yzs-m-renzheng-imgup-box">
+										<div class="layui-upload-drag" id="test3">
+  											<i class="layui-icon"></i>
+  											<p>点击上传，或将文件拖拽到此处</p>
+  											<img class="layui-upload-img"  name="gshenz" >
+										</div>
+										<div class="yzs-m-renzheng-imgup-tit">身份证正面</div>
+									</div>
+									
+									<div class="yzs-m-renzheng-imgup-box">
+										<div class="layui-upload-drag" id="test4">
+  											<i class="layui-icon"></i>
+  											<p>点击上传，或将文件拖拽到此处</p>
+  											<img class="layui-upload-img" name="gshenf"  >
+										</div>
+										<div class="yzs-m-renzheng-imgup-tit">身份证背面</div>
+									</div>
+									<div class="blank0c"></div>
+								</div>
+							</td>
+						</tr>
+
+					</tbody>
+				</table>
+				<div class="blank0c"></div>
+				<div class="pic-error">
+					<p>注：以上资料均可拍照或扫描后上传，上传形式为图片，支持JPG、PNG、BMP，单个文件小于2M。</p>
+				</div>
+				<div class="yzs-m-contactfile-btn-box">
+				<div class="yzs-login-btn yzs-m-contactfile-btn" lay-submit lay-filter="formDemo">提交</div>
+						<a href="/">暂不认证，随便逛逛</a>
+				</div>
+				</form>
+			</div>
+			
+			
+			
