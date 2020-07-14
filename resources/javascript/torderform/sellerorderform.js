@@ -84,7 +84,7 @@ function getOrderList(pageNum,pageSize){
                         //								+"<div class='remark'> <a onclick='managerMargin(&apos;"+order.orderNo+"&apos;)'  href='javascript:void(0);'   class='layui-btn layui-btn-radius layui-btn-xs layui-btn-danger '>保证金管理<i class='layui-icon'>&#xe857;</i></a></div>"
                         +"</div>"
                         +"<div class='yzs-m-order-list-con2'>"
-                        +"<div class='yzs-m-order-list-img'><img src='"+order.tenderGoods.url+"'></div>"
+                        +"<div class='yzs-m-order-list-img'><img src='/resources/img/order/imag"+(i%3+1)+"'"+"></div>"
                         +"<div class='yzs-m-order-list-info'>"
                         +"<div>"+order.productName+"</div>"
                         +"<div style='font-size: 8px;'>买家公司:"+((undefined==order.buyer)?"":order.buyer.company)+"</div>"
@@ -138,6 +138,7 @@ function orderinfo(orderno){
 
 //签订合同
 function sign(orderNo){
+    return;
 
     var reqdata={
         'orderNo':orderNo
@@ -336,7 +337,7 @@ function signOpen(jsondata){
  * @returns
  */
 function signContent(jsondata){
-
+    return;
     var reqdata=jsondata;
     pairequest("/pai/auction/content/signContent.do",reqdata).then(function(data){
         console.log(data);
@@ -361,6 +362,7 @@ function downLoadContent(){
 
 //生成对账单
 function generateCheckorder(orderNo){
+    return;
     layer.open({
         anim: 2,
         type: 2,
@@ -402,6 +404,7 @@ function managerMargin(orderNo){
 
 //修改对账单
 function editCheckorder(orderNo){
+    return;
     layer.open({
         anim: 2,
         type: 2,
@@ -426,6 +429,7 @@ function editCheckorder(orderNo){
 
 //查看对账单
 function viewCheckorder(orderNo){
+    return;
     layer.open({
         anim: 2,
         type: 2,
@@ -449,6 +453,7 @@ function viewCheckorder(orderNo){
 
 //收款
 function getMoney(orderNo){
+    return;
     //直接收款
     $.ajax({
         url:"/pai/torderform/checkorder/getMoney.do",
@@ -479,6 +484,7 @@ function getMoney(orderNo){
 
 //交易完成
 function finishOrder(orderNo){
+    return;
     var reqdata={'orderNo':orderNo};
     pairequest("/pai/torderform/finishOrder.do",reqdata).then(function(data){
         if(data.success==true){
