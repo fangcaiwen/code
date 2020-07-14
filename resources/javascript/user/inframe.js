@@ -88,6 +88,14 @@ function loginOut(){
 
 
 function  authparams(){
+	if(getUrlParams(document.location.toString(),"auth")){
+        $(".isauth").show();
+        $(".noauth").hide();
+        $(".authing").hide();
+        $(".authfaile").hide();
+        getuserInframAuc();
+        return;
+    }
 	var reqdata={};
 	pairequest("/pai/memberAuth/toMemberAuth.do",reqdata).then(function(data){
 		if(data.success==true){

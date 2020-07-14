@@ -128,6 +128,19 @@ function getreqcode(){
 	   return null;
 	}
 
+// 获取url参数
+function getUrlParams (url,key){
+    let urlParmStr = url.slice(url.indexOf('?')+1);
+    let arr = urlParmStr.split('&');
+    for(let i=0;i<arr.length;i++){
+        let mKey = arr[i].split("=")[0];
+        let mValue = arr[i].split("=")[1];
+        if(key == mKey){
+            return mValue;
+        }
+    }
+}
+
 /**
  * 直播列表
  * @returns

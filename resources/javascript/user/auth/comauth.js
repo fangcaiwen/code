@@ -21,6 +21,10 @@ $(document).ready(function(){
 	            ,anim: 1 //0-6的选择，指定弹出图片动画类型，默认随机
 	        });
 	 });
+	 $("#submitDataBtn").click(function () {
+         alert("提交成功");
+         window.location.href="/inframe/index.html?auth=true";
+     });
 });
 
 
@@ -32,7 +36,7 @@ function addressInit(){
 	                 $("#bankProvince").append(option1);
 	  				 $("#operProvince").append(option2);
          }); 
-	
+
 }
 
 
@@ -42,14 +46,14 @@ function checkLogin(){
 	var reqdata={};
 	pairequest("/pai/userPro/checkLoginStatus.do",reqdata).then(function(data){
 		var header = "";
-		if(data.success==true){				
+		if(data.success==true){
 			authparams();
 		}else{
 			window.location.href="/user/login.html";
 		}
-		
+
 		$(".header_newe").html(header);
-	
+
 	});
 };
 
@@ -59,7 +63,7 @@ var userinfo={};
 function  authparams(){
 	var reqdata={};
 	pairequest("/pai/memberAuth/toMemberAuth.do",reqdata).then(function(data){
-		if(data.success==true){				
+		if(data.success==true){
 			var status=data.obj.status;
 			 userinfo=data.obj.upistr;
 			 useform();
@@ -84,7 +88,7 @@ function  authparams(){
 		}else{
 			window.location.href="/user/login.html";
 		}
-	
+
 	});
 };
 
@@ -114,7 +118,7 @@ function paiAlert(title,tourl,bt){
 
 /**
  * 提交公司信息
- * 
+ *
  * @param info
  * @returns
  */
@@ -122,7 +126,7 @@ function submitComAuth(info){
 	var reqdata=info;
 	pairequest("/pai/memberAuth/companyAuth.do",reqdata).then(function(data){
 
-		if(data.success==true){				
+		if(data.success==true){
 			var alert1=layer.open({
 				  type: 1,
 				  title: false,
@@ -132,7 +136,7 @@ function submitComAuth(info){
 				  shadeClose: true,
 				  content: $('.alert1')
 				});
-			
+
 			var alert2
 			setTimeout(function() {
 				layer.close(alert1);
@@ -145,19 +149,19 @@ function submitComAuth(info){
 					  shadeClose: true,
 					  content: $('.alert2')
 					});
-				
+
 			}, 5000);
-			
+
 			setTimeout(function() {
 				layer.close(alert2);
 				window.location.href="/inframe/index.html";
 			}, 6000);
-			
-			
+
+
 		}else{
 			layer.msg(data.msg, {icon: 5,offset: 't',anim: 6});
 		}
-	
+
 	});
 }
 
@@ -166,15 +170,16 @@ function useform(){
 	layui.use('form', function(){
 		  var form = layui.form;
 		  form.verify({
-			  code: function(value, item){ 
+			  code: function(value, item){
 				  if(value.length!=4){
 				    	return "请输入4位数验证码";
 				    }
 			  }
-			});  
+			});
 		  // 监听提交
 		  form.on('submit(formDemo)', function(data){
-			  $(".formDemo").attr("disabled",true);
+              return false;
+              $(".formDemo").attr("disabled",true);
 			  var imgdata="";
 			  var  pass=true;
 			  // $.each($(".layui-upload-img"),function(index,info){
@@ -190,37 +195,35 @@ function useform(){
 			  // });
 
 			  // layer.msg("提交成功",{offset: 't',anim: 6});
-			  alert("提交成功");
-			  return false;
-			  
+
 //			  layer.msg(JSON.stringify(data.field));
 			  if(pass){
 				  $.ajax({
 					  type: "POST",
-					  contentType: "application/x-www-form-urlencoded; charset=utf-8", 
+					  contentType: "application/x-www-form-urlencoded; charset=utf-8",
 					  url : "/pai/userPro/checkCompany.do",
 					  data : {company:data.field.company},
 					  async:false,
 					  datatype:"json",
 					  success :function(resd){
-						var   resd1=eval('(' + resd + ')'); 
+						var   resd1=eval('(' + resd + ')');
 						  if(resd1.status!="success"){
 							  layer.msg(resd1.message,{offset: 't',anim: 6});
 							  return false;
 						  }else{
-							  submitComAuth(data.field); 
+							  submitComAuth(data.field);
 						  }
 					  },
 					  error:function(){
 						  layer.msg("请求失败",{offset: 't',anim: 6});
 					  }
 				  });
-				  
-				 
+
+
 			  }
 		    return false;
 		  });
-		  
+
 		  form.val('acom',userinfo);
 		  showimg(userinfo,form);
 		  // 开户行市级选择
@@ -239,11 +242,11 @@ function useform(){
                               form.render('select');
 		  					 });
 		  				}
-		  				
+
                   }); 
-              
+             
 		  });
-		  
+
 		// 营业地址市级选择
 		  form.on('select(operProvince)', function(data){
 			  var areaId=data.value;
@@ -263,9 +266,9 @@ function useform(){
 		  					stop=true;
 		  					return false;
 		  				}
-		  				
+
                   }); 
-              
+             
 		  });
 		  // 营业地址县级选择
 		  form.on('select(operAreaid)', function(data){
@@ -279,10 +282,10 @@ function useform(){
                     $("#operSecname").append(option1);
 					 form.render('select');
                   }); 
-              
+             
 		  });
-		
-  				
+
+
 		});
 }
 
@@ -293,7 +296,7 @@ function  showimg(userinfo,form){
 		  $($("img[name='gshenz']").siblings("i")).hide();
 		  $("img[name='gshenz']").show();
 	 }
-	 
+
 	 if(userinfo.gshenf!=undefined&&userinfo.gshenf!=""){
 		 $("img[name='gshenf']").attr("src",userinfo.gshenf);
 		  $($("img[name='gshenf']").siblings("i")).hide();
@@ -319,7 +322,7 @@ function  showimg(userinfo,form){
 		  $($("img[name='qiyedaimazheng']").siblings("i")).hide();
 		  $("img[name='qiyedaimazheng']").show();
 	 }
-	 
+
 	 //银行地址赋值
 	  var areaId=userinfo.bankProvince;
 	  var stop=false;
@@ -339,7 +342,7 @@ function  showimg(userinfo,form){
  					return false;
  				}
                 }); 
-	   
+
 		//经营地址赋值
 		var province=userinfo.province;
 		var city=userinfo.city;
@@ -370,8 +373,8 @@ function  showimg(userinfo,form){
 						return false;
 					}
                 }); 
-            
- 
-	  
+           
+
+
 }
 
