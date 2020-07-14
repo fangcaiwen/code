@@ -1251,14 +1251,14 @@
     text-align: center;
     margin: 10px auto;
     margin-left: 23%;
-    background: #34a99e;
+    background: #006ad3;
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
 }
 
 .yzs-login-btn:hover {
-    background: #119a8b;
+    background: #006aff;
 }
 
 .yzs-login-tools {

@@ -1916,7 +1916,7 @@ a cite {
 .layui-btn-xs {
     height: 22px;
     line-height: 22px;
-    padding: 0 5px;
+    padding: 0 3px;
     font-size: 12px
 }
 
@@ -3408,7 +3408,7 @@ body .layui-table-tips .layui-layer-content {
 
 .layui-upload-drag .layui-icon {
     font-size: 50px;
-    color: #965b00
+    color: #006ad3
 }
 
 .layui-upload-drag[lay-over] {

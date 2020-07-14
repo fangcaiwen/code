@@ -212,14 +212,14 @@ function getMyPublishAuction(pageNum) {
                     result += "<td width='2%' class=''>";
                     result += '<input type="checkbox" lay-skin="primary" name="c" title=""   id="' + value.goodsid + '" >';
                     result += "</td>";
-                    result += "<td style=''>";
+                    result += "<td width='5%' style=''>";
                     result += "<div ><img class='img' title='" + value.goodsid + "' src='" + ((value.picurl == undefined || value.picurl == "") ? "http://www.ezaisheng.cn/resources/img/nomore.jpg" : value.picurl) + "'></div>";
                     result += "</td>";
                     result += "<td width='7%'><span class='tdtitle' title='" + value.goodsname + "'>" + value.goodsname.substr(0, 16) + "</span></td>";
                     result += "<td width='7%'><span>" + value.bond + "元</span></td>";
                     result += "<td width='7%'><span>" + value.addtime + "</span></td>";
                     result += "<td width='7%'><span>" + value.updatetime + "</span></td>";
-                    result += "<td width='7%'>" +
+                    result += "<td width='9%'>" +
                         "<button href='javascript:void(0)' class='layui-btn  layui-btn-xs layui-btn-warm layui-btn-radius' onclick='pushAuctionView(&apos;" + value.goodsid + "&apos;)'>发布</button>" +
                         "<button href='javascript:void(0)' class='layui-btn  layui-btn-xs  layui-btn-radius' onclick='editAuctionGoods(&apos;" + value.goodsid + "&apos;)'>编辑</button>" +
                         "<button href='javascript:void(0)' class='layui-btn  layui-btn-xs layui-btn-danger layui-btn-radius' onclick='deleteFalseAuction(&apos;" + value.goodsid + "&apos;)'>删除</button></td>";
