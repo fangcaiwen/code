@@ -78,7 +78,7 @@ function getOrderList(pageNum,pageSize){
                         +"<div class='remark'>备注</div>"
                         +"</div>"
                         +"<div class='yzs-m-order-list-con2'>"
-                        +"<div class='yzs-m-order-list-img'><img src='/resources/img/order/imag"+(i%3+1)+"'"+"></div>"
+                        +"<div class='yzs-m-order-list-img'><img src='/resources/img/order/imag"+(i%3+1)+".png'"+"></div>"
                         +"<div class='yzs-m-order-list-info'>"
                         +"<div>"+order.productName+"</div>"
                         +"<div style='font-size: 8px;'>"+order.seller.company+"</div>"

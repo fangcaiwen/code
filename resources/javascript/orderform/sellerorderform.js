@@ -91,10 +91,10 @@ function getOrderList(pageNum,pageSize){
 								+"<div class='remark'> <a onclick='managerMargin(&apos;"+order.orderNo+"&apos;)'  href='javascript:void(0);'   class='layui-btn layui-btn-radius layui-btn-xs layui-btn-danger '>保证金管理<i class='layui-icon'>&#xe857;</i></a></div>"
 							+"</div>"
 							+"<div class='yzs-m-order-list-con2'>"
-								+"<div class='yzs-m-order-list-img'><img src='"+order.product.thumb+"'></div>"
+								+"<div class='yzs-m-order-list-img'><img src='/resources/img/order/imag"+(i%3+1)+".png'"+"></div>"
 								+"<div class='yzs-m-order-list-info'>"
 									+"<div>"+order.productName+"</div>"
-									+"<div style='font-size: 8px;'>买家公司:"+((undefined==order.buyer)?"":order.buyer.company)+"</div>"
+									+"<div style='font-size: 8px;'>"+((undefined==order.buyer)?"":order.buyer.company)+"</div>"
 								+"</div>"
 								+"<div class='yzs-m-order-list-price'>¥"+order.price+"元</div>"
 								+"<div class='yzs-m-order-list-num'>"+order.amount+order.unit+"</div>"
@@ -145,7 +145,7 @@ function orderinfo(orderno){
 
 //签订合同
 function sign(orderNo){
-
+	return;
 	var reqdata={
 			'orderNo':orderNo
 			};
@@ -173,6 +173,7 @@ function sign(orderNo){
  * @returns
  */
 function processContent(jsondata){
+	return;
 	var callBackUrl="";
 
 	var reqdata=jsondata;
@@ -368,6 +369,7 @@ function downLoadContent(){
 
 //生成对账单
 function generateCheckorder(orderNo){
+	return;
 	layer.open({
 		 anim: 2,
 		   type: 2,
@@ -391,6 +393,7 @@ function generateCheckorder(orderNo){
 
 //管理保证金
 function managerMargin(orderNo){
+	return;
 	layer.open({
 		 anim: 2,
 		   type: 2,
@@ -409,6 +412,7 @@ function managerMargin(orderNo){
 
 //修改对账单
 function editCheckorder(orderNo){
+	return;
 	layer.open({
 		   anim: 2,
 		   type: 2,
@@ -433,6 +437,7 @@ function editCheckorder(orderNo){
 
 //查看对账单
 function viewCheckorder(orderNo){
+	return;
 	layer.open({
 		  anim: 2,
 		   type: 2,
@@ -456,7 +461,7 @@ function viewCheckorder(orderNo){
 
 //收款
 function getMoney(orderNo){
-
+	return;
 
 	var reqdata={
 			'orderNo':orderNo
@@ -528,7 +533,7 @@ function getMoney(orderNo){
 
 //交易完成
 function finishOrder(orderNo){
-
+	return;
 
 	var reqdata={
 			'orderNo':orderNo

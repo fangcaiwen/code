@@ -17,7 +17,7 @@ function getIndexBanner(type){
 			//usebanner(data.obj.content)
 
             //usebanner('/newRes/s1.png,/source_asso/index.html;/newRes/s2.png,/source_asso/index.html')
-            usebanner('/newRes/s1.png,#;/newRes/s2.png,#')
+            usebanner('/newRes/s1.png,#;/newRes/s2.png,#;/newRes/s3.png,#;/newRes/s4.png,#')
 		}
 	});
 };
