@@ -15,7 +15,7 @@
 }
 
 .colorgreen {
-    color: #00897c;
+    color: #006ad3;
 }
 
 .colorblack {
@@ -23,8 +23,8 @@
 }
 
 .greenbtn {
-    background-color: #00897c;
-    border: 1px solid #00897c;
+    background-color: #006ad3;
+    border: 1px solid #006ad3;
     color: #fff;
     border-radius: 3px;
     padding: 5px 15px;
@@ -36,7 +36,7 @@
 
 .greenbtn.plain {
     background: #fff;
-    color: #00897c;
+    color: #006ad3;
 }
 
 .orangebtn {
@@ -157,7 +157,7 @@
 
 .el-pagination .el-pager li:hover,
 .el-pagination .el-pager li.active {
-    background: #00897c;
+    background: #006ad3;
     color: #fff;
 }
 
@@ -226,8 +226,8 @@
     width: 80px;
     height: 36px;
     line-height: 36px;
-    background: #00897c;
-    border: 1px solid #00897c;
+    background: #006ad3;
+    border: 1px solid #006ad3;
     font-size: 16px;
     text-align: center;
     color: #fff;
@@ -270,11 +270,11 @@
 }
 
 .yzs-head-top .nav li.active {
-    border-bottom: 2px solid #00897c;
+    border-bottom: 2px solid #006ad3;
 }
 
 .yzs-head-top .nav li.active a {
-    color: #00897c;
+    color: #006ad3;
 }
 
 .new_nav {
@@ -322,7 +322,7 @@
     border-top-left-radius: 4px;
     left: 0px;
     bottom: 0px;
-    background: #18b0a3;
+    background: #006ad3;
 }
 
 .new_nav .nav li .subitem a:active,
@@ -369,7 +369,7 @@
     border-top-left-radius: 4px;
     left: 0px;
     bottom: 0px;
-    background: #18b0a3;
+    background: #006ad3;
 }
 
 .yzs-head-top .nav li a {
@@ -407,7 +407,7 @@
 }
 
 .enter .left .finsh .hd .more {
-    color: #18b0a3;
+    color: #006ad3;
     font-size: 12px;
 }
 
@@ -537,7 +537,7 @@
 
 .enter .right .user .btn a {
     display: inline-block;
-    border: 1px solid #18b0a3;
+    border: 1px solid #006ad3;
     border-radius: 6px;
 }
 
@@ -552,7 +552,7 @@
 
 .enter .right .user .btn button {
     border-radius: 6px;
-    background: #18b0a3;
+    background: #006ad3;
     border: 1px solid #fff;
     width: 106px;
     height: 41px;
@@ -627,12 +627,12 @@
     left: 0px;
     top: 5px;
     height: 21px;
-    background: #18b0a3;
+    background: #006ad3;
     border-radius: 5px;
 }
 
 .doing .head .more {
-    color: #18b0a3;
+    color: #006ad3;
     font-size: 12px;
 }
 
@@ -819,11 +819,11 @@
 }
 
 .doing.soon .content .item .ti {
-    background: #18b0a3;
+    background: #006ad3;
 }
 
 .doing.soon .content .item .datetime {
-    background: #18b0a3;
+    background: #006ad3;
 }
 
 .doing.soon .content .item .datetime i {
@@ -831,7 +831,7 @@
 }
 
 .doing.soon .basePrice {
-    color: #089c8f;
+    color: #006ad3;
 }
 
 .doing.soon .content .item .wrap {
@@ -929,7 +929,7 @@
 }
 
 .yzs-footer-pannel .yx_em:hover {
-    color: #00897c;
+    color: #006ad3;
 }
 
 .yzs-footer-pannel .fastback p {
@@ -1171,8 +1171,8 @@
 }
 
 .yzs-login-tab-sel {
-    border-bottom: 3px solid #00897c !important;
-    color: #00897c;
+    border-bottom: 3px solid #006ad3 !important;
+    color: #006ad3;
 }
 
 .yzs-login-con {
@@ -1223,9 +1223,9 @@
     height: 40px;
     line-height: 40px;
     text-align: center;
-    border: 1px solid #00897c;
+    border: 1px solid #006ad3;
     border-radius: 4px;
-    color: #00897c;
+    color: #006ad3;
     cursor: pointer;
 }
 
@@ -1269,7 +1269,7 @@
 
 .yzs-login-tools span:first-child {
     float: left;
-    color: #00897c;
+    color: #006ad3;
     cursor: pointer;
 }
 
@@ -1358,7 +1358,7 @@
 }
 
 .authentication .yzs-m-renzheng-info-box .catSel .item.sel {
-    border-bottom: 3px solid #00897c;
+    border-bottom: 3px solid #006ad3;
 }
 
 .authentication .yzs-m-renzheng-info-box table tr td {
@@ -1461,14 +1461,14 @@
     line-height: 38px;
     text-align: center;
     margin-left: 10px;
-    border: 1px solid #00897c;
+    border: 1px solid #006ad3;
     border-radius: 3px;
-    color: #00897c;
+    color: #006ad3;
     cursor: pointer;
 }
 
 .authentication .yzs-m-renzheng-info-box .yzs-m-renzheng-info-btn:hover {
-    background: #00897c;
+    background: #006ad3;
     color: #fff;
 }
 
@@ -1509,7 +1509,7 @@
     height: 40px;
     line-height: 40px;
     text-align: center;
-    background: #00897c;
+    background: #006ad3;
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
@@ -1528,7 +1528,7 @@
 }
 
 .authentication .yzs-m-contactfile-btn-box a:hover {
-    color: #00897c;
+    color: #006ad3;
 }
 
 .auth_modal {
@@ -1572,7 +1572,7 @@
 }
 
 .breadcrumb span {
-    color: #00897c;
+    color: #006ad3;
 }
 
 .filter {
@@ -1636,7 +1636,7 @@
 }
 
 .subLeft .sort .sortLine .lab {
-    color: #00897c;
+    color: #006ad3;
     float: left;
     margin-left: 10px;
 }
@@ -1969,7 +1969,7 @@
 
 .selProduct .container .con .product .item .info .del {
     float: right;
-    color: #00897c;
+    color: #006ad3;
     text-decoration: underline;
 }
 
@@ -2678,7 +2678,7 @@
 }
 
 .product-intro .pic .spec-scroll .items ul li img:hover {
-    border: 1px solid #00897c;
+    border: 1px solid #006ad3;
 }
 
 .product-intro .info {
@@ -2954,8 +2954,8 @@ i.chujiatype3 {
 }
 
 .product-desc .tabTitle li.liNow {
-    color: #00897c;
-    border-top: 2px solid #00897c;
+    color: #006ad3;
+    border-top: 2px solid #006ad3;
 }
 
 .product-desc .tabCon {
@@ -3064,9 +3064,9 @@ i.chujiatype3 {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    border: 1px solid #00897c;
+    border: 1px solid #006ad3;
     border-radius: 4px;
-    color: #00897c;
+    color: #006ad3;
     cursor: pointer;
 }
 
@@ -3081,7 +3081,7 @@ i.chujiatype3 {
 }
 
 .allcheck {
-    color: #00897c;
+    color: #006ad3;
 }
 
 .subDoing .content .item .endicon {
@@ -3266,7 +3266,7 @@ i.chujiatype3 {
 }
 
 .help .title span {
-    background-color: #00897c;
+    background-color: #006ad3;
     display: inline-block;
     width: 234px;
     height: 33px;
@@ -3327,7 +3327,7 @@ i.chujiatype3 {
 }
 
 .deposit dd a:hover {
-    color: #00897c;
+    color: #006ad3;
     text-decoration: underline;
 }
 
@@ -3424,9 +3424,9 @@ i.chujiatype3 {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    border: 1px solid #00897c;
+    border: 1px solid #006ad3;
     border-radius: 4px;
-    color: #00897c;
+    color: #006ad3;
     cursor: pointer;
 }
 
@@ -3621,7 +3621,7 @@ i.chujiatype3 {
 
 .new_yzs-footer-pannel .yzs-footer-info div.item ul li:last-child {
     font-size: 14px;
-    color: #9cc2ca;
+    color: #ffffff;
     line-height: 20px;
 }
 
@@ -3639,7 +3639,7 @@ i.chujiatype3 {
 .new_yzs-footer-pannel .yzs-footer-copyright {
     text-align: center;
     font-size: 14px;
-    background: #083039;
+    background: #000000;
 }
 
 .new_yzs-footer-pannel .yzs-footer-copyright div.container {
@@ -3676,7 +3676,7 @@ i.chujiatype3 {
 }
 
 .new_yzs-footer-pannel .yx_em:hover {
-    color: #00897c;
+    color: #006ad3;
 }
 
 .new_yzs-footer-pannel .fastback p {
@@ -3687,7 +3687,7 @@ i.chujiatype3 {
 }
 
 .new_yzs-footer-pannel .fastback button {
-    background: url(../../resources/img/index/fastback.png) #9cc2ca no-repeat 10px center;
+    /*background: url(../../resources/img/index/fastback.png) #9cc2ca no-repeat 10px center;*/
     box-sizing: border-box;
     width: 100px;
     height: 30px;
@@ -3699,14 +3699,14 @@ i.chujiatype3 {
     border: none;
     border-radius: 6px;
     margin-top: 20px;
-    padding-left: 15px;
+    /*padding-left: 15px;*/
     cursor: pointer;
 }
 
 .new_yzs-footer-pannel .code {
     width: 202px;
     float: right;
-    color: #b3ebf7;
+    color: #ffffff;
     font-size: 16px;
     text-align: center;
     margin-top: 40px;
@@ -3718,7 +3718,7 @@ i.chujiatype3 {
 
 .new_yzs-footer-pannel .code p {
     font-size: 12px;
-    color: #b3ebf7;
+    color: #ffffff;
     background: #083039;
     padding: 5px 15px;
     border-radius: 15px;
@@ -3759,7 +3759,7 @@ i.chujiatype3 {
 }
 
 .tleft_url {
-    color: #009688;
+    color: #006ad3;
 }
 
 .circular {
@@ -3983,7 +3983,7 @@ Opera {
     width: 515px;
     height: 35px;
     line-height: 33px;
-    border: 1px solid #156c7f;
+    border: 1px solid #006ad3;
     display: flex;
 }
 
@@ -4037,7 +4037,7 @@ Opera {
 
 .ehead .esearch .ebutton {
     width: 80px;
-    background: #156c7f;
+    background: #006ad3;
     color: #fff;
     text-align: center;
 }
@@ -4086,22 +4086,20 @@ Opera {
 
 .enav .etopnav li .esubnav a:before {
     content: '>';
-    color: #18B0A3;
+    color: #006ad3;
     margin-right: 0.5em;
 }
 
 .enav .etopnav li .esubnav a.active {
-    background: #18b0a3;
+    background: #006ad3;
     border-radius: 6px;
-    color: #fff;
     padding: 5px 16px;
     text-align: center;
 }
 
 .enav .etopnav li.active a {
-    background: #18b0a3;
+    background: #ffffff;
     border-radius: 6px;
-    color: #fff;
     padding: 6px 16px;
 }
 
@@ -4208,18 +4206,18 @@ Opera {
 .eface .eenter .euser .eunlogin .eloginbtn {
     width: 105px;
     height: 50px;
-    background: #18B0A3;
+    background: #006ad3;
     color: #fff;
     border-radius: 6px;
-    border: 1px solid #18B0A3;
+    border: 1px solid #006ad3;
     cursor: pointer;
 }
 
 .eface .eenter .euser .eunlogin .eregbtn {
     width: 105px;
     height: 50px;
-    border: 1px solid #18B0A3;
-    color: #18B0A3;
+    border: 1px solid #006ad3;
+    color: #006ad3;
     border-radius: 6px;
     background: #fff;
     cursor: pointer;
@@ -4228,7 +4226,7 @@ Opera {
 .eface .eenter .euser .elogined .euserinfo .elabel {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    background: #18B0A3;
+    background: #006ad3;
     height: 62px;
     display: flex;
     justify-content: space-around;
@@ -4306,10 +4304,10 @@ Opera {
     height: 45px;
     line-height: 45px;
     font-size: 16px;
-    color: #18B0A3;
+    color: #006ad3;
     font-weight: bold;
     text-align: center;
-    border-bottom: 1px solid #18B0A3;
+    border-bottom: 1px solid #006ad3;
     margin: 0 15px;
 }
 
@@ -4327,7 +4325,7 @@ Opera {
 .eface .eenter .ead li em {
     font-style: normal;
     font-size: 16px;
-    color: #18B0A3;
+    color: #006ad3;
     display: block;
 }
 
@@ -4411,7 +4409,7 @@ Opera {
     position: absolute;
     width: 5px;
     height: 21px;
-    background: #18b0a3;
+    background: #006ad3;
     border-radius: 4px;
     top: 4px;
 }
@@ -4436,7 +4434,7 @@ Opera {
 .esideList .etitle .emore {
     float: right;
     font-size: 12px;
-    color: #18b0a3;
+    color: #006ad3;
 }
 
 .esideList .eitem {
@@ -4480,7 +4478,7 @@ Opera {
 }
 
 .esideList .eitem .evinfo {
-    color: #18B0A3;
+    color: #006ad3;
     font-size: 12px;
     font-weight: bold;
 }

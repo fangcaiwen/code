@@ -3,12 +3,52 @@
   <component name="ChangeListManager">
     <list default="true" id="32a5ae3c-8ea7-4cc8-9782-93d7d1bee97c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/authinit.html" beforeDir="false" afterPath="$PROJECT_DIR$/auth/authinit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orderform/zzklist.html" beforeDir="false" afterPath="$PROJECT_DIR$/orderform/zzklist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auctionmanager/managerpushauction.html" beforeDir="false" afterPath="$PROJECT_DIR$/auctionmanager/managerpushauction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/webank.html" beforeDir="false" afterPath="$PROJECT_DIR$/bank/webank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmj/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/cmj/style/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmj/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/cmj/style/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmj/style/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/cmj/style/news.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newRes/400number.png" beforeDir="false" afterPath="$PROJECT_DIR$/newRes/400number1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newRes/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/newRes/logo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/news/show.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/c/bmcjjp.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/c/bmcjjp.do" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/c/bzjdjdz.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/c/bzjdjdz.do" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/c/bzjhsth.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/c/bzjhsth.do" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/c/bzjrhjn.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/c/bzjrhjn.do" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/c/bzjyt.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/c/bzjyt.do" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/iframeleft.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/iframeleft.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/public_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/public_header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/user/auth/comauth.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/user/auth/comauth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/user/inframe.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/user/inframe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tiframeleft.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tiframeleft.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/addjinjia.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/addjinjia.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/auctionTemplate.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/auctionTemplate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/indexcommon.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/indexcommon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/pay.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/pay.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/tenderTemplate.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/tenderTemplate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javascript/auction/managerpushauction.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/auction/managerpushauction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javascript/auction/managersignauction.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/auction/managersignauction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javascript/auction/sharesupport.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/auction/sharesupport.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javascript/auction/sign.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/auction/sign.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javascript/bank/feesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/bank/feesList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javascript/bank/monthfee.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/bank/monthfee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javascript/bank/monthfeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/bank/monthfeed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javascript/orderform/sellerorderform.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/orderform/sellerorderform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javascript/push/push.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/push/push.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javascript/tender/buyer/tsign.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/tender/buyer/tsign.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javascript/tender/common/pushaddressadd.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/tender/common/pushaddressadd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javascript/tender/common/pushgoodsdes.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/tender/common/pushgoodsdes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javascript/torderform/sellerorderform.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/torderform/sellerorderform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javascript/user/iframemonthfee.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/user/iframemonthfee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/layui/css/layui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/layui/css/modules/laydate/default/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/layui/css/modules/layer/default/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/layui/css/modules/layer/default/laydate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/layui/css/modules/layer/default/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/layui/layui.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/layui/layui.all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tender/buyer/tsign.html" beforeDir="false" afterPath="$PROJECT_DIR$/tender/buyer/tsign.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zaisheng/yzypagreement/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/zaisheng/yzypagreement/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,32 +62,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7334">
-              <caret line="386" column="26" lean-forward="true" selection-start-line="386" selection-start-column="26" selection-end-line="386" selection-end-column="26" />
-            </state>
-          </provider>
+      <file leaf-file-name="logo1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newRes/logo1.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="zzklist.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orderform/zzklist.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="109" column="10" lean-forward="true" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="logo.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newRes/logo.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="public_header.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="public_header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/public_header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+            <state relative-caret-position="177">
+              <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -55,8 +84,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inframe/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="107" column="33" lean-forward="true" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="38" />
+            <state relative-caret-position="74">
+              <caret line="5" column="64" lean-forward="true" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -65,88 +94,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/common.js">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="130" column="10" lean-forward="true" selection-start-line="130" selection-start-column="10" selection-end-line="130" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="213">
+              <caret line="4326" column="20" lean-forward="true" selection-start-line="4326" selection-start-column="20" selection-end-line="4326" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inframe.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/javascript/user/inframe.js">
+      <file leaf-file-name="profile.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/css/profile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
-              <caret line="93" column="29" lean-forward="true" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="e#3#9#0" expanded="true" />
-                <element signature="e#9#15#0" expanded="true" />
-                <element signature="e#15#21#0" expanded="true" />
-                <element signature="e#21#27#0" expanded="true" />
-                <element signature="e#27#33#0" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="213">
+              <caret line="1379" column="27" lean-forward="true" selection-start-line="1379" selection-start-column="27" selection-end-line="1379" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getAuctionForInframe.do" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pai/inframe/getAuctionForInframe.do">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="400number.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newRes/400number.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="authinit.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auth/authinit.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="246" column="6" lean-forward="true" selection-start-line="246" selection-start-column="6" selection-end-line="246" selection-end-column="6" />
-            </state>
-          </provider>
+      <file leaf-file-name="footerBg.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/img/index/footerBg.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="authinit.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/javascript/user/auth/authinit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-247">
-              <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comauth.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/javascript/user/auth/comauth.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-388">
-              <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-            </state>
-          </provider>
+      <file leaf-file-name="logo - 副本.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newRes/logo - 副本.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>产111品</find>
-      <find>111</find>
-      <find>layui-icon</find>
-      <find>color: #009688;</find>
-      <find>background: #00897c</find>
-      <find>.yzs-m-contactfile-btn</find>
-      <find>yzs-m-contactfile-btn</find>
-      <find>.layui-upload-drag .layui-icon</find>
-      <find>.authentication .yzs-m-contactfile-btn-box .yzs-m-contactfile-btn</find>
       <find>竞拍帮助</find>
       <find>参加竞价需要准备什么资料？</find>
       <find>basicInfo</find>
@@ -154,7 +138,33 @@
       <find>status</find>
       <find>noauth</find>
       <find>zz-jp</find>
+      <find>.ehead .esearch .ebutton</find>
+      <find>.new_yzs-footer-pannel</find>
+      <find>.ehead</find>
+      <find>.new_yzs-footer-pannel .yzs-footer-copyright</find>
+      <find>new_yzs-footer-pannel .fastback button</find>
+      <find>.enav .etopnav li.active a</find>
+      <find>eloginbtn</find>
+      <find>new_yzs-footer-pannel .code p</find>
+      <find>.ehead .esearch</find>
+      <find>.new_yzs-footer-pannel .fastback button</find>
+      <find>.doing.soon .content .item .ti</find>
+      <find>.eunlogin</find>
+      <find>.eface .eenter .ead h2</find>
+      <find>.doing.soon .basePrice</find>
+      <find>eface .eenter .ead li em</find>
+      <find>.left-tab-title</find>
+      <find>006ad3</find>
+      <find>#00897c</find>
+      <find>.new_yzs-footer-pannel .code p</find>
+      <find>#18b0a3</find>
+      <find>#18B0A3</find>
+      <find>#009688</find>
+      <find>.left-tab-this</find>
     </findStrings>
+    <replaceStrings>
+      <replace>#006ad3</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -167,7 +177,6 @@
         <option value="$PROJECT_DIR$/resources/js/layui/css/modules/layer/default/layer.css" />
         <option value="$PROJECT_DIR$/resources/js/layui/css/modules/laydate/default/laydate.css" />
         <option value="$PROJECT_DIR$/resources/js/layui/css/layui.css" />
-        <option value="$PROJECT_DIR$/resources/css/style.css" />
         <option value="$PROJECT_DIR$/public/public_footer.html" />
         <option value="$PROJECT_DIR$/pai/c/bmcjjp.do" />
         <option value="$PROJECT_DIR$/resources/javascript/orderform/zzklist.js" />
@@ -177,7 +186,10 @@
         <option value="$PROJECT_DIR$/resources/js/common.js" />
         <option value="$PROJECT_DIR$/resources/javascript/user/auth/comauth.js" />
         <option value="$PROJECT_DIR$/resources/javascript/user/inframe.js" />
+        <option value="$PROJECT_DIR$/inframe/index.html" />
         <option value="$PROJECT_DIR$/public/public_header.html" />
+        <option value="$PROJECT_DIR$/resources/css/style.css" />
+        <option value="$PROJECT_DIR$/resources/css/profile.css" />
       </list>
     </option>
   </component>
@@ -211,7 +223,28 @@
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="inframe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="newRes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -228,6 +261,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/newRes" />
       <recent name="$PROJECT_DIR$/product_img" />
       <recent name="$PROJECT_DIR$/file" />
       <recent name="$PROJECT_DIR$/resources/javascript/user/auth" />
@@ -257,12 +291,12 @@
       <updated>1594643944382</updated>
       <workItem from="1594643946456" duration="1312000" />
       <workItem from="1594645400772" duration="7571000" />
-      <workItem from="1594691134162" duration="2905000" />
+      <workItem from="1594691134162" duration="7266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11788000" />
+    <option name="totallyTimeSpent" value="16149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -272,10 +306,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23333333" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23076923" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -284,7 +319,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,6 +423,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1183">
           <caret line="302" column="39" lean-forward="true" selection-start-line="302" selection-start-column="39" selection-end-line="302" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#dd#0;n#!!top" expanded="true" />
+            <element signature="e#223#227#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -403,6 +441,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="1" column="780" selection-start-line="1" selection-start-column="780" selection-end-line="1" selection-end-column="780" />
+          <folding>
+            <element signature="e#62497#62636#2" expanded="true" />
+            <element signature="e#64090#64229#2" expanded="true" />
+            <element signature="e#64777#64916#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -413,13 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/css/profile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="1557" column="8" selection-start-line="1557" selection-start-column="8" selection-end-line="1557" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pzx/show.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-52" />
@@ -427,7 +463,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/javascript/paizx/paizx.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89" />
+        <state relative-caret-position="-89">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pai/c/bmcjjp.do">
@@ -441,13 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="1499" column="24" lean-forward="true" selection-start-line="1499" selection-start-column="24" selection-end-line="1499" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -498,41 +544,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inframe/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="107" column="33" lean-forward="true" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pai/inframe/getAuctionForInframe.do">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/authinit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="246" column="6" lean-forward="true" selection-start-line="246" selection-start-column="6" selection-end-line="246" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orderform/zzklist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="109" column="10" lean-forward="true" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/javascript/user/auth/comauth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-388">
           <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="130" column="10" lean-forward="true" selection-start-line="130" selection-start-column="10" selection-end-line="130" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -556,16 +584,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/common.js">
+    <entry file="file://$PROJECT_DIR$/pai/inframe/getAuctionForInframe.do">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/authinit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="130" column="10" lean-forward="true" selection-start-line="130" selection-start-column="10" selection-end-line="130" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="265">
+          <caret line="246" column="6" lean-forward="true" selection-start-line="246" selection-start-column="6" selection-end-line="246" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -576,10 +601,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/orderform/zzklist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="109" column="10" lean-forward="true" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newRes/logo - 副本.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newRes/logo1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newRes/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/img/index/footerBg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newRes/400number.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newRes/400number2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newRes/400number1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newRes/400number.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inframe/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="5" column="64" lean-forward="true" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/public_header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+        <state relative-caret-position="177">
+          <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="4326" column="20" lean-forward="true" selection-start-line="4326" selection-start-column="20" selection-end-line="4326" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/profile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="1379" column="27" lean-forward="true" selection-start-line="1379" selection-start-column="27" selection-end-line="1379" selection-end-column="27" />
         </state>
       </provider>
     </entry>

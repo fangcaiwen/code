@@ -892,7 +892,7 @@ a cite {
     height: 100%;
     line-height: 60px;
     text-align: center;
-    color: #009688;
+    color: #006ad3;
     font-size: 16px
 }
 
@@ -1529,7 +1529,7 @@ a cite {
     margin-bottom: 10px;
     padding: 15px;
     line-height: 22px;
-    border-left: 5px solid #009688;
+    border-left: 5px solid #006ad3;
     border-radius: 0 2px 2px 0;
     background-color: #f2f2f2
 }
@@ -1729,7 +1729,7 @@ a cite {
 }
 
 .layui-bg-green {
-    background-color: #009688 !important
+    background-color: #006ad3 !important
 }
 
 .layui-bg-cyan {
@@ -1807,7 +1807,7 @@ a cite {
     height: 38px;
     line-height: 38px;
     padding: 0 18px;
-    background-color: #009688;
+    background-color: #006ad3;
     color: #fff;
     white-space: nowrap;
     text-align: center;
@@ -1867,7 +1867,7 @@ a cite {
 }
 
 .layui-btn-primary:hover {
-    border-color: #009688;
+    border-color: #006ad3;
     color: #333
 }
 
@@ -1943,7 +1943,7 @@ a cite {
 
 .layui-btn-group .layui-btn-primary:hover {
     border-color: #C9C9C9;
-    color: #009688
+    color: #006ad3
 }
 
 .layui-btn-group .layui-btn:first-child {
@@ -2691,7 +2691,7 @@ a cite {
 }
 
 .layui-laypage a:hover {
-    color: #009688
+    color: #006ad3
 }
 
 .layui-laypage em {
@@ -2723,7 +2723,7 @@ a cite {
     padding: 1px;
     width: 100%;
     height: 100%;
-    background-color: #009688
+    background-color: #006ad3
 }
 
 .layui-laypage-em {
@@ -2781,7 +2781,7 @@ a cite {
 }
 
 .layui-laypage input:focus, .layui-laypage select:focus {
-    border-color: #009688 !important
+    border-color: #006ad3 !important
 }
 
 .layui-laypage button {
@@ -3412,7 +3412,7 @@ body .layui-table-tips .layui-layer-content {
 }
 
 .layui-upload-drag[lay-over] {
-    border-color: #009688
+    border-color: #006ad3
 }
 
 .layui-upload-iframe {
@@ -3698,11 +3698,11 @@ body .layui-table-tips .layui-layer-content {
 .layui-nav-tree .layui-nav-bar {
     width: 5px;
     height: 0;
-    background-color: #009688
+    background-color: #006ad3
 }
 
 .layui-nav-tree .layui-nav-child dd.layui-this, .layui-nav-tree .layui-nav-child dd.layui-this a, .layui-nav-tree .layui-this, .layui-nav-tree .layui-this > a, .layui-nav-tree .layui-this > a:hover {
-    background-color: #009688;
+    background-color: #006ad3;
     color: #fff
 }
 
@@ -3931,7 +3931,7 @@ body .layui-table-tips .layui-layer-content {
 }
 
 .layui-tab-brief > .layui-tab-title .layui-this {
-    color: #009688
+    color: #006ad3
 }
 
 .layui-tab-brief > .layui-tab-more li.layui-this:after, .layui-tab-brief > .layui-tab-title .layui-this:after {
@@ -4811,7 +4811,7 @@ body .layui-util-face .layui-layer-content {
 }
 
 .layui-slider-input-btn i:hover {
-    color: #009688
+    color: #006ad3
 }
 
 .layui-slider-vertical {

@@ -347,7 +347,7 @@ function topayfeeo(orderno,fee){
 $(document).ready(function(){
 	setTimeout(function() {
 		layer.tips('财务对账点击这里', '.feedtetail', {
-			  tips: [1, '#18b0a3'],
+			  tips: [1, '#006ad3'],
 			  time: 40000
 			});
 	}, 3000);

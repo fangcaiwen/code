@@ -5,14 +5,14 @@
   color: #ff6700;
 }
 .colorgreen {
-  color: #00897c;
+  color: #006ad3;
 }
 .colorblack {
   color: #333;
 }
 .greenbtn {
-  background-color: #00897c;
-  border: 1px solid #00897c;
+  background-color: #006ad3;
+  border: 1px solid #006ad3;
   color: #fff;
   border-radius: 3px;
   padding: 5px 15px;
@@ -22,7 +22,7 @@
 }
 .greenbtn.plain {
   background: #fff;
-  color: #00897c;
+  color: #006ad3;
 }
 .orangebtn {
   background-color: #ff5a37;
@@ -152,7 +152,7 @@
   border-left: 0;
 }
 .el-pagination .el-pager li:hover {
-  background: #00897c;
+  background: #006ad3;
   color: #fff;
 }
 .yzs-head-top {
@@ -208,8 +208,8 @@
   width: 80px;
   height: 36px;
   line-height: 36px;
-  background: #00897c;
-  border: 1px solid #00897c;
+  background: #006ad3;
+  border: 1px solid #006ad3;
   font-size: 16px;
   text-align: center;
   color: #fff;
@@ -245,10 +245,10 @@
   margin: 0 5px;
 }
 .yzs-head-top .nav li.active {
-  border-bottom: 2px solid #00897c;
+  border-bottom: 2px solid #006ad3;
 }
 .yzs-head-top .nav li.active a {
-  color: #00897c;
+  color: #006ad3;
 }
 .yzs-head-top .nav li a {
   color: #fff;
@@ -299,7 +299,7 @@
     line-height: 30px;
 }
 .memberCenter .memberCenterNav ul > li a:hover {
-  color: #00897c;
+  color: #006ad3;
 }
 .memberCenterContent {
     box-sizing: border-box;
@@ -311,7 +311,7 @@
     margin-left: 5%;
 }
 .memberCenterContent .head {
-  border-left: 2px solid #00897c;
+  border-left: 2px solid #006ad3;
   padding-left: 10px;
   font-size: 16px;
   color: #333;
@@ -486,7 +486,7 @@
   line-height: 40px;
   text-align: center;
   margin: 30px 35%;
-  background: #00897c;
+  background: #006ad3;
   color: #fff;
   border-radius: 4px;
   cursor: pointer;
@@ -563,7 +563,7 @@
   position: relative;
 }
 .yzs-m-productList td.action .public {
-  color: #00897c;
+  color: #006ad3;
   font-size: 14px;
   text-decoration: underline;
 }
@@ -636,7 +636,7 @@
   height: 40px;
   line-height: 40px;
   text-align: center;
-  background: #00897c;
+  background: #006ad3;
   color: #fff;
   border-radius: 4px;
   cursor: pointer;
@@ -735,7 +735,7 @@
   height: 40px;
   line-height: 40px;
   text-align: center;
-  background: #00897c;
+  background: #006ad3;
   color: #fff;
   border-radius: 4px;
   cursor: pointer;
@@ -1113,7 +1113,7 @@
   text-align: center;
 }
 .order-info .log .content td a {
-  color: #00897c;
+  color: #006ad3;
 }
 
 
@@ -1127,7 +1127,7 @@
 .zjgl_wrap .info h3{font-size: 20px;margin: 25px 0 60px 0;}
 .zjgl_wrap .info p{line-height: 30px;}
 .zjgl_wrap .info span{color: #f8951e;font-size: 14px;}
-.zjgl_wrap .info a{color: #fff;font-size: 14px;background-color: #18b0a3;padding: 3px 10px;margin-left: 10px;}
+.zjgl_wrap .info a{color: #fff;font-size: 14px;background-color: #006ad3;padding: 3px 10px;margin-left: 10px;}
 .zjgl_wrap .sel{border-top:  1px solid #ebebeb;}
 .zjgl_wrap .sel li{margin-left: 5%;float: left;width: 203px;height: 101px;padding-top: 160px;font-size: 16px;color: #fff;text-align: center;}
 .zjgl_wrapselli{}
@@ -1151,7 +1151,7 @@
 .th001{
 	    line-height: 34px;
 	    padding: 3px 0;
-	    background-color: #009688;
+	    background-color: #006ad3;
 }
 
 
@@ -1298,7 +1298,7 @@
   border-top-left-radius: 4px;
   left: 0px;
   bottom: 0px;
-  background: #18b0a3;
+  background: #006ad3;
 }
 
 .new_nav .nav li.active a,
@@ -1316,7 +1316,7 @@
 /*   border-top-left-radius: 4px; */
 /*   left: 0px; */
 /*   bottom: 0px; */
-/*   background: #18b0a3; */
+/*   background: #006ad3; */
 }
 .new_nav .nav li a.router-link-active {
     color: #f2f1f1;
@@ -1344,7 +1344,7 @@
 /* head new */
 
 .left_top{
-    border-left: 5px solid #00897c;
+    border-left: 5px solid #006ad3;
     padding-left: 10px;
     font-size: 22px;
     color: #333;
@@ -1361,7 +1361,7 @@
     border-bottom-style: solid;
     transition: all .2s;
     -webkit-transition: all .2s;
-    background:#009688;
+    background:#006ad3;
     color:#fff;
 }
 
@@ -1376,15 +1376,15 @@
     width:50%;
 }
 .left-tab-this{
-	    color: #009688;
-	    background:#194e59 ;
+	    color: #006ad3;
+	    background:#46cf1f;
 }
 .left-tab-title a:hover{
 	color:#fff;
 }
 
 .tlefturl{
-	color:#009688;
+	color:#006ad3;
 }
 
 
@@ -1434,7 +1434,7 @@
 }
 .new_yzs-footer-pannel .yzs-footer-info div.item ul li:last-child {
   font-size: 14px;
-  color: #9cc2ca;
+  color: #ffffff;
   line-height: 20px;
 }
 .new_yzs-footer-pannel .yzs-footer-info div.item ul li a {
@@ -1449,7 +1449,7 @@
 .new_yzs-footer-pannel .yzs-footer-copyright {
   text-align: center;
   font-size: 14px;
-  background: #083039;
+  background: #000000;
 }
 .new_yzs-footer-pannel .yzs-footer-copyright div.container {
   padding: 20px 0;
@@ -1475,7 +1475,7 @@
   font-style: normal;
 }
 .new_yzs-footer-pannel .yx_em:hover {
-  color: #00897c;
+  color: #006ad3;
 }
 .new_yzs-footer-pannel .fastback p {
   color: gray;
@@ -1484,7 +1484,7 @@
   line-height: 1.5;
 }
 .new_yzs-footer-pannel .fastback button {
-  background: url(../../resources/img/index/fastback.png) #9cc2ca no-repeat 10px center;
+  /*background: url(../../resources/img/index/fastback.png) #9cc2ca no-repeat 10px center;*/
   box-sizing: border-box;
   width: 100px;
   height: 30px;
@@ -1496,13 +1496,13 @@
   border: none;
   border-radius: 6px;
   margin-top: 20px;
-  padding-left: 15px;
+  /*padding-left: 15px;*/
   cursor: pointer;
 }
 .new_yzs-footer-pannel .code {
   width: 202px;
   float: right;
-  color: #b3ebf7;
+  color: #ffffff;
   font-size: 16px;
   text-align: center;
   margin-top: 40px;
@@ -1512,7 +1512,7 @@
 }
 .new_yzs-footer-pannel .code p {
   font-size: 12px;
-  color: #b3ebf7;
+  color: #ffffff;
   background: #083039;
   padding: 5px 15px;
   border-radius: 15px;
@@ -1520,7 +1520,7 @@
 
 /* foot new  */
 /* .left_top{ */
-/*     border-left: 2px solid #00897c; */
+/*     border-left: 2px solid #006ad3; */
 /*     padding-left: 10px; */
 /*     font-size: 22px; */
 /*     color: #333; */
@@ -1555,11 +1555,11 @@
     cursor: pointer;
 }
 .left-tab-this{
-	    color: #009688;
+	    color: #006ad3;
 }
 
 .tlefturl{
-	color:#009688;
+	color:#006ad3;
 }
 
 
@@ -1579,7 +1579,7 @@ table {
 .div_rtiu{ width:850px; overflow-x:auto; height:auto;overflow:hidden}
 .table_rtiu th{ min-width:100px; background-color:#d8d8d8; color:#000; border:0; padding:5px; overflow:hidden; text-align:center; font-size:14px;}
 .table_rtiu td{ text-align:center; border:1px solid #e1e1e1; color:#333; font-size:14px; padding:10px;}
-.duisrying{border-top:45px #f7941e solid;border-left:200px #18b0a3 solid;width:0;height:0;position:relative;color:#FFF}
+.duisrying{border-top:45px #f7941e solid;border-left:200px #006ad3 solid;width:0;height:0;position:relative;color:#FFF}
 .duisrying span{display:block;width:40px; font-size:12px;color:#fff}
 .table_rtiu th.thpading0{ padding:0;width:200px}
 .s1{position:absolute;top:-42px;left:-44px;color:black;}
@@ -1592,7 +1592,7 @@ table {
   margin: 0 auto;
 }
 .ehead {
-  background: #f3f3f3;
+  background: #ffffff;
   border-bottom: 1px solid #eeeeee;
 }
 .ehead .econtainer {
@@ -1607,7 +1607,7 @@ table {
   width: 515px;
   height: 35px;
   line-height: 33px;
-  border: 1px solid #156c7f;
+  border: 1px solid #006ad3;
   display: flex;
 }
 .ehead .esearch .elabel {
@@ -1655,7 +1655,7 @@ table {
 }
 .ehead .esearch .ebutton {
   width: 80px;
-  background: #156c7f;
+  background: #006ad3;
   color: #fff;
   text-align: center;
 }
@@ -1695,14 +1695,14 @@ table {
 }
 .enav .etopnav li .esubnav a:before {
   content: '>';
-  color: #18B0A3;
+  color: #006ad3;
   margin-right: 0.5em;
 }
 .enav .etopnav li .esubnav a.active {
-  color: #18b0a3;
+  color: #006ad3;
 }
 .enav .etopnav li.active a {
-  background: #18b0a3;
+  background: #006ad3;
   border-radius: 6px;
   color: #fff;
   padding: 6px 16px;
@@ -1795,17 +1795,17 @@ table {
 .eface .eenter .euser .eunlogin .eloginbtn {
   width: 105px;
   height: 50px;
-  background: #18B0A3;
+  background: #006ad3;
   color: #fff;
   border-radius: 6px;
-  border: 1px solid #18B0A3;
+  border: 1px solid #006ad3;
   cursor: pointer;
 }
 .eface .eenter .euser .eunlogin .eregbtn {
   width: 105px;
   height: 50px;
-  border: 1px solid #18B0A3;
-  color: #18B0A3;
+  border: 1px solid #006ad3;
+  color: #006ad3;
   border-radius: 6px;
   background: #fff;
   cursor: pointer;
@@ -1813,7 +1813,7 @@ table {
 .eface .eenter .euser .elogined .euserinfo .elabel {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  background: #18B0A3;
+  background: #006ad3;
   height: 62px;
   display: flex;
   justify-content: space-around;
@@ -1879,10 +1879,10 @@ table {
   height: 45px;
   line-height: 45px;
   font-size: 16px;
-  color: #18B0A3;
+  color: #006ad3;
   font-weight: bold;
   text-align: center;
-  border-bottom: 1px solid #18B0A3;
+  border-bottom: 1px solid #006ad3;
   margin: 0 15px;
 }
 .eface .eenter .ead li {
@@ -1897,7 +1897,7 @@ table {
 .eface .eenter .ead li em {
   font-style: normal;
   font-size: 16px;
-  color: #18B0A3;
+  color: #006ad3;
   display: block;
 }
 .eface .eenter .ead .emore {

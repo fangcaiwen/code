@@ -626,7 +626,7 @@ margin: 0px 12px;
   .yx_p{ height:30px; line-height:30px; width:200px; margin:0 auto;}
           .youxiang{background:url('http://www.qdxhanjc.com/resources/img/2tyuiop.png') -58px center no-repeat; float:left; width:30px; height:30px}
   .yx_em{ float:left; font-size:14px; color:#666; font-style:normal}
-  .yx_em:hover{ color: #00897c;}
+  .yx_em:hover{ color: #006ad3;}
   .dhukeu{background:url('http://www.qdxhanjc.com/resources/img/3tyuiop.png') 0 0 no-repeat; display: block; width: 317px; height: 32px; cursor: pointer;}
   .dhukeu:hover{background:url('http://www.qdxhanjc.com/resources/img/3tyuiophover.png') 0 0 no-repeat;}
           </style>

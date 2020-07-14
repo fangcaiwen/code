@@ -116,12 +116,12 @@ function feedetail(){
 				if(data.obj  && data.obj.length>0){
 					html='<td><div style="    overflow: auto;height: 300px;"><table>';
 					html+='<thead  style="width:920px;height:40px;line-height:40px;text-align:center;border:1px solid #eee;margin-top: 1%;">';
-					html+='<th style="width:200px;background-color: #18b0a3;color: #fff;">订单号</td>';
-					html+='<th style="width:200px;background-color: #18b0a3;color: #fff;">对账单号</td>';
-					html+='<th style="width:200px;background-color: #18b0a3;color: #fff;">对账单金额</td>';
-					html+='<th style="width:200px;background-color: #18b0a3;color: #fff;">手续费金额</td>';
-					html+='<th style="width:200px;background-color: #18b0a3;color: #fff;">付款时间</td>';
-					html+='<th style="width:200px;background-color: #18b0a3;color: #fff;">支付状态</td>';
+					html+='<th style="width:200px;background-color: #006ad3;color: #fff;">订单号</td>';
+					html+='<th style="width:200px;background-color: #006ad3;color: #fff;">对账单号</td>';
+					html+='<th style="width:200px;background-color: #006ad3;color: #fff;">对账单金额</td>';
+					html+='<th style="width:200px;background-color: #006ad3;color: #fff;">手续费金额</td>';
+					html+='<th style="width:200px;background-color: #006ad3;color: #fff;">付款时间</td>';
+					html+='<th style="width:200px;background-color: #006ad3;color: #fff;">支付状态</td>';
 					html+='</thead>';
 					html+='<tbody class="">';
 					$.each(data.obj,function(index,info){
@@ -143,9 +143,9 @@ function feedetail(){
 					 layer.msg("无更多明细", {offset: 't',anim: 6});
 					 return false;
 				}
-				$(".feeout"+$(this).attr("id")).css("border-color", "#18b0a3");
+				$(".feeout"+$(this).attr("id")).css("border-color", "#006ad3");
 				$(".feeout"+$(this).attr("id")).css("color", "#000");
-				$(".feeout"+$(this).attr("id")).css("background-color", "#18b0a3");
+				$(".feeout"+$(this).attr("id")).css("background-color", "#006ad3");
 				$("."+thisclass).html(html);
 				layer.open({
 					   anim: 2,
@@ -232,7 +232,7 @@ function timestampToTime(timestamp) {
 
 
 var colorArr=["background:#f7941e;color:#fff;border-radius: 60px 0px 0px 60px;",
-	  "background:#18b0a3;color:#fff;border-radius: 60px 0px 0px 60px;",
+	  "background:#006ad3;color:#fff;border-radius: 60px 0px 0px 60px;",
 	  "background:#49b7ec;color:#fff;border-radius: 60px 0px 0px 60px;",
 	  "background:#fe8686;color:#fff;border-radius: 60px 0px 0px 60px;",
 	  "background:#f6b37f;color:#fff;border-radius: 60px 0px 0px 60px;",

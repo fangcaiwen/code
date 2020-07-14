@@ -177,7 +177,7 @@ function signInit(){
 			if(projectstatus=="0"){
 				var html='开始时间：<span class="djs" style="color: #555555;font-size: 16px">'+data.obj.endtime+' </span>';
 				$(".con").html(html);
-				$(".la").css("background","#00897c");
+				$(".la").css("background","#006ad3");
 				$(".la").html("即将开始");
 			}else if(projectstatus=="1"){
 				$(".con").html("距竞拍结束还剩:");

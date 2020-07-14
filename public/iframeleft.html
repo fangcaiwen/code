@@ -56,15 +56,15 @@
         var lastname=pathname.split('/')[count-1].split(".")[0];
 
         if(lastname=="sellerordershow"){
-            $("a[title='sellerorderformlist']").css("color","#009688");
+            $("a[title='sellerorderformlist']").css("color","#006ad3");
         }
         if(lastname=="buyerordershow"){
-            $("a[title='buyerorderformlist']").css("color","#009688");
+            $("a[title='buyerorderformlist']").css("color","#006ad3");
         }
         $.each($("a"),function(index,info){
             var title=$(info).attr("title");
             if(title==lastname){
-                $(this).css("color","#009688");
+                $(this).css("color","#006ad3");
             };
         });
     }

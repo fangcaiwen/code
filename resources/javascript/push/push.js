@@ -37,7 +37,7 @@ function hangqMessage(){
 			$(".pushmsg").css("background-color","#FF5722");
 		}else{
 			$(".pushmsg").html("推送消息");
-			$(".pushmsg").css("background-color","#009688");
+			$(".pushmsg").css("background-color","#006ad3");
 		}
 		var header = "";
 		var html="<h3 style='font-size: 15px;background-color: #FF9800;text-align: center;height: 30px;line-height: 30px;width: 280px;border-radius: 45px;'>站内消息通知</h3>";
@@ -126,7 +126,7 @@ function checkisshow(){
 			$(".pushmsg").css("background-color","#FF5722");
 		}else{
 			$(".pushmsg").html("推送消息");
-			$(".pushmsg").css("background-color","#009688");
+			$(".pushmsg").css("background-color","#006ad3");
 		}
 		
 	});

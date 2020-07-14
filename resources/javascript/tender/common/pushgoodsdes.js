@@ -35,7 +35,7 @@ function desadd(index){
         var  parama=layer.open({
             anim: 5,
             type: 1,
-            title:  ['商品描述', 'font-size:18px;color:#009688;'],
+            title:  ['商品描述', 'font-size:18px;color:#006ad3;'],
             shade: 0.1,
             scrollbar :true,
             skin: '', //没有背景色

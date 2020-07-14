@@ -254,7 +254,7 @@ function getMyPublishAuction(pageNum){
                                 if(value.iskeep==1){
                                     if(value.keepmoney<=value.currentmoney){
                                         if(value.ismagin==1&&value.paynum>1){
-                                            result += "<td width='10%'><span style='color: #18b0a3;'>已成交</span></td>";
+                                            result += "<td width='10%'><span style='color: #006ad3;'>已成交</span></td>";
                                         }else{
                                             result += "<td width='10%'><span>已结束</span></td>";
                                         }
@@ -264,7 +264,7 @@ function getMyPublishAuction(pageNum){
 
                                 }else{
                                     if(value.ismagin==1&&value.paynum>1){
-                                        result += "<td width='10%'><span style='color: #18b0a3;'>已成交</span></td>";
+                                        result += "<td width='10%'><span style='color: #006ad3;'>已成交</span></td>";
                                     }else{
                                         result += "<td width='10%'><span>已结束</span></td>";
                                     }
@@ -409,7 +409,7 @@ function  buyernotice(){
 }
 
 var colorArr=["background:#f7941e;color:#fff;border-radius: 60px 0px 0px 60px;",
-    "background:#18b0a3;color:#fff;border-radius: 60px 0px 0px 60px;",
+    "background:#006ad3;color:#fff;border-radius: 60px 0px 0px 60px;",
     "background:#49b7ec;color:#fff;border-radius: 60px 0px 0px 60px;",
     "background:#fe8686;color:#fff;border-radius: 60px 0px 0px 60px;",
     "background:#f6b37f;color:#fff;border-radius: 60px 0px 0px 60px;",

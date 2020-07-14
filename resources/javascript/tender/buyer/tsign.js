@@ -383,7 +383,7 @@ function timecuttur(data){
 		  //计算相差秒数
 		  var leave3=leave2%(60*1000)      //计算分钟数后剩余的毫秒数
 		  var seconds=Math.round(leave3/1000)
-//		 $(".la").css("background","#009688");
+//		 $(".la").css("background","#006ad3");
 		 $(".la").text("即将开始：");
 		$(".con").html('距竞拍开始出价还剩&nbsp;<span class="djs"><em>'+days+'</em>天<em>'+hours+'</em>时<em>'+minutes+'</em>分<em>'+seconds+'</em>秒</span>');
 	  }
@@ -538,9 +538,9 @@ function buildQuoteHtml(data){
 					+							"出价次数：<span style='color:#ff6c08' id='qdtotal_"+quote.goodsid+"'>"+qdList.length+"次</span></th>"
 					+"		  </tr>"
 					+"		  <tr>"
-					+"		    <td style='width:100px;color:#18b0a3;border-bottom: 1px solid #e8e8e8;padding: 2px 0px;font-weight:bold;font-size:14px;'>竞拍号</td>"
-					+"		    <td style='width:80px;color:#18b0a3;border-bottom: 1px solid #e8e8e8;padding: 2px 0px;font-weight:bold;font-size:14px;'>时间</td>"
-					+"		    <td style='color:#18b0a3;border-bottom: 1px solid #e8e8e8;padding: 2px 0px;font-weight:bold;font-size:14px;'>价格</td>"
+					+"		    <td style='width:100px;color:#006ad3;border-bottom: 1px solid #e8e8e8;padding: 2px 0px;font-weight:bold;font-size:14px;'>竞拍号</td>"
+					+"		    <td style='width:80px;color:#006ad3;border-bottom: 1px solid #e8e8e8;padding: 2px 0px;font-weight:bold;font-size:14px;'>时间</td>"
+					+"		    <td style='color:#006ad3;border-bottom: 1px solid #e8e8e8;padding: 2px 0px;font-weight:bold;font-size:14px;'>价格</td>"
 					+"		  </tr>"
 					+"	</table>"
 					+"	<div class='boxcon'>"

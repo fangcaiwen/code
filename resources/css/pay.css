@@ -22,7 +22,7 @@ a:hover{text-decoration:none;}
 .hide{display: none;}
 
 .pay-container{border: 1px solid #ebebeb;background-color: #fff;}
-.pay-tit{background-color: #18b0a3;font-size: 18px;color: #fff;padding-left: 30px;height: 44px;line-height: 44px;}
+.pay-tit{background-color: #006ad3;font-size: 18px;color: #fff;padding-left: 30px;height: 44px;line-height: 44px;}
 .pay-top{height: 90px;border-bottom: 1px solid #ebebeb;padding:20px 40px;}
 .pay-tips{padding-left: 60px;background: url(/resources/img/smPay/pay01.png) transparent left center no-repeat;float: left;}
 .pay-tips p{font-size: 18px;color: #363636;margin-bottom: 10px;}
@@ -40,7 +40,7 @@ a:hover{text-decoration:none;}
 .pay-way-op .fr{font-size: 14px;color: #363636;float: right;margin-right: 30px;display: none;}
 .pay-way-op .fr em{font-size: 22px;color: #f74b1e;font-weight: bold;}
 
-.pay-way-op.active{border: 3px solid #18b0a3;background: url(../img/pay04.png) transparent 30px center no-repeat;}
+.pay-way-op.active{border: 3px solid #006ad3;background: url(../img/pay04.png) transparent 30px center no-repeat;}
 .pay-way-op.active .fr{display: block;}
 
 .pay-account-info{color: #929899;font-size: 16px;}
@@ -52,7 +52,7 @@ a:hover{text-decoration:none;}
 .pay-password{margin: 10px;}
 .pay-password-tit{font-size: 14px;color: #363636;margin-top: 30px;margin-bottom: 10px;}
 .pay-password input{width: 230px;height: 36px;line-height:36px;border:1px solid #ebebeb;padding-left: 5px;}
-.pay-password a{color: #18b0a3;font-size: 14px;text-decoration: underline;margin-left: 10px;}
+.pay-password a{color: #006ad3;font-size: 14px;text-decoration: underline;margin-left: 10px;}
 .pay-content .pay-submit{cursor:pointer;background-color: #ff3636;width: 170px;height: 46px;line-height: 46px;color: #fff;font-size: 16px;border: 0;margin: 30px 10px 100px;}
 
 
@@ -76,7 +76,7 @@ a:hover{text-decoration:none;}
 .zhoxi_yh{ padding-left:54px; height:48px; background:url(../img/smPay/zhognxin_yh.png) left 0 no-repeat; float:left; margin:4px 0 0 6px; font-size:16px; line-height:48px; color:#444; font-weight:bold;}
 .spansty_zfg{ width:24px; height:24px; float:left; background:url(../img/smPay/zf_check.png) 0 -40px no-repeat; margin-top:15px;}
 .xuaz_fs{ font-size:22px; color:#363636; line-height:42px;}
-.ul_xuzesy li.bordergren{ border:2px solid #18b0a3; height:54px;}
+.ul_xuzesy li.bordergren{ border:2px solid #006ad3; height:54px;}
 .xuze_lefty{ float:left; height:55px; padding-left:22px; }
 .ul_xuzesy li{ height:56px; background-color:#fbfffa; border:1px solid #ebebeb; margin-bottom:8px;cursor:pointer;}
 .ul_addtyru li{height:56px; background-color:#fff; width:258px; float:left; margin-left:20px; border:1px solid #ebebeb; margin-bottom:8px;cursor:pointer;}

@@ -14,14 +14,14 @@ abbr, acronym{border:0;font-variant:normal;}
 a{text-decoration:none; color:#999999;}
 a:hover{text-decoration:none;}
 
-#Y-top{width:100%; height:102px; border-bottom:4px solid #18b0a3; }
+#Y-top{width:100%; height:102px; border-bottom:4px solid #006ad3; }
 #Y-top .hidden{width:1200px;  height:102px; overflow:hidden; margin:0 auto; }
 #Y-top .hidden .hai_da{float:left; }
 #Y-top .hidden .hai_da img{float:left; padding-top:33px; }
-#Y-top .hidden .hai_da p{font-size:26px; color:#18b0a3;  line-height:102px; width:600px; }
+#Y-top .hidden .hai_da p{font-size:26px; color:#006ad3;  line-height:102px; width:600px; }
 #Y-top .hidden .hai_db{float:right; }
 #Y-top .hidden .hai_db img{padding-top:30px; }
-#Y-top .hidden .hai_db p{font-size:24px; color:#18b0a3; }
+#Y-top .hidden .hai_db p{font-size:24px; color:#006ad3; }
 
 
 .footer{background-color:#f4f4f4;height:270px; border-top:1px solid #e6e3e3;}

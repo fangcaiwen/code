@@ -62,7 +62,7 @@
   left: 0;
   top: 3px;
   border-radius: 4px;
-  background: #18b0a3;
+  background: #006ad3;
 }
 .des_container .option_table table {
   width: 100%;
@@ -89,15 +89,15 @@
   line-height: 37px;
 }
 .des_container .option_table th:last-child {
-  border-right: 1px solid #18b0a3;
+  border-right: 1px solid #006ad3;
 }
 .des_container .option_table th:first-child {
-  border-left: 1px solid #18b0a3;
+  border-left: 1px solid #006ad3;
 }
 .des_container .option_table td {
   font-size: 12px;
   color: #333333;
-  border: 1px solid #18b0a3;
+  border: 1px solid #006ad3;
   padding: 10px;
 }
 .des_container .option_list {

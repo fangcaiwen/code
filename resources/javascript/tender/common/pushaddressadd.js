@@ -49,7 +49,7 @@ function  projectcom(index){
         var  parama=layer.open({
             anim: 2,
             type: 1,
-            title:  ['资产采购单位选择', 'font-size:18px;color:#009688;'],
+            title:  ['资产采购单位选择', 'font-size:18px;color:#006ad3;'],
             shade: 0.1,
             scrollbar :true,
             skin: '', //没有背景色

@@ -333,7 +333,7 @@ function printfeedList(pageNum){
 
 
 var colorArr=["background:#f7941e;color:#000;border-radius: 60px 0px 0px 60px;",
-		  "background:#18b0a3;color:#000;border-radius: 60px 0px 0px 60px;",
+		  "background:#006ad3;color:#000;border-radius: 60px 0px 0px 60px;",
 		  "background:#49b7ec;color:#000;border-radius: 60px 0px 0px 60px;",
 		  "background:#fe8686;color:#000;border-radius: 60px 0px 0px 60px;",
 		  "background:#f6b37f;color:#000;border-radius: 60px 0px 0px 60px;",

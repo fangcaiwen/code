@@ -223,9 +223,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal
 }
 /* 进度条 */
-#nprogress .bar{background: #00897c}
+#nprogress .bar{background: #006ad3}
 #nprogress .peg {
-  box-shadow: 0 0 10px #00897c, 0 0 5px #00897c;
+  box-shadow: 0 0 10px #006ad3, 0 0 5px #006ad3;
 }
 .container{width: 1200px;margin: 0 auto}
 .container1{width: 1200px;margin: 0 auto}

@@ -3,7 +3,7 @@ $(document).ready(function(){
 });
 
 var colorArr1=["#f7941e;",
-	  "#18b0a3;",
+	  "#006ad3;",
 	  "#49b7ec;",
 	  "#fe8686;",
 	  "#f6b37f;",

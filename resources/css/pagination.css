@@ -25,7 +25,7 @@
   cursor: pointer;
 }
 .pages #Pagination .pagination .current {
-  background: #009688;
+  background: #006ad3;
   color: #fff;
 }
 .pages #Pagination .pagination .prev,
@@ -92,7 +92,7 @@
 .pages .searchPage .page-btn {
   margin: 9px 0 5px 5px;
   padding: 2px 5px;
-  background: #009688;
+  background: #006ad3;
   border-radius: 2px;
   color: #ffffff;
   font-family: Arial, 'Microsoft YaHei';

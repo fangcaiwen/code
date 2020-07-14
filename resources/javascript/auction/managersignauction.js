@@ -232,7 +232,7 @@ function  buyernotice(){
 }
 
 var colorArr=["background:#f7941e;color:#fff;border-radius: 60px 0px 0px 60px;",
-		  "background:#18b0a3;color:#fff;border-radius: 60px 0px 0px 60px;",
+		  "background:#006ad3;color:#fff;border-radius: 60px 0px 0px 60px;",
 		  "background:#49b7ec;color:#fff;border-radius: 60px 0px 0px 60px;",
 		  "background:#fe8686;color:#fff;border-radius: 60px 0px 0px 60px;",
 		  "background:#f6b37f;color:#fff;border-radius: 60px 0px 0px 60px;",

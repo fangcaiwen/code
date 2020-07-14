@@ -222,7 +222,7 @@ function   addoderid(jsondata){
 					html+='<tr>';
 				}
 				var textv=data.obj[""+info.name];
-				var styleadd="border-color:#009688;";
+				var styleadd="border-color:#006ad3;";
 				if(textv==""||textv==undefined||(textv.indexOf("null")>0)||textv=='nullnullnullnull'){
 					textv="";
 					styleadd="border-color: red;"
@@ -238,7 +238,7 @@ function   addoderid(jsondata){
 				if(info.name.indexOf("time")>0){
 					html+='<script type="text/javascript">layui.laydate.render({elem: "#'+info.name+'"}); </script>';
 				}
-				html+='<script type="text/javascript">$(".'+index+1+'").blur(function(){if($(".'+index+1+'").val()!=""){$(".'+index+1+'").css("border-color","#009688");}});</script>';
+				html+='<script type="text/javascript">$(".'+index+1+'").blur(function(){if($(".'+index+1+'").val()!=""){$(".'+index+1+'").css("border-color","#006ad3");}});</script>';
 				html+='</td>';
 				if((index+1)%2==0){
 					html+='</tr>';
@@ -275,7 +275,7 @@ function   addoderid(jsondata){
 							 layer.msg(placeholder,{offset: 't',anim: 6});
 							 return false;
 						 }else{
-							 $(inf).attr("border-color","#009688");
+							 $(inf).attr("border-color","#006ad3");
 						 }
 						 jsondata[name]=valu;
 					 });

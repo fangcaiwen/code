@@ -339,11 +339,11 @@ function topayfeeo(orderno,fee){
 $(document).ready(function(){
 	setTimeout(function() {
 		/*layer.tips('财务对账点击这里', '.feedtetail', {
-			  tips: [1, '#18b0a3'],
+			  tips: [1, '#006ad3'],
 			  time: 40000
 			});*/
 		/*layer.tips('<div class="layui-inline" style="width:350px;"><a  href="/auctionmanager/managerpushauction.html"  target="_blank" class="  "><img style="width:250px;"  src="https://www.ezaisheng.cn/file/upload/202006/24/09-40-56-52-16702.png" /></a></div>', '.feedtetail', {
-			  tips: [1, '#18b0a3'],
+			  tips: [1, '#006ad3'],
 			  time: 40000
 			});*/
 		
