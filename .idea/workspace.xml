@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32a5ae3c-8ea7-4cc8-9782-93d7d1bee97c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctionmanager/pushauctiongoods.html" beforeDir="false" afterPath="$PROJECT_DIR$/auctionmanager/pushauctiongoods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newRes/login_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/newRes/login_bg1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/ehome_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/img/ehome_041.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/auction/managerauctiongoods.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/auction/managerauctiongoods.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/layui/css/layui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/layui/css/modules/layer/default/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orderform/sellerorderformlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/orderform/sellerorderformlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/torderform/orderformlist.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/torderform/orderformlist.do" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javascript/torderform/buyerorderform.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/torderform/buyerorderform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/torderform/buyerorderformlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/torderform/buyerorderformlist.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,106 +20,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="buyerorderformlist.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/torderform/buyerorderformlist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="265" column="29" lean-forward="true" selection-start-line="265" selection-start-column="29" selection-end-line="265" selection-end-column="29" />
+            <state relative-caret-position="248">
+              <caret line="81" column="38" lean-forward="true" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pushauctiongoods.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auctionmanager/pushauctiongoods.html">
+      <file leaf-file-name="profile.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/css/profile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="76" column="25" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="25" />
+            <state relative-caret-position="274">
+              <caret line="352" column="48" selection-start-line="352" selection-start-column="48" selection-end-line="352" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sellerorderformlist.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orderform/sellerorderformlist.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buyerorderform.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/javascript/torderform/buyerorderform.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1139">
+              <caret line="79" column="62" lean-forward="true" selection-start-line="79" selection-start-column="62" selection-end-line="79" selection-end-column="62" />
               <folding>
-                <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#6;n#div#1;n#li#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="managerauctiongoods.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/javascript/auction/managerauctiongoods.js">
+      <file leaf-file-name="orderformlist.do" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pai/torderform/orderformlist.do">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="214" column="57" selection-start-line="214" selection-start-column="57" selection-end-line="214" selection-end-column="57" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#23#27#1" expanded="true" />
-                <element signature="e#108#112#1" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#td#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#td#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#td#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#td#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#td#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#td#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#td#0;n#!!top" expanded="true" />
-              </folding>
+            <state>
+              <caret column="49" selection-start-column="49" selection-end-column="49" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layer.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/layui/css/modules/layer/default/layer.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="1" column="23243" selection-start-line="1" selection-start-column="23243" selection-end-line="1" selection-end-column="23243" />
-              <folding>
-                <element signature="e#62497#62636#2" expanded="true" />
-                <element signature="e#64090#64229#2" expanded="true" />
-                <element signature="e#64777#64916#2" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layui.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/layui/css/layui.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="1927" column="26" lean-forward="true" selection-start-line="1927" selection-start-column="26" selection-end-line="1927" selection-end-column="26" />
-              <folding>
-                <element signature="e#79526#79665#2" expanded="true" />
-                <element signature="e#81570#81709#2" expanded="true" />
-                <element signature="e#82419#82558#2" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ehome_041.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/img/ehome_041.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="ehome_04.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/img/ehome_04.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="ehome_05.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/img/ehome_05.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>noauth</find>
-      <find>zz-jp</find>
-      <find>.ehead .esearch .ebutton</find>
-      <find>.new_yzs-footer-pannel</find>
       <find>.ehead</find>
       <find>.new_yzs-footer-pannel .yzs-footer-copyright</find>
       <find>new_yzs-footer-pannel .fastback button</find>
@@ -148,9 +96,13 @@
       <find>#34a99e</find>
       <find>.new_yzs-footer-pannel .code p</find>
       <find>.yzs-login-btn</find>
-      <find>dataTable</find>
       <find>.layui-btn-xs</find>
+      <find>dataTable</find>
       <find>#965b00</find>
+      <find>00887C</find>
+      <find>194e59</find>
+      <find>thead002</find>
+      <find>orders</find>
     </findStrings>
     <replaceStrings>
       <replace>#006ad3</replace>
@@ -175,7 +127,6 @@
         <option value="$PROJECT_DIR$/resources/javascript/user/inframe.js" />
         <option value="$PROJECT_DIR$/inframe/index.html" />
         <option value="$PROJECT_DIR$/public/public_header.html" />
-        <option value="$PROJECT_DIR$/resources/css/profile.css" />
         <option value="$PROJECT_DIR$/user/login.html" />
         <option value="$PROJECT_DIR$/resources/css/style.css" />
         <option value="$PROJECT_DIR$/auctionmanager/pushauctiongoods.html" />
@@ -183,6 +134,11 @@
         <option value="$PROJECT_DIR$/resources/js/layui/css/modules/layer/default/layer.css" />
         <option value="$PROJECT_DIR$/resources/js/layui/css/layui.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/resources/css/profile.css" />
+        <option value="$PROJECT_DIR$/orderform/sellerorderformlist.html" />
+        <option value="$PROJECT_DIR$/torderform/buyerorderformlist.html" />
+        <option value="$PROJECT_DIR$/resources/javascript/torderform/buyerorderform.js" />
+        <option value="$PROJECT_DIR$/pai/torderform/orderformlist.do" />
       </list>
     </option>
   </component>
@@ -216,12 +172,25 @@
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="auctionmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="torderform" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
@@ -243,11 +212,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/img/order" />
       <recent name="$PROJECT_DIR$/resources/img" />
       <recent name="$PROJECT_DIR$/newRes" />
       <recent name="$PROJECT_DIR$/product_img" />
       <recent name="$PROJECT_DIR$/file" />
-      <recent name="$PROJECT_DIR$/resources/javascript/user/auth" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -274,18 +243,18 @@
       <updated>1594643944382</updated>
       <workItem from="1594643946456" duration="1312000" />
       <workItem from="1594645400772" duration="7571000" />
-      <workItem from="1594691134162" duration="9043000" />
+      <workItem from="1594691134162" duration="12987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17926000" />
+    <option name="totallyTimeSpent" value="21870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18252291" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.273432" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -293,7 +262,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2794872" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20512821" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -311,30 +280,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/auth/atcom.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/authinit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4503">
-          <caret line="237" column="35" selection-start-line="237" selection-start-column="35" selection-end-line="237" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/javascript/user/auth/comauth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/javascript/user/auth/authcommon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/javascript/user/auth/authinit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -571,13 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/css/profile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="1388" lean-forward="true" selection-start-line="1388" selection-end-line="1388" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newRes/login_bg1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -668,6 +606,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="265" column="29" lean-forward="true" selection-start-line="265" selection-start-column="29" selection-end-line="265" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/profile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="352" column="48" selection-start-line="352" selection-start-column="48" selection-end-line="352" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orderform/sellerorderformlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/torderform/buyerorderformlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="81" column="38" lean-forward="true" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/javascript/torderform/buyerorderform.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="79" column="62" lean-forward="true" selection-start-line="79" selection-start-column="62" selection-end-line="79" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#6;n#div#1;n#li#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pai/torderform/orderformlist.do">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="49" selection-start-column="49" selection-end-column="49" />
         </state>
       </provider>
     </entry>

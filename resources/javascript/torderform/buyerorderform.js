@@ -78,10 +78,10 @@ function getOrderList(pageNum,pageSize){
                         +"<div class='remark'>备注</div>"
                         +"</div>"
                         +"<div class='yzs-m-order-list-con2'>"
-                        +"<div class='yzs-m-order-list-img'><img src='"+order.tenderGoods.url+"'></div>"
+                        +"<div class='yzs-m-order-list-img'><img src='/resources/img/order/imag"+(i%3+1)+"'"+"></div>"
                         +"<div class='yzs-m-order-list-info'>"
                         +"<div>"+order.productName+"</div>"
-                        +"<div style='font-size: 8px;'>卖家公司:"+order.seller.company+"</div>"
+                        +"<div style='font-size: 8px;'>"+order.seller.company+"</div>"
                         +"</div>"
                         +"<div class='yzs-m-order-list-price'>¥"+order.price+"元</div>"
                         +"<div class='yzs-m-order-list-num'>"+order.amount+order.unit+"</div>"
@@ -127,11 +127,12 @@ function query(pageNum,jq){
 }
 
 function orderinfo(orderno){
+    return;
     window.location.href="/torderform/buyerordershow.html?param="+orderno;
 }
 //签订合同
 function sign(orderNo){
-
+    return;
     var reqdata={
         'orderNo':orderNo
     };
@@ -233,6 +234,7 @@ function downLoadContent(){
 
 //查看对账单
 function viewCheckorder(orderNo){
+    return;
     layer.open({
         type: 2,
         title: '查看对账单',
@@ -255,6 +257,7 @@ function viewCheckorder(orderNo){
 
 //确认对账单
 function confirmCheckorder(orderNo){
+    return;
     layer.open({
         type: 2,
         title: '查看对账单',
@@ -276,6 +279,7 @@ function confirmCheckorder(orderNo){
 
 //支付
 function payMoney(orderNo){
+    return;
     /*var param={};
     param["orderNo"]=orderNo;
     topay("/pai/torderform/checkorder/payMoney.do",param);*/
