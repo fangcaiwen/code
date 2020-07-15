@@ -344,7 +344,7 @@ function pushAuctionView(goodsid) {
         scrollbar: true,
         closeBtn: 0,
         shadeClose: false,
-        area: ['55%', '50%'],
+        area: ['100%', '50%'],
         content: $(".yzs-form")
         , btn: ['确认发布', '预览公告', '取消']
         , yes: function (index, layero) {

@@ -17,7 +17,7 @@ function getIndexBanner(type){
 			//usebanner(data.obj.content)
 
             //usebanner('/newRes/s1.png,/source_asso/index.html;/newRes/s2.png,/source_asso/index.html')
-            usebanner('/newRes/s1.png,#;/newRes/s2.png,#;/newRes/s3.png,#;/newRes/s4.png,#')
+            usebanner('/newRes/s1.png,#;/newRes/s2.png,#;/newRes/s3.png,#;/newRes/s4.png,#;/newRes/s5.png,#;/newRes/s6.png,#')
 		}
 	});
 };
@@ -27,7 +27,7 @@ function  usebanner(data){
 	$.each(data.split(";"),function(index,info){
 		html+='<div>';
 		html+='<a href="'+(info.split(",")[1])+'" target="_blank">';
-		html+='<img src="'+info.split(",")[0]+'">';
+		html+='<img src="'+info.split(",")[0]+'" style="height:369px">';
 		html+='</a>';
 		html+='</div>';
 	});

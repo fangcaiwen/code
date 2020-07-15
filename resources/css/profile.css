@@ -1702,9 +1702,9 @@ table {
   color: #006ad3;
 }
 .enav .etopnav li.active a {
-  background: #006ad3;
+  /*background: #006ad3;*/
   border-radius: 6px;
-  color: #fff;
+  /*color: #fff;*/
   padding: 6px 16px;
 }
 .eface {
