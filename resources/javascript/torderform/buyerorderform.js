@@ -301,10 +301,14 @@ function payMoney(orderNo) {
         title: '付款',
         skin: 'layui-layer-rim', //加上边框
         area: ['1020px', '640px'], //宽高
-        btn: ['确定并付款', '取消'],
+        btn: ['确定并付款', '确定融资付款', '取消'],
         yes: function (index, layero) {
             layer.closeAll();
             layer.msg("付款成功");
+            return false;
+        },
+        btn2: function (index, layero) {
+            window.location.href = '/pzx/service.html?s=zmqht';
             return false;
         },
         content: ' <div class="yzs-form layui-form memberCenterContent" style="width:96%;">\n' +
@@ -355,6 +359,9 @@ function payMoney(orderNo) {
         '            </div>\n' +
         '            <div class="layui-input-inline layui-input-inline1">\n' +
         '                <input type="radio" value="2" id="no1" name="tenderInfo.isqualication"/>电子发票\n' +
+        '            </div>\n' +
+        '            <div class="layui-input-inline layui-input-inline1">\n' +
+        '                <input type="radio" value="2" id="no1" name="tenderInfo.isqualication"/>不开发票\n' +
         '            </div>\n' +
         '        </div>\n' +
         '    </div>\n' +
