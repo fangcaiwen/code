@@ -43,17 +43,39 @@
         <div class="ehotline">
             <img src="../newRes/400number.png" width="200">
         </div>
-    </div>
+        <a href="/inframe/index.html?t=会员中心" style="width: 65px;
+                                            height: 25px;
+                                            border-width: 1px;
+                                            border-color: #006ad3;
+                                            border-style: solid;
+                                            border-radius: 5px;
+                                            color: #006ad3;
+                                            display: flex;
+                                            font-weight: bold;
+                                            justify-content: center;
+                                            align-items: center;"id="goHome">会员中心</a>
+        <a href="/pzx/show.html?s=bmcjjp" style="width: 65px;
+                                            height: 25px;
+                                            border-width: 1px;
+                                            border-color: #006ad3;
+                                            border-style: solid;
+                                            border-radius: 5px;
+                                            color: #006ad3;
+                                            display: flex;
+                                            font-weight: bold;
+                                            justify-content: center;
+                                            align-items: center;">竞拍帮助</a>
+                                            </div>
 </div>
 <div class="enav econtainer" style="display: flex; align-items: center;">
-    <ul class="etopnav" style="flex-grow: 1;flex-shrink: 0;">
-        <li class="active"><a href="/">首页</a></li>
-        <li><a href="/jjks.html?t=1">建筑垃圾</a></li>
-        <li><a href="/jjks.html?t=2">再生建材</a></li>
-        <li><a href="/jjks.html?t=3">再生资源</a></li>
-        <li><a href="/jjks.html?t=4">家装超市</a></li>
-        <li><a href="/pzx/service.html?s=zmqht">产业金融</a></li>
-        <li><a href="/inframe/index.html?t=会员中心" id="goHome">会员中心</a></li>
+    <ul class="etopnav" id="home_banner" style="flex-grow: 1;flex-shrink: 0;">
+        <li class="homepage active"><a href="/">首页</a></li>
+        <li class="jzljpage"><a href="/jjks.html?t=1">建筑垃圾</a></li>
+        <li class="zsjcpage"><a href="/jjks.html?t=2">再生建材</a></li>
+        <li class="jszypage"><a href="/jjks.html?t=3">再生资源</a></li>
+        <li class="jjcspage"><a href="/jjks.html?t=4">家装超市</a></li>
+        <li class="cyjrpage"><a href="/pzx/service.html?s=zmqht">产业金融</a></li>
+        <!--<li class="hyzxpage"><a href="/inframe/index.html?t=会员中心" id="goHome">会员中心</a></li>-->
         <!--<li><span>竞价销售</span>
             <div class="esubnav">
                 <a href="/zzjp.html?v=2020107" class="zzjp">正在进行</a>
@@ -69,24 +91,25 @@
             </div>
         </li>
         <li><a href="javascript:toiframe();">会员中心</a></li>-->
-        <li><a href="/pzx/show.html?s=bmcjjp">竞拍帮助</a></li>
+        <!--<li class="jpbzpage"><a href="/pzx/show.html?s=bmcjjp">竞拍帮助</a></li>-->
         <li><a target="_blank" href="https://sugar.aipage.com/dashboard/7c18e7cbbf24e86a3ad1798d0f9f32f4">数据大屏</a></li>
     </ul>
 
     <script type="text/javascript">
-        $(function(){
-            if(getCookie('login') == '1'){
+        $(function () {
+            if (getCookie('login') == '1') {
                 $('#goLogin').hide();
                 $('#goHome').show();
             }
         })
     </script>
     <style type="text/css">
-        .eunlogin{
+        .eunlogin {
             width: 280px;
             text-align: right;
         }
-        .eloginbtn{
+
+        .eloginbtn {
             width: 64px;
             height: 29px;
             background: #006ad3;
@@ -95,7 +118,8 @@
             border: 1px solid #006ad3;
             cursor: pointer;
         }
-        .eregbtn{
+
+        .eregbtn {
             width: 64px;
             height: 29px;
             border: 1px solid #006ad3;
@@ -106,8 +130,8 @@
         }
     </style>
 
-    <div class="eunlogin user_tip" >
-        <div  id="goLogin">
+    <div class="eunlogin user_tip">
+        <div id="goLogin">
 
             <a href="/user/login.html">
                 <button type="button" class="eloginbtn fastlogin">登录</button>
@@ -120,7 +144,8 @@
 </div>
 <script type="text/javascript">
     $(document).ready(function () {
-        getUrlParam();
+        setActive();
+        // getUrlParam();
         var elabel = document.getElementById('elabel');
         var elabelSel = document.getElementById('elabelSel');
         var elabelSeled = document.getElementById('elabelSeled');
@@ -135,6 +160,28 @@
             elabelSel.style.display = "none"
         }
     });
+
+    function setActive() {
+        let url = window.location.href;
+        $(".active").removeClass("active");
+        if (url.includes("jjks.html?t=1")) {
+            $(".jzljpage").addClass("active");
+        } else if (url.includes("jjks.html?t=2")) {
+            $(".zsjcpage").addClass("active");
+        } else if (url.includes("jjks.html?t=3")) {
+            $(".jszypage").addClass("active");
+        } else if (url.includes("jjks.html?t=4")) {
+            $(".jjcspage").addClass("active");
+        } else if (url.includes("pzx/service.html?s=zmqht")) {
+            $(".cyjrpage").addClass("active");
+        } else if (url.includes("/inframe/index.html?t")) {
+            $(".hyzxpage").addClass("active");
+        } else if (url.includes("pzx/show.html")) {
+            $(".jpbzpage").addClass("active");
+        } else if (url.includes("/index.html")) {
+            $(".homepage").addClass("active");
+        }
+    }
 
 
     function getUrlParam() {

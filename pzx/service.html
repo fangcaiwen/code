@@ -526,7 +526,7 @@
             position: absolute;
             left: 70px;
             top: 2px;
-            background: url(https://image01.homedo.com/Files/Images/cms/www/20200415/4942561423094647365_pic1.png) 0 0 no-repeat
+            /*background: url(https://image01.homedo.com/Files/Images/cms/www/20200415/4942561423094647365_pic1.png) 0 0 no-repeat*/
         }
 
         .zd-detail .icon01:before {
@@ -11114,6 +11114,116 @@
             box-sizing: border-box;
         }
 
+        .itemBto {
+            height: 280px;
+            width: 1080px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+        }
+        .itemBto .itemTxt {
+            width: 210px;
+            height: 250px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .itemBto .itemTxt h5 {
+            font-size: 14px;
+            height: 43px;
+            line-height: 43px;
+            color: #221815;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        .itemBto .itemTxt .pwen {
+            font-size: 12px;
+            color: #666666;
+            height: 50px;
+            line-height: 22px;
+            overflow: hidden;
+        }
+        .itemBto .itemTxt .icenter {
+            display: block;
+            margin-top: 20px;
+            height:100px;
+            width: 100px;
+        }
+        .itemBto .itemTxt .icenter.ia01 {
+            background: url("/newRes/ai01.png") no-repeat scroll center;
+        }
+        .itemBto .itemTxt .icenter.ia02 {
+            background: url("/newRes/ai02.png") no-repeat scroll center;
+        }
+        .itemBto .itemTxt .icenter.ia03 {
+            background: url("/newRes/ai03.png") no-repeat scroll center;
+        }
+        .itemBto .itemTxt .icenter.ia04 {
+            background: url("/newRes/ai04.png") no-repeat scroll center;
+        }
+        .itemBto .itemTxt .icenter.ib01 {
+            background: url("/static/img/finance/bi01.png") no-repeat scroll center;
+        }
+        .itemBto .itemTxt .icenter.ib02 {
+            background: url("/static/img/finance/bi02.png") no-repeat scroll center;
+        }
+        .itemBto .itemTxt .icenter.ib03 {
+            background: url("/static/img/finance/bi03.png") no-repeat scroll center;
+        }
+        .itemBto .itemTxt .icenter.ib04 {
+            background: url("/static/img/finance/bi04.png") no-repeat scroll center;
+        }
+        .itemBto .itemTxt .icenter.ic01 {
+            background: url("/static/img/finance/ci01.png") no-repeat scroll center;
+        }
+        .itemBto .itemTxt .icenter.ic02 {
+            background: url("/static/img/finance/ci02.png") no-repeat scroll center;
+        }
+        .itemBto .itemTxt .icenter.ic03 {
+            background: url("/static/img/finance/ci03.png") no-repeat scroll center;
+        }
+        .itemBto .itemTxt .icenter.ic04 {
+            background: url("/static/img/finance/ci04.png") no-repeat scroll center;
+        }
+        .itemBto .itemTxt .icenter.id01 {
+            background: url("/static/img/finance/di01.png") no-repeat scroll center;
+        }
+        .itemBto .itemTxt .icenter.id02 {
+            background: url("/static/img/finance/di02.png") no-repeat scroll center;
+        }
+        .itemBto .itemTxt .icenter.id03 {
+            background: url("/static/img/finance/di03.png") no-repeat scroll center;
+        }
+        .itemBto .itemTxt .icenter.id04 {
+            background: url("/static/img/finance/di04.png") no-repeat scroll center;
+        }
+        .itemBto .itemTxt.color1 {
+            background: #fff5eb;
+            border: 1px solid #ffa74d;
+        }
+        .itemBto .itemTxt.color2 {
+            background: #f1f7ff;
+            border: 1px solid #4d98fb;
+        }
+        .itemBto .itemTxt.color3 {
+            background: #f8f2ff;
+            border: 1px solid #a457ff;
+        }
+        .itemBto .itemTxt.color4 {
+            background: #e8fff5;
+            border: 1px solid #65da9b;
+        }
+        .itemBto .itemTxt.lastRTwo {
+            margin-right: 0px;
+        }
+        .itemBto .itemTxt.lastR {
+            margin-right: 0px;
+            float: right;
+        }
+
         /* 详情页商品氛围 */
         /* #preview .jqzoom.acting::before {display: block; content: ""; left: 0; top: 0; width: 100%; height: 100%; background: url(https://image01.homedo.com/Files/Images/cms/www/20200528/5561952316529629815_pic1.png) left bottom no-repeat; position: absolute;}
         #preview .jqzoom.lottery::before {display: block; content: ""; left: 0; top: 0; width: 100%; height: 100%; background: url(https://image01.homedo.com/Files/Images/cms/www/20200528/5092937409784214828_pic1.png) left bottom no-repeat; position: absolute;}
@@ -11145,7 +11255,7 @@
                             </a></dt>
                             <dt class="pagenew"><a href="#" target="_blank">
                                 <div class="index-list-box box-top2">
-                                    <div class="text"><h1 style="text-align: left;">采购贷</h1> <em class="line"></em> <span>城商行助力发展</span> <span>江苏适用，灵活方便</span></div>
+                                    <div class="text"><h1 style="text-align: left;">存货贷</h1> <em class="line"></em> <span>货物货赎，管理灵活</span> <span>存货秒变现金，服务费低至万三</span></div>
                                     <div class="transparent-box"></div>
                                 </div>
                             </a> <a href="#" target="_blank">
@@ -11163,23 +11273,35 @@
             <div class="zhengdan201911" style="margin-right:10px;">
                 <div class="titles">
                     <h2 style="background:url('https://image01.homedo.com/Files/Images/cms/www/20200605/4802582328882229910_pic1.png') no-repeat center bottom;">
-                        微众银行 货款无忧
+                        货款无忧
                     </h2>
                 </div>
                 <div class="zd-detail clear-box">
-                    <div class="detail-box fl icon03">
-                        <div class="pad">
-                            <strong>最高可贷300万，边借边还</strong>
-                            <p>
-                                无需纸质材料，额度立等可见
-                            </p>
-                            <p>
-                                旺季订货最佳伴侣
-                            </p>
+                        <div class="itemBto clearfloat">
+                            <div class="itemTxt color1">
+                                <h5>先提货，后付款</h5>
+                                <p class="pwen">解决采购原料资金压力</p>
+                                <i class="icenter ia01"></i>
+                            </div>
+                            <div class="itemTxt color1">
+                                <h5>高额度，低成本</h5>
+                                <p class="pwen">额度最高200万，循环使用<br>服务费低至每日万分之二</p>
+                                <i class="icenter ia02"></i>
+                            </div>
+                            <div class="itemTxt color1 lastRTwo">
+                                <h5>还款随心订</h5>
+                                <p class="pwen">还款周期最长达60天<br>还款形式支持现款或承兑</p>
+                                <i class="icenter ia03"></i>
+                            </div>
+                            <div class="itemTxt lastR color1">
+                                <h5>信用可积累</h5>
+                                <p class="pwen">交易记录转为信用记录<br>快速提额，享受更低服务成本
+                                </p>
+                                <i class="icenter ia04"></i>
+                            </div>
                         </div>
-                    </div>
                 </div>
-                <a class="link-btn" target="_blank" href="/hmddhd">提交需求</a>
+                <a class="link-btn" href="#">提交需求</a>
             </div>
         </div>
         <div class="show-boxs">

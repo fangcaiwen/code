@@ -201,6 +201,7 @@ function getAuctionDoingLists() {
         "stime": 0,
         "snum": -1
     };
+    let areanameArr = ['青岛市崂山区','青岛市黄岛区','青岛市西海岸新区','青岛市城阳区'];
     painoloadrequest("/pai/auction/searchAuction.do", serach).then(function (data) {
         $(".subDoing").empty();
         var result = '';
@@ -217,7 +218,7 @@ function getAuctionDoingLists() {
                     if (value.areaname == undefined) {
                         areaname = "暂无信息"
                     } else {
-                        areaname = value.areaname.split("@")[1]
+                        areaname = areanameArr[index];
                     }
                     if (value.sprice <= "0.001") {
                         value.sprice = "**"
@@ -232,7 +233,7 @@ function getAuctionDoingLists() {
                     }
                     result += '<div class="wrap">';
                     result += '<div class="nameAddress">';
-                    result += '<div class="name">' + value.title.substring(0, 10) + '...</div>';
+                    result += '<div class="name">' + value.title.substring(0, 10) + '</div>';
                     result += '<div class="address"><i class="el-icon-location"></i>' + areaname + '</div>';
                     result += '</div>';
                     result += '<div class="price  ' + value.id + 'price">当前价：<span>' + value.nprice + '</span>元</div>';
@@ -282,6 +283,7 @@ function getAuctionWillBeginLists() {
         "stime": 1,
         "snum": -1
     };
+    let areanameArr = ['青岛市西海岸新区','青岛市城阳区','青岛市市北区','青岛市市南区'];
     pairequest("/pai/auction/searchAuction.do", serach).then(function (data) {
         $(".soon>.container>.content").empty();
         var result = '';
@@ -297,7 +299,7 @@ function getAuctionWillBeginLists() {
                     if (value.areaname == undefined) {
                         areaname = "暂无信息"
                     } else {
-                        areaname = value.areaname.split("@")[1]
+                        areaname = areanameArr[index];
                     }
                     if (value.sprice <= "0.001") {
                         value.sprice = "**"
@@ -313,7 +315,7 @@ function getAuctionWillBeginLists() {
                     }
                     result += '<div class="wrap">';
                     result += '<div class="nameAddress">';
-                    result += '<div class="name">' + value.title.substring(0, 10) + '...</div>';
+                    result += '<div class="name">' + value.title.substring(0, 10) + '</div>';
                     result += '<div class="address"><i class="el-icon-location"></i>' + areaname + '</div>';
                     result += '</div>';
                     result += '<div class="info">';
@@ -435,6 +437,7 @@ function getAuctionEndLists() {
         "stime": 1,
         "snum": -1
     };
+    let areanameArr = ['青岛市城阳区','青岛市市北区','青岛市市南区','青岛市即墨区'];
     painoloadrequest("/pai/auction/searchAuction.do", serach).then(function (data) {
 
         $(".ended>.container>.content").empty();
@@ -451,7 +454,7 @@ function getAuctionEndLists() {
                     if (value.areaname == undefined) {
                         areaname = "暂无信息"
                     } else {
-                        areaname = value.areaname.split("@")[1]
+                        areaname = areanameArr[index];
                     }
 
                     if (value.sprice <= "0.001") {
@@ -464,7 +467,7 @@ function getAuctionEndLists() {
                     result += '<div class="img"><img src="' + value.disagreeinfo + '" alt="" srcset=""></div>';
                     result += '<div class="wrap">';
                     result += '<div class="nameAddress">';
-                    result += '<div class="name">' + value.title.substring(0, 10) + '...</div>';
+                    result += '<div class="name">' + value.title.substring(0, 10) + '</div>';
                     result += '<div class="address"><i class="el-icon-location"></i>' + areaname + '</div>';
                     result += '</div>';
                     result += '<div class="info">';

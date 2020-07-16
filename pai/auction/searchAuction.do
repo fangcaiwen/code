@@ -3,7 +3,7 @@
         {
             "address": "安徽省芜湖市",
             "amount": "120.00",
-            "areaname": "安徽省@芜湖市@镜湖区@经开区",
+            "areaname": "安徽省@西海岸企业@镜湖区@经开区",
             "assetunit": "芜湖桑青生物科技有限公司",
             "bidnum": 2,
             "bond": "5000.00",
@@ -36,7 +36,7 @@
         {
             "address": "北京市",
             "amount": "17.00",
-            "areaname": "上海市@上海市@浦东新区@老港镇",
+            "areaname": "上海市@西海岸企业@浦东新区@老港镇",
             "assetunit": "森蓝环保（上海）有限公司",
             "bidnum": 1,
             "bond": "10000.00",
@@ -69,7 +69,7 @@
         {
             "address": "北京市",
             "amount": "32.00",
-            "areaname": "上海市@上海市@浦东新区@老港镇",
+            "areaname": "上海市@西海岸企业@浦东新区@老港镇",
             "assetunit": "森蓝环保（上海）有限公司",
             "bidnum": 1,
             "bond": "10000.00",
@@ -77,7 +77,7 @@
             "creattime": "2020-07-07 09:04:58.0",
             "currentmoney": 7230,
             "currenttimeemp": 0,
-            "disagreeinfo": "/product_img/废钢2.jpg",
+            "disagreeinfo": "/product_img/废钢.jpg",
             "endtime": "2020-07-09 15:30:00.0",
             "endtimeemp": 1594279800000,
             "goodsname": "废钢",
@@ -102,7 +102,7 @@
         {
             "address": "北京市",
             "amount": "32.00",
-            "areaname": "上海市@上海市@浦东新区@老港镇",
+            "areaname": "上海市@西海岸企业@浦东新区@老港镇",
             "assetunit": "森蓝环保（上海）有限公司",
             "bidnum": 0,
             "bond": "10000.00",
@@ -110,7 +110,7 @@
             "creattime": "2020-07-07 09:04:59.0",
             "currentmoney": 0,
             "currenttimeemp": 0,
-            "disagreeinfo": "/product_img/风化砂1.jpg",
+            "disagreeinfo": "/product_img/风化砂.jpg",
             "endtime": "2020-07-09 15:30:00.0",
             "endtimeemp": 1594279800000,
             "goodsname": "风化砂",

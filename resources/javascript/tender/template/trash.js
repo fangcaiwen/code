@@ -1,6 +1,6 @@
 var trashTemplate = "<div class='des_container'>"+
 "			<div class='title'>"+
-"				关于@company采购@goodsName的公告"+
+"				关于青岛西海岸企业竞价销售的公告"+
 "			</div>"+
 "			<div class='info'>"+
 "				我公司现有一批@goodsName需竞价采购，兹邀广大客户前来参与出价，我司将以公开、公平、公正为原则进行竞价，烦请各位客户认真阅读《竞价公告》。"+
@@ -10,7 +10,7 @@ var trashTemplate = "<div class='des_container'>"+
 "					@auctionStartTime起-@auctionEndTime止（延时除外）  "+
 "				</div>"+
 "				<div class='addr'>"+
-"					@goodsAddress"+
+"					青岛市西海岸新区"+
 "				</div>"+
 "			</div>"+
 "			<div class='block_title'>竞价须知</div>"+

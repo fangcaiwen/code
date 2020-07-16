@@ -1,1 +1,19 @@
-{"errorcode":101000,"msg":"请求成功","obj":{"cgze":0.000,"ysje":0.000,"cgdd":0,"yfje":0.000,"dqy":0,"xsdd":0,"dqrdzd":0,"xxze":0.000,"dzf":0,"jxzdd":0},"success":true}
+{
+    "errorcode":101000,
+    "msg":"请求成功",
+    "obj":{
+        "cgze":1200000,
+        "ysje":2000000,
+        "cgdd":30,
+        "yfje":800000,
+        "dqy":12,
+        "xsdd":15,
+        "dqrdzd":25,
+        "xxze":1500000,
+        "dzf":9,
+        "cgzl":120,
+        "xszl":200,
+        "jxzdd":9
+    },
+    "success":true
+}

@@ -1,6 +1,6 @@
 var feiyouTemplate ="<div class='des_container'>"+
 "			<div class='title'>"+
-"				关于@company@goodsName销售的竞价公告"+
+"				关于青岛西海岸企业竞价销售的公告"+
 "			</div>"+
 "			<div class='info'>"+
 "				我司将持续供应的@goodsName在“青岛西海岸建材交易中心”（www.qdxhanjc.com)进行公开竞价销售，兹邀广大客户前来竞价，我司将以公开、公平、公正为原则进行竞价，烦请各位客户认真阅读《竞价公告》。"+
@@ -10,7 +10,7 @@ var feiyouTemplate ="<div class='des_container'>"+
 "					@auctionStartTime起-@auctionEndTime止（延时除外）  "+
 "				</div>"+
 "				<div class='addr'>"+
-"					@goodsAddress"+
+"					青岛市西海岸新区"+
 "				</div>"+
 "			</div>"+
 "			<div class='block_title'>本次竞价物资</div>"+

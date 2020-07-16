@@ -239,16 +239,16 @@ function getauctionLists(pageNum){
     };
     var dataa = {
         '1': [
-            '/product_img/石子.jpg', '/product_img/拆迁垃圾.jpg', '/product_img/渣土.jpg', '/product_img/装修垃圾3.jpg'
+            '/product_img/石子.jpg', '/product_img/拆迁垃圾.jpg', '/product_img/渣土.jpg', '/product_img/装修垃圾.jpg'
         ],
         '2': [
             '/product_img/石渣.jpg', '/product_img/渣土.jpg', '/product_img/拆迁垃圾.jpg', '/product_img/烧结砖.jpg'
         ],
         '3': [
-            '/product_img/废钢2.jpg', '/product_img/机制砂1.jpg', '/product_img/风化砂1.jpg', '/product_img/石渣.jpg'
+            '/product_img/废钢.jpg', '/product_img/机制砂.jpg', '/product_img/风化砂.jpg', '/product_img/石渣.jpg'
         ],
         '4': [
-            '/product_img/家装4.jpg', '/product_img/家装超市3.jpg', '/product_img/家装超市_1.jpg', '/product_img/家装超市_2.jpg'
+            '/product_img/福瀛建材.jpg', '/product_img/富尔玛.jpg', '/product_img/居然之家.jpg', '/product_img/海博家居.jpg'
         ]
     }
     function getQueryString(name) {
@@ -282,7 +282,7 @@ function getauctionLists(pageNum){
                     if(value.areaname==undefined){areaname="暂无信息"}else{areaname=value.areaname.split("@")[1]}
                     if(value.sprice<="0.001"){value.sprice="**"}
                     result += '<div  class="item '+value.id+'p" id="'+value.id+'">';
-                    result+='<a href="/auction/sign.html?param='+value.id+'"  class="opennew" target="_blank" >';
+                    result+='<a href="/auction/sign.html?param='+pic[index]+'"  class="opennew" target="_blank" >';
                     result += '<div class="product">';
                     result += '<span class="ti">预告中</span>';
                     result += '<div class="img"><img src="'+pic[index]/*value.disagreeinfo*/+'" alt="" srcset=""></div>';
@@ -291,7 +291,7 @@ function getauctionLists(pageNum){
                     }
                     result += '<div class="wrap">';
                     result += '<div class="nameAddress">';
-                    result += '<div class="name">'+(name||value.title.substring(0,13))+'...</div>';
+                    result += '<div class="name">'+(name||value.title.substring(0,13))+'</div>';
                     result += '<div class="address"><i class="el-icon-location"></i>'+ areaname +'</div>';
                     result += '</div>';
                     result += '<div class="info">';

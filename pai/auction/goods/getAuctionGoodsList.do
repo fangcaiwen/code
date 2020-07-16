@@ -5,50 +5,10 @@
         "content": [
             {
                 "goodsid": 1,
-                "picurl": "/product_img/机制砂1.jpg",
-                "thumb1": "/product_img/机制砂1.jpg",
-                "thumb2": "/product_img/机制砂1.jpg",
+                "picurl": "/product_img/机制砂.jpg",
+                "thumb1": "/product_img/机制砂.jpg",
+                "thumb2": "/product_img/机制砂.jpg",
                 "goodsname": "机制砂",
-                "bond": 4000,
-                "addtime": "2020-07-09 11:00",
-                "updatetime": "2020-07-09 11:00"
-            },
-            {
-                "goodsid": 1,
-                "picurl": "/product_img/家装4.jpg",
-                "thumb1": "/product_img/家装4.jpg",
-                "thumb2": "/product_img/家装4.jpg",
-                "goodsname": "家装4",
-                "bond": 4000,
-                "addtime": "2020-07-09 11:00",
-                "updatetime": "2020-07-09 11:00"
-            },
-            {
-                "goodsid": 1,
-                "picurl": "/product_img/家装超市_1.jpg",
-                "thumb1": "/product_img/家装超市_1.jpg",
-                "thumb2": "/product_img/家装超市_1.jpg",
-                "goodsname": "家装超市_1",
-                "bond": 4000,
-                "addtime": "2020-07-09 11:00",
-                "updatetime": "2020-07-09 11:00"
-            },
-            {
-                "goodsid": 1,
-                "picurl": "/product_img/家装超市_2.jpg",
-                "thumb1": "/product_img/家装超市_2.jpg",
-                "thumb2": "/product_img/家装超市_2.jpg",
-                "goodsname": "家装超市_2",
-                "bond": 4000,
-                "addtime": "2020-07-09 11:00",
-                "updatetime": "2020-07-09 11:00"
-            },
-            {
-                "goodsid": 1,
-                "picurl": "/product_img/家装超市3.jpg",
-                "thumb1": "/product_img/家装超市3.jpg",
-                "thumb2": "/product_img/家装超市3.jpg",
-                "goodsname": "家装超市3",
                 "bond": 4000,
                 "addtime": "2020-07-09 11:00",
                 "updatetime": "2020-07-09 11:00"
@@ -75,10 +35,10 @@
             },
             {
                 "goodsid": 1,
-                "picurl": "/product_img/水泥切块砖2.jpg",
-                "thumb1": "/product_img/水泥切块砖2.jpg",
-                "thumb2": "/product_img/水泥切块砖2.jpg",
-                "goodsname": "水泥切块砖2",
+                "picurl": "/product_img/水泥切块砖.jpg",
+                "thumb1": "/product_img/水泥切块砖.jpg",
+                "thumb2": "/product_img/水泥切块砖.jpg",
+                "goodsname": "水泥切块砖",
                 "bond": 1200,
                 "addtime": "2020-07-09 11:00",
                 "updatetime": "2020-07-09 11:00"
@@ -104,7 +64,7 @@
                 "updatetime": "2020-07-09 11:00"
             }
         ],
-        "total": 0
+        "total": 7
     },
     "success": true
 }

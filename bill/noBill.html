@@ -25,19 +25,19 @@
     <script src="/resources/javascript/bank/webank.js" type="text/javascript" charset="utf-8"></script>
     <script>document.write("<script type='text/javascript' src='/resources/javascript/pay/topay.js?v=" + Date.now() + "'><\/script>");</script>
     <script>
-        jQuery.browser={};
-        (function(){
-            jQuery.browser.msie=false;
-            jQuery.browser.version=0;
-            if(navigator.userAgent.match(/MSIE ([0-9]+)./)){
-                jQuery.browser.msie=true;
-                jQuery.browser.version=RegExp.$1;
+        jQuery.browser = {};
+        (function () {
+            jQuery.browser.msie = false;
+            jQuery.browser.version = 0;
+            if (navigator.userAgent.match(/MSIE ([0-9]+)./)) {
+                jQuery.browser.msie = true;
+                jQuery.browser.version = RegExp.$1;
             }
         })();
     </script>
     <style type="text/css">
-        .month{
-            color:red;
+        .month {
+            color: red;
         }
 
     </style>
@@ -62,7 +62,7 @@
                                                    </th> -->
                         <th class="">申请单号</th>
                         <th class="">申请开票时间</th>
-                        <th class="">包含订单 </th>
+                        <th class="">包含订单</th>
                         <th class="">订单金额合计</th>
                         <th class="">发票类型</th>
                         <th class="">发票张数</th>
@@ -72,7 +72,8 @@
                         <th class="">操作</th>
                     </tr>
                     </thead>
-                    <tbody id="dataTable" class="mc_tabl_d ex_table orders" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody id="dataTable" class="mc_tabl_d ex_table orders" cellpadding="0" cellspacing="0"
+                           width="100%">
                     <tr style="width: 920px;height: 60px;line-height: 40px;text-align: center; margin-top: 1%;color: #333333; background-color: #fff;">
                         <td>2035678987</td>
                         <td>2020-07-15</td>
@@ -80,10 +81,18 @@
                         <td>500元</td>
                         <td>增值税发票</td>
                         <td>2张</td>
-                        <td>已开票</td>
-                        <td>已邮寄</td>
+                        <td>未开票</td>
+                        <td>未邮寄</td>
                         <td>SF12256389028</td>
-                        <td><a href="javascript:void(0);">--</a></td>
+                        <td><a href="javascript:void(0);" style="width: 60px;
+                                    height: 30px;
+                                    border-radius: 15px;
+                                    background-color: #006ad3;
+                                    display: flex;
+                                    color: white;
+                                    margin-left: 25%;
+                                    justify-content: center;
+                                    align-items: center;">开票</a></td>
                     </tr>
                     <tr style="width: 920px;height: 60px;line-height: 40px;text-align: center; margin-top: 1%;color: #333333; background-color: #fff;">
                         <td>2035678985</td>
@@ -92,10 +101,18 @@
                         <td>500元</td>
                         <td>增值税发票</td>
                         <td>2张</td>
-                        <td>已开票</td>
-                        <td>已邮寄</td>
+                        <td>未开票</td>
+                        <td>未邮寄</td>
                         <td>SF0288292393</td>
-                        <td><a href="javascript:void(0);">--</a></td>
+                        <td><a href="javascript:void(0);" style="width: 60px;
+                                    height: 30px;
+                                    border-radius: 15px;
+                                    background-color: #006ad3;
+                                    display: flex;
+                                    color: white;
+                                    margin-left: 25%;
+                                    justify-content: center;
+                                    align-items: center;">开票</a></td>
                     </tr>
                     </tbody>
                 </table>

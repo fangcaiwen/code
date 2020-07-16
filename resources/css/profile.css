@@ -304,11 +304,12 @@
 .memberCenterContent {
     box-sizing: border-box;
     float: left;
-    width: 70%;
+    width: 75%;
     padding: 5px 5px;
     background: #fff;
-    margin: 15px 0 15px 15px;
-    margin-left: 5%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 2%;
 }
 .memberCenterContent .head {
   border-left: 2px solid #006ad3;
@@ -907,7 +908,7 @@
     line-height: 40px;
 }
 .memberCenterHome .middle .item .statistics {
-  width: 19%;
+  width: 29%;
   display: inline-block;
 }
 .memberCenterHome .middle .item .statistics .colororange {
@@ -1702,9 +1703,9 @@ table {
   color: #006ad3;
 }
 .enav .etopnav li.active a {
-  /*background: #006ad3;*/
+  background: #006ad3;
   border-radius: 6px;
-  /*color: #fff;*/
+  color: #fff;
   padding: 6px 16px;
 }
 .eface {

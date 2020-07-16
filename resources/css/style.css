@@ -4098,8 +4098,9 @@ Opera {
 }
 
 .enav .etopnav li.active a {
-    background: #ffffff;
+    background: #006ad3;
     border-radius: 6px;
+    color: #fff;
     padding: 6px 16px;
 }
 
@@ -4343,7 +4344,7 @@ Opera {
 .eenterprise {
     display: flex;
     flex-direction: row;
-    height: 120px;
+    height: 20px;
     line-height: 120px;
     width: 1200px;
     margin: 0 auto;
