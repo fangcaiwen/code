@@ -369,6 +369,9 @@
     $(document).ready(function () {
         $("#header_all").load('/public/public_header.html');
         $("#footer_all").load('/public/public_footer.html');
+        setTimeout(function(){
+            $(".homepage").addClass("active");
+        },100);
     });
 </script>
 <script type="text/javascript">

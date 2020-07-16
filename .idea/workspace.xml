@@ -3,41 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="32a5ae3c-8ea7-4cc8-9782-93d7d1bee97c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auction/sign.html" beforeDir="false" afterPath="$PROJECT_DIR$/auction/sign.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bill/allBillTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/bill/allBillTable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bill/noBill.html" beforeDir="false" afterPath="$PROJECT_DIR$/bill/noBill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inframe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/inframe/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/auction/goods/getAuctionGoodsList.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/auction/goods/getAuctionGoodsList.do" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/auction/searchAuction.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/auction/searchAuction.do" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/inframe/getAuctionForInframe.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/inframe/getAuctionForInframe.do" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/inframe/getOrderForInframe.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/inframe/getOrderForInframe.do" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_img/家装4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/product_img/福瀛建材.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_img/家装超市3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/product_img/富尔玛.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_img/家装超市_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/product_img/居然之家.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_img/家装超市_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/product_img/海博家居.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_img/废钢2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/product_img/废钢.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_img/机制砂1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/product_img/机制砂.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_img/水泥切块砖2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/product_img/水泥切块砖.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_img/装修垃圾3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/product_img/装修垃圾.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_img/风化砂1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/product_img/风化砂.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/public_header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pzx/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/pzx/service.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/ehome_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/img/ehome_043.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/auction/feigang.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/auction/feigang.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/auction/feisuliao.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/auction/feisuliao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/auction/feiyou.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/auction/feiyou.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/auction/sign.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/auction/sign.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/tender/template/feigang.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/tender/template/feigang.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/tender/template/feisuliao.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/tender/template/feisuliao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/tender/template/feiyou.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/tender/template/feiyou.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/tender/template/trash.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/tender/template/trash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newRes/s4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/auction/auctionDetail.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/auction/auctionDetail.do" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javascript/torderform/buyerorderform.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/torderform/buyerorderform.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/jjks.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/jjks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tendermanager/pushtender.html" beforeDir="false" afterPath="$PROJECT_DIR$/tendermanager/pushtender.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaisheng/yzypagreement.html" beforeDir="false" afterPath="$PROJECT_DIR$/zaisheng/yzypagreement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/torderform/buyerorderformlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/torderform/buyerorderformlist.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,220 +22,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sign.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/javascript/auction/sign.js">
+      <file leaf-file-name="buyerorderformlist.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/torderform/buyerorderformlist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2306">
-              <caret line="404" column="29" selection-start-line="404" selection-start-column="29" selection-end-line="404" selection-end-column="29" />
+            <state relative-caret-position="410">
+              <caret line="156" column="10" lean-forward="true" selection-start-line="156" selection-start-column="10" selection-end-line="156" selection-end-column="10" />
               <folding>
-                <element signature="n#style#0;n#em#0;n#span#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#em#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#em#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="feiyou.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/javascript/auction/feiyou.js">
+      <file leaf-file-name="billInfo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bill/billInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="289">
+              <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="feigang.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/javascript/auction/feigang.js">
+      <file leaf-file-name="buyerorderform.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/javascript/torderform/buyerorderform.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="452">
+              <caret line="305" column="29" lean-forward="true" selection-start-line="305" selection-start-column="29" selection-end-line="305" selection-end-column="29" />
               <folding>
-                <element signature="n#style#0;n#font#0;n#td#5;n#tr#1;n#table#0;n#div#5;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#7;n#tr#1;n#table#0;n#div#5;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#td#0;n#tr#5;n#table#0;n#td#7;n#tr#1;n#table#0;n#div#5;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#li#0;n#ul#0;n#div#7;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#li#1;n#ul#0;n#div#7;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#li#2;n#ul#0;n#div#7;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#li#5;n#ul#0;n#div#13;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#3628#3634#0" expanded="true" />
-                <element signature="e#3634#3640#0" expanded="true" />
-                <element signature="e#3640#3646#0" expanded="true" />
-                <element signature="e#3646#3652#0" expanded="true" />
-                <element signature="e#3652#3658#0" expanded="true" />
-                <element signature="e#3658#3664#0" expanded="true" />
-                <element signature="e#3664#3670#0" expanded="true" />
-                <element signature="e#3670#3676#0" expanded="true" />
-                <element signature="e#3676#3682#0" expanded="true" />
-                <element signature="e#3682#3688#0" expanded="true" />
-                <element signature="e#3688#3694#0" expanded="true" />
-                <element signature="e#3694#3700#0" expanded="true" />
-                <element signature="e#3700#3706#0" expanded="true" />
-                <element signature="e#3706#3712#0" expanded="true" />
-                <element signature="e#3712#3718#0" expanded="true" />
-                <element signature="e#3718#3724#0" expanded="true" />
-                <element signature="e#3724#3730#0" expanded="true" />
-                <element signature="e#3730#3736#0" expanded="true" />
-                <element signature="e#3736#3742#0" expanded="true" />
-                <element signature="e#3742#3748#0" expanded="true" />
-                <element signature="e#3748#3754#0" expanded="true" />
-                <element signature="e#3754#3760#0" expanded="true" />
-                <element signature="e#3760#3766#0" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#p#0;n#ul#0;n#div#13;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#3845#3851#0" expanded="true" />
-                <element signature="e#3851#3857#0" expanded="true" />
-                <element signature="e#3857#3863#0" expanded="true" />
-                <element signature="e#3863#3869#0" expanded="true" />
-                <element signature="e#3869#3875#0" expanded="true" />
-                <element signature="e#3875#3881#0" expanded="true" />
-                <element signature="e#3881#3887#0" expanded="true" />
-                <element signature="e#3887#3893#0" expanded="true" />
-                <element signature="e#3893#3899#0" expanded="true" />
-                <element signature="e#3899#3905#0" expanded="true" />
-                <element signature="e#3905#3911#0" expanded="true" />
-                <element signature="e#3911#3917#0" expanded="true" />
-                <element signature="e#3917#3923#0" expanded="true" />
-                <element signature="e#3923#3929#0" expanded="true" />
-                <element signature="e#3929#3935#0" expanded="true" />
-                <element signature="e#3935#3941#0" expanded="true" />
-                <element signature="e#3941#3947#0" expanded="true" />
-                <element signature="e#3947#3953#0" expanded="true" />
-                <element signature="e#3953#3959#0" expanded="true" />
-                <element signature="e#3959#3965#0" expanded="true" />
-                <element signature="e#3965#3971#0" expanded="true" />
-                <element signature="e#3971#3977#0" expanded="true" />
-                <element signature="e#3977#3983#0" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#p#1;n#ul#0;n#div#13;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#li#6;n#ul#0;n#div#13;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#div#2;n#div#18;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#6;n#div#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#blockquote#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#5413#5419#0" expanded="true" />
+                <element signature="e#5419#5425#0" expanded="true" />
+                <element signature="e#5425#5431#0" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#blockquote#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#5407#5413#0" expanded="true" />
+                <element signature="e#5413#5419#0" expanded="true" />
+                <element signature="e#5419#5425#0" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#blockquote#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="feisuliao.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/javascript/auction/feisuliao.js">
+      <file leaf-file-name="pushauctiongoods.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auctionmanager/pushauctiongoods.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feigang.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/javascript/tender/template/feigang.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="-3095">
+              <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
               <folding>
-                <element signature="n#style#0;n#font#0;n#td#5;n#tr#1;n#table#0;n#div#5;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#7;n#tr#1;n#table#0;n#div#5;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#td#0;n#tr#5;n#table#0;n#td#7;n#tr#1;n#table#0;n#div#5;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#li#0;n#ul#0;n#div#7;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#li#1;n#ul#0;n#div#7;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#li#2;n#ul#0;n#div#7;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#li#5;n#ul#0;n#div#13;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#3628#3634#0" expanded="true" />
-                <element signature="e#3634#3640#0" expanded="true" />
-                <element signature="e#3640#3646#0" expanded="true" />
-                <element signature="e#3646#3652#0" expanded="true" />
-                <element signature="e#3652#3658#0" expanded="true" />
-                <element signature="e#3658#3664#0" expanded="true" />
-                <element signature="e#3664#3670#0" expanded="true" />
-                <element signature="e#3670#3676#0" expanded="true" />
-                <element signature="e#3676#3682#0" expanded="true" />
-                <element signature="e#3682#3688#0" expanded="true" />
-                <element signature="e#3688#3694#0" expanded="true" />
-                <element signature="e#3694#3700#0" expanded="true" />
-                <element signature="e#3700#3706#0" expanded="true" />
-                <element signature="e#3706#3712#0" expanded="true" />
-                <element signature="e#3712#3718#0" expanded="true" />
-                <element signature="e#3718#3724#0" expanded="true" />
-                <element signature="e#3724#3730#0" expanded="true" />
-                <element signature="e#3730#3736#0" expanded="true" />
-                <element signature="e#3736#3742#0" expanded="true" />
-                <element signature="e#3742#3748#0" expanded="true" />
-                <element signature="e#3748#3754#0" expanded="true" />
-                <element signature="e#3754#3760#0" expanded="true" />
-                <element signature="e#3760#3766#0" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#p#0;n#ul#0;n#div#13;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#3845#3851#0" expanded="true" />
-                <element signature="e#3851#3857#0" expanded="true" />
-                <element signature="e#3857#3863#0" expanded="true" />
-                <element signature="e#3863#3869#0" expanded="true" />
-                <element signature="e#3869#3875#0" expanded="true" />
-                <element signature="e#3875#3881#0" expanded="true" />
-                <element signature="e#3881#3887#0" expanded="true" />
-                <element signature="e#3887#3893#0" expanded="true" />
-                <element signature="e#3893#3899#0" expanded="true" />
-                <element signature="e#3899#3905#0" expanded="true" />
-                <element signature="e#3905#3911#0" expanded="true" />
-                <element signature="e#3911#3917#0" expanded="true" />
-                <element signature="e#3917#3923#0" expanded="true" />
-                <element signature="e#3923#3929#0" expanded="true" />
-                <element signature="e#3929#3935#0" expanded="true" />
-                <element signature="e#3935#3941#0" expanded="true" />
-                <element signature="e#3941#3947#0" expanded="true" />
-                <element signature="e#3947#3953#0" expanded="true" />
-                <element signature="e#3953#3959#0" expanded="true" />
-                <element signature="e#3959#3965#0" expanded="true" />
-                <element signature="e#3965#3971#0" expanded="true" />
-                <element signature="e#3971#3977#0" expanded="true" />
-                <element signature="e#3977#3983#0" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#p#1;n#ul#0;n#div#13;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#li#6;n#ul#0;n#div#13;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#div#2;n#div#18;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="feiyou.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/javascript/tender/template/feiyou.js">
+      <file leaf-file-name="layui.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/layui/css/layui.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/favicon.ico">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="trash.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/javascript/tender/template/trash.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="235">
+              <caret line="2021" column="16" selection-start-line="2021" selection-start-column="1" selection-end-line="2021" selection-end-column="16" />
               <folding>
-                <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#li#3;n#ul#0;n#div#13;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#79526#79665#2" expanded="true" />
+                <element signature="e#81570#81709#2" expanded="true" />
+                <element signature="e#82419#82558#2" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="feisuliao.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/javascript/tender/template/feisuliao.js">
+      <file leaf-file-name="topayorder.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/javascript/pay/topayorder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="68">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1009">
+              <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -280,14 +138,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.enav .etopnav li.active a</find>
-      <find>.jpbz</find>
-      <find>jjk</find>
-      <find>dtjzz</find>
-      <find>cgzl</find>
-      <find>.memberCenterHome .middle .item .statistics</find>
-      <find>home_banner</find>
-      <find>jpbzpage</find>
       <find>dataTable</find>
       <find>preview</find>
       <find>jqzoom</find>
@@ -298,7 +148,6 @@
       <find>关于青岛西海岸竞价销售的公告</find>
       <find>tologin</find>
       <find>replace</find>
-      <find>bigRedBtn</find>
       <find>memberCenter</find>
       <find>layui</find>
       <find>.memberCenterContent</find>
@@ -310,6 +159,15 @@
       <find>老港镇</find>
       <find>竞价销售的公告</find>
       <find>关于</find>
+      <find>bigRedBtn</find>
+      <find>list</find>
+      <find>出价记录</find>
+      <find>.doing.soon .content .item .wrap</find>
+      <find>subSoon</find>
+      <find>dataa</find>
+      <find>$(&quot;#payOrderView&quot;).show();</find>
+      <find>payMoney(</find>
+      <find>layui-form-item</find>
     </findStrings>
     <replaceStrings>
       <replace>#006ad3</replace>
@@ -322,10 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/torderform/sellerorderformlist.html" />
-        <option value="$PROJECT_DIR$/resources/javascript/torderform/buyerorderform.js" />
-        <option value="$PROJECT_DIR$/orderform/sellerorderformlist.html" />
-        <option value="$PROJECT_DIR$/pai/orderform/orderformlist.do" />
         <option value="$PROJECT_DIR$/resources/javascript/orderform/sellerorderform.js" />
         <option value="$PROJECT_DIR$/user/login.html" />
         <option value="$PROJECT_DIR$/user/regist.html" />
@@ -348,22 +202,17 @@
         <option value="$PROJECT_DIR$/bill/errorBillTable.html" />
         <option value="$PROJECT_DIR$/tendermanager/pushtender.html" />
         <option value="$PROJECT_DIR$/bill/allBillTable.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/public/public_footer.html" />
         <option value="$PROJECT_DIR$/inframe/index.html" />
-        <option value="$PROJECT_DIR$/resources/javascript/index.js" />
         <option value="$PROJECT_DIR$/zaisheng/yzypagreement.html" />
-        <option value="$PROJECT_DIR$/resources/css/style.css" />
         <option value="$PROJECT_DIR$/pai/inframe/getAuctionForInframe.do" />
         <option value="$PROJECT_DIR$/pzx/show.html" />
         <option value="$PROJECT_DIR$/pai/inframe/getOrderForInframe.do" />
         <option value="$PROJECT_DIR$/pai/auction/goods/getAuctionGoodsList.do" />
-        <option value="$PROJECT_DIR$/resources/js/jjks.js" />
         <option value="$PROJECT_DIR$/pai/auction/searchAuction.do" />
         <option value="$PROJECT_DIR$/resources/css/profile.css" />
         <option value="$PROJECT_DIR$/bill/noBill.html" />
         <option value="$PROJECT_DIR$/auction/sign.html" />
-        <option value="$PROJECT_DIR$/resources/javascript/auction/sign.js" />
         <option value="$PROJECT_DIR$/public/public_header.html" />
         <option value="$PROJECT_DIR$/pzx/service.html" />
         <option value="$PROJECT_DIR$/resources/javascript/auction/feiyou.js" />
@@ -373,6 +222,15 @@
         <option value="$PROJECT_DIR$/resources/javascript/tender/template/feiyou.js" />
         <option value="$PROJECT_DIR$/resources/javascript/tender/template/trash.js" />
         <option value="$PROJECT_DIR$/resources/javascript/tender/template/feisuliao.js" />
+        <option value="$PROJECT_DIR$/resources/javascript/auction/sign.js" />
+        <option value="$PROJECT_DIR$/pai/auction/auctionDetail.do" />
+        <option value="$PROJECT_DIR$/resources/css/style.css" />
+        <option value="$PROJECT_DIR$/resources/js/jjks.js" />
+        <option value="$PROJECT_DIR$/resources/javascript/index.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/resources/js/common.js" />
+        <option value="$PROJECT_DIR$/torderform/buyerorderformlist.html" />
+        <option value="$PROJECT_DIR$/resources/javascript/torderform/buyerorderform.js" />
       </list>
     </option>
   </component>
@@ -406,18 +264,12 @@
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="auction" type="462c0819:PsiDirectoryNode" />
+              <item name="bill" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="torderform" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -435,8 +287,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/img" />
       <recent name="$PROJECT_DIR$/newRes" />
+      <recent name="$PROJECT_DIR$/resources/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/resources/img/index" />
       <recent name="$PROJECT_DIR$/resources/img/order" />
@@ -466,17 +318,18 @@
       <updated>1594643944382</updated>
       <workItem from="1594643946456" duration="1312000" />
       <workItem from="1594645400772" duration="7571000" />
-      <workItem from="1594691134162" duration="54701000" />
+      <workItem from="1594691134162" duration="62816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63584000" />
+    <option name="totallyTimeSpent" value="71699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21000704" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21987315" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -484,7 +337,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.61025643" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21282052" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -502,68 +355,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/newRes/banner22.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inframe/tindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="38" column="56" lean-forward="true" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bill/billInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#5;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#6;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#Button#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bill/errorBillTable.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newRes/login_bg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auctionmanager/pushauction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="322" column="42" lean-forward="true" selection-start-line="322" selection-start-column="42" selection-end-line="322" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#li#18;n#ul#0;n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#18;n#ul#0;n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/public_footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="85" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bill/allBillTable.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
@@ -589,46 +380,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/javascript/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="456" column="54" selection-start-line="456" selection-start-column="54" selection-end-line="456" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="e#12#18#1" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zaisheng/yzypagreement.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="119" column="21" lean-forward="true" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="4104" column="1" lean-forward="true" selection-start-line="4104" selection-start-column="1" selection-end-line="4104" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -731,18 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auctionmanager/pushauctiongoods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/javascript/auction/managerauctiongoods.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1193">
@@ -760,24 +503,6 @@
     <entry file="file://$PROJECT_DIR$/resources/img/wuimg_bk.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/jjks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="78" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/jjks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="286" column="60" lean-forward="true" selection-start-line="286" selection-start-column="60" selection-end-line="286" selection-end-column="60" />
-          <folding>
-            <element signature="n#style#0;n#dd#0;n#!!top" expanded="true" />
-            <element signature="e#223#227#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/layui/layui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -789,18 +514,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layui/css/modules/laydate/default/laydate.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/layui/css/layui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5152">
-          <caret line="2025" column="1" selection-start-line="2025" selection-start-column="1" selection-end-line="2025" selection-end-column="1" />
-          <folding>
-            <element signature="e#79526#79665#2" expanded="true" />
-            <element signature="e#81570#81709#2" expanded="true" />
-            <element signature="e#82419#82558#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/javascript/auction/signrequire.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -841,18 +554,6 @@
     <entry file="file://$PROJECT_DIR$/newRes/ai04.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/public_header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="43" column="59" lean-forward="true" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pzx/service.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -868,47 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1317">
           <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pai/auction/auctionDetail.do">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="185" selection-start-column="185" selection-end-column="185" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auction/sign.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="22" column="94" selection-start-line="22" selection-start-column="94" selection-end-line="22" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/javascript/auction/sign.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2306">
-          <caret line="404" column="29" selection-start-line="404" selection-start-column="29" selection-end-line="404" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#em#0;n#span#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1087,6 +747,211 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/favicon.ico">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auction/sign.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="22" column="95" selection-start-line="22" selection-start-column="95" selection-end-line="22" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/javascript/auction/sign.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3307">
+          <caret line="218" column="16" selection-start-line="218" selection-start-column="16" selection-end-line="218" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#em#0;n#span#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pai/auction/auctionDetail.do">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4577" selection-start-column="4577" selection-end-column="4577" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jjks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="78" lean-forward="true" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="837" column="18" lean-forward="true" selection-start-line="837" selection-start-column="18" selection-end-line="837" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/jjks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="287" column="48" lean-forward="true" selection-start-line="287" selection-start-column="48" selection-end-line="287" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#dd#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#223#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newRes/s4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newRes/s3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/public_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="178" column="51" lean-forward="true" selection-start-line="178" selection-start-column="51" selection-end-line="178" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/javascript/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="e#12#18#1" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="374" column="7" lean-forward="true" selection-start-line="374" selection-start-column="7" selection-end-line="374" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/javascript/pay/topayorder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1009">
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/layui/css/layui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="2021" column="16" selection-start-line="2021" selection-start-column="1" selection-end-line="2021" selection-end-column="16" />
+          <folding>
+            <element signature="e#79526#79665#2" expanded="true" />
+            <element signature="e#81570#81709#2" expanded="true" />
+            <element signature="e#82419#82558#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill/billInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auctionmanager/pushauctiongoods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3095">
+          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/torderform/buyerorderformlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="156" column="10" lean-forward="true" selection-start-line="156" selection-start-column="10" selection-end-line="156" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/javascript/torderform/buyerorderform.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="305" column="29" lean-forward="true" selection-start-line="305" selection-start-column="29" selection-end-line="305" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#6;n#div#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#blockquote#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#5413#5419#0" expanded="true" />
+            <element signature="e#5419#5425#0" expanded="true" />
+            <element signature="e#5425#5431#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#blockquote#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#5407#5413#0" expanded="true" />
+            <element signature="e#5413#5419#0" expanded="true" />
+            <element signature="e#5419#5425#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#blockquote#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

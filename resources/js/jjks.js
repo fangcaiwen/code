@@ -276,7 +276,7 @@ function getauctionLists(pageNum){
                         name = t.substring(t.lastIndexOf('/') + 1, t.lastIndexOf('.'));
                     } catch(e){}
 
-                    console.error(t, getQueryString('t') );
+                    // console.error(t, getQueryString('t') );
                     auctionids.push("'"+value.id+"'");
                     var areaname="";
                     if(value.areaname==undefined){areaname="暂无信息"}else{areaname=value.areaname.split("@")[1]}
@@ -289,14 +289,18 @@ function getauctionLists(pageNum){
                     if(checkSign(value.endtime)){
                         result += '<div class="datetime '+value.id+'datetime"><i></i><span class="tim '+value.id+'">'+value.starttime.substring(0,19)+' <em>开始</em></span></div>';
                     }
-                    result += '<div class="wrap">';
+                    result += '<div class="wrap" style="height:'+(getQueryString('t')==4?60:120)+'px;">';
                     result += '<div class="nameAddress">';
                     result += '<div class="name">'+(name||value.title.substring(0,13))+'</div>';
                     result += '<div class="address"><i class="el-icon-location"></i>'+ areaname +'</div>';
                     result += '</div>';
-                    result += '<div class="info">';
-                    result += '<div class="basePrice">起拍价：'+value.sprice+'元/'+value.unit+'</div>';
-                    result += '<div class="num">数量：'+value.amount+value.unit+'</div>';
+                    if(getQueryString('t')==4){
+
+                    }else{
+                        result += '<div class="info">';
+                        result += '<div class="basePrice">起拍价：'+value.sprice+'元/'+value.unit+'</div>';
+                        result += '<div class="num">数量：'+value.amount+value.unit+'</div>';
+                    }
                     result += '</div>';
                     result += '</div>';
 //                    result +='<img  disabled="disabled" style="display: none" src="/resources/img/home/end.png" alt="" srcset="" class="endicon  '+value.id+'img">';
