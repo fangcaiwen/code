@@ -371,6 +371,11 @@
         $("#footer_all").load('/public/public_footer.html');
         setTimeout(function(){
             $(".homepage").addClass("active");
+            if (getCookie('login') == '1') {
+                $('#goLogin').hide();
+            }else{
+                $('#goLogin').show();
+            }
         },100);
     });
 </script>
