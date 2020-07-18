@@ -1,7 +1,7 @@
 @charset "utf-8";
 .pages {
 	width:100%;
-	margin:40px auto 0 auto;
+	margin:20px auto 0 auto;
 }
 .pages #Pagination {
   float: left;

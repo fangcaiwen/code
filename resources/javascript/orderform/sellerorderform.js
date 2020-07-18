@@ -88,7 +88,7 @@ function getOrderList(pageNum,pageSize){
 							"<div class='yzs-m-order-list-con1'>"
 								+"<div>"+ timestampToTime(order.addTime)+"</div>"
 								+"<div>订单编号："+order.orderNo+"</div>"
-								+"<div class='remark'> <a onclick='managerMargin(&apos;"+order.orderNo+"&apos;)'  href='javascript:void(0);'   class='layui-btn layui-btn-radius layui-btn-xs layui-btn-danger '>保证金管理<i class='layui-icon'>&#xe857;</i></a></div>"
+								+"<div class='remark'> <a onclick='managerMargin(&apos;"+order.orderNo+"&apos;)'  href='javascript:void(0);'   class='layui-btn layui-btn-radius layui-btn-xs layui-btn-danger ' style='padding:0px 10px;'>保证金管理</a></div>"
 							+"</div>"
 							+"<div class='yzs-m-order-list-con2'>"
 								+"<div class='yzs-m-order-list-img'><img src='/resources/img/order/imag"+(i%3+1)+".png'"+"></div>"
