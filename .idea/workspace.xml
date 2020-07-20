@@ -2,83 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32a5ae3c-8ea7-4cc8-9782-93d7d1bee97c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abouts/agreement.html" beforeDir="false" afterPath="$PROJECT_DIR$/abouts/agreement.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auction/sign.html" beforeDir="false" afterPath="$PROJECT_DIR$/auction/sign.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctionmanager/managerauction.html" beforeDir="false" afterPath="$PROJECT_DIR$/auctionmanager/managerauction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctionmanager/managerauctionmargin.html" beforeDir="false" afterPath="$PROJECT_DIR$/auctionmanager/managerauctionmargin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctionmanager/managerpushauction.html" beforeDir="false" afterPath="$PROJECT_DIR$/auctionmanager/managerpushauction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctionmanager/managersignauction.html" beforeDir="false" afterPath="$PROJECT_DIR$/auctionmanager/managersignauction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctionmanager/pushauction.html" beforeDir="false" afterPath="$PROJECT_DIR$/auctionmanager/pushauction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctionmanager/pushauctiongoods.html" beforeDir="false" afterPath="$PROJECT_DIR$/auctionmanager/pushauctiongoods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/authinit.html" beforeDir="false" afterPath="$PROJECT_DIR$/auth/authinit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/feesListdt.html" beforeDir="false" afterPath="$PROJECT_DIR$/bank/feesListdt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/monthfee.html" beforeDir="false" afterPath="$PROJECT_DIR$/bank/monthfee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/monthfeed.html" beforeDir="false" afterPath="$PROJECT_DIR$/bank/monthfeed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/webank.html" beforeDir="false" afterPath="$PROJECT_DIR$/bank/webank.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bill/allBillTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/bill/allBillTable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bill/billInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/bill/billInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bill/errorBillTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/bill/errorBillTable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bill/hasBill.html" beforeDir="false" afterPath="$PROJECT_DIR$/bill/hasBill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bill/hasBillTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/bill/hasBillTable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bill/noBill.html" beforeDir="false" afterPath="$PROJECT_DIR$/bill/noBill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bill/redBill.html" beforeDir="false" afterPath="$PROJECT_DIR$/bill/redBill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/feedback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inframe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/inframe/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inframe/tindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/inframe/tindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjks.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjzb.html" beforeDir="false" afterPath="$PROJECT_DIR$/jjzb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpjs.html" beforeDir="false" afterPath="$PROJECT_DIR$/jpjs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkphone/linkphone.html" beforeDir="false" afterPath="$PROJECT_DIR$/linkphone/linkphone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/margin/marginmanager.html" beforeDir="false" afterPath="$PROJECT_DIR$/margin/marginmanager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/margin/seller/marginmanager.html" beforeDir="false" afterPath="$PROJECT_DIR$/margin/seller/marginmanager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newRes/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newRes/logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/newRes/logo1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/news/show.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orderform/buyerorderformlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/orderform/buyerorderformlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orderform/sellerorderformlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/orderform/sellerorderformlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orderform/zzklist.html" beforeDir="false" afterPath="$PROJECT_DIR$/orderform/zzklist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/auction/auctionDetail.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/auction/auctionDetail.do" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/c/bmcjjp.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/c/bmcjjp.do" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/c/bzjdjdz.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/c/bzjdjdz.do" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/c/bzjhsth.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/c/bzjhsth.do" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/c/bzjrhjn.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/c/bzjrhjn.do" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/c/bzjyt.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/c/bzjyt.do" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/c/flsm.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/c/flsm.do" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/c/fwxy.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/c/fwxy.do" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/c/rhcj.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/c/rhcj.do" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/c/wzjs.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/c/wzjs.do" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/c/yssm.do" beforeDir="false" afterPath="$PROJECT_DIR$/pai/c/yssm.do" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/public_footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pzx/fp.html" beforeDir="false" afterPath="$PROJECT_DIR$/pzx/fp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pzx/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/pzx/service.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pzx/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/pzx/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/auction/actorpush.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/auction/actorpush.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/auction/feigang.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/auction/feigang.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/auction/feisuliao.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/auction/feisuliao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/auction/feiyou.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/auction/feiyou.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/tender/template/feigang.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/tender/template/feigang.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/tender/template/feisuliao.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/tender/template/feisuliao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/tender/template/feiyou.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/tender/template/feiyou.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/tender/template/trash.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/tender/template/trash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/javascript/user/regist.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/javascript/user/regist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/serach.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/serach.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tender/buyer/buytender.html" beforeDir="false" afterPath="$PROJECT_DIR$/tender/buyer/buytender.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tender/buyer/tsign.html" beforeDir="false" afterPath="$PROJECT_DIR$/tender/buyer/tsign.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tendermanager/pushtender.html" beforeDir="false" afterPath="$PROJECT_DIR$/tendermanager/pushtender.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tendermanager/tendermanager.html" beforeDir="false" afterPath="$PROJECT_DIR$/tendermanager/tendermanager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tendermanager/tendermanageraudit.html" beforeDir="false" afterPath="$PROJECT_DIR$/tendermanager/tendermanageraudit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torderform/buyerorderformlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/torderform/buyerorderformlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torderform/sellerorderformlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/torderform/sellerorderformlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/forget-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/forget-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/regist.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/regist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaisheng/yzypagreement.html" beforeDir="false" afterPath="$PROJECT_DIR$/zaisheng/yzypagreement.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbjs.html" beforeDir="false" afterPath="$PROJECT_DIR$/zbjs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zzjp.html" beforeDir="false" afterPath="$PROJECT_DIR$/zzjp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zzzb.html" beforeDir="false" afterPath="$PROJECT_DIR$/zzzb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newRes/s2.png" beforeDir="false" afterPath="$PROJECT_DIR$/newRes/s21.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -118,8 +42,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logo1.png" pinned="false" current-in-tab="true">
+      <file leaf-file-name="logo1.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newRes/logo1.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="s21.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/newRes/s21.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -143,8 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>replace</find>
-      <find>memberCenter</find>
       <find>layui</find>
       <find>.memberCenterContent</find>
       <find>uploadrequire</find>
@@ -158,7 +85,7 @@
       <find>bigRedBtn</find>
       <find>list</find>
       <find>出价记录</find>
-      <find />
+      <find>.doing.soon .content .item .wrap</find>
       <find>subSoon</find>
       <find>dataa</find>
       <find>$(&quot;#payOrderView&quot;).show();</find>
@@ -173,10 +100,13 @@
       <find>.page_d</find>
       <find>.pages</find>
       <find>homepage</find>
+      <find>青岛西海岸建材交易中心</find>
+      <find>青岛西海岸建材中心</find>
     </findStrings>
     <replaceStrings>
       <replace>#006ad3</replace>
       <replace>关于青岛西海岸企业竞价销售的公告</replace>
+      <replace>睿途再生建材商城</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -321,17 +251,18 @@
       <workItem from="1594691134162" duration="69849000" />
       <workItem from="1594999961152" duration="3485000" />
       <workItem from="1595137206939" duration="599000" />
-      <workItem from="1595206587268" duration="902000" />
+      <workItem from="1595206587268" duration="1413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83718000" />
+    <option name="totallyTimeSpent" value="84229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21987315" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21987315" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -339,7 +270,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.60897434" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.43333334" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -357,9 +288,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/js/layui/layui.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/layui/css/modules/laydate/default/laydate.css" />
     <entry file="file://$PROJECT_DIR$/resources/javascript/auction/signrequire.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -684,6 +612,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newRes/logo1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newRes/s21.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
