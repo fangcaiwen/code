@@ -83,7 +83,7 @@ function checkLogin() {
             }
             html += '<img class="avatar" src="/resources/img/head1.png" />';
             html += '<div class="name user_name" title="' + usertemp + '">';
-            html += 'Hi, 您好, ' + user + '<br />欢迎来到青岛西海岸建材交易中心';
+            html += 'Hi, 您好, ' + user + '<br />欢迎来到睿途再生建材商城';
             html += '</div>';
             $(".user_info").empty();
             $(".user_info").append(html);

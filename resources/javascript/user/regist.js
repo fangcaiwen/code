@@ -22,7 +22,7 @@ layui.use('form', function(){
     form.on('submit(formDemo)', function(data){
         /*layer.msg(JSON.stringify(data.field));*/
         if(data.field.close==undefined){
-            layer.msg("请您阅读并接受《青岛西海岸建材交易中心》注册协议",{offset: 't',anim: 6});
+            layer.msg("请您阅读并接受《睿途再生建材商城》注册协议",{offset: 't',anim: 6});
             return false;
         }
         regist(data.field);

@@ -22,12 +22,12 @@ function autorbingo(){
 				html+='<div id="mess_wrap" class="closed closedGai" style="display: none;cursor: pointer;">';
 				html+='<div class="con1">';
 				html+='<p>'+info.company+'：</p>';
-				html+='<p style=" text-indent: 2em;">贵公司通过青岛西海岸建材交易中心网站报名的'+info.autiontname+'已于'+info.endtime+'竞价成功。</p>';
+				html+='<p style=" text-indent: 2em;">贵公司通过睿途再生建材商城网站报名的'+info.autiontname+'已于'+info.endtime+'竞价成功。</p>';
 				html+='<div class="result">';
 				html+='<span>竞得价格 ：</span><i>'+info.nprice+'元/'+info.unit+'</i><br>';
 				html+='<span>竞得数量 ：</span><i>'+info.amount+''+info.unit+'</i><br>';
 				html+='</div>';
-				html+='<p>请贵公司收到竞价成功通知书后尽快登录青岛西海岸建材交易中心网站完成竞价交易后续流程（包括：签订合同、支付货款等）。</p>';
+				html+='<p>请贵公司收到竞价成功通知书后尽快登录睿途再生建材商城网站完成竞价交易后续流程（包括：签订合同、支付货款等）。</p>';
 				html+='<a href="javascript:;" class="close" style="display: none;"></a>';
 				html+='</div>';
 				html+='<div class="gai heGai"></div>';
